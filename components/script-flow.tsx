@@ -35,10 +35,10 @@ export function ScriptFlow({ scriptTitle, scriptNumber, messages }: ScriptFlowPr
         <div className="flex items-start justify-between gap-4">
           <div className="flex-1">
             <div className="flex items-center gap-3 mb-2">
-              <div className="w-8 h-8 bg-medgm-gold rounded-full flex items-center justify-center text-medgm-black font-bold text-sm">
+              <div className="min-w-[32px] h-8 px-2 bg-medgm-gold rounded-full flex items-center justify-center text-medgm-black font-bold text-sm shrink-0">
                 {scriptNumber}
               </div>
-              <h3 className="text-lg font-semibold">{scriptTitle}</h3>
+              <h3 className="text-lg font-semibold flex-1">{scriptTitle}</h3>
             </div>
             <p className="text-sm text-medgm-gray-3">
               {messages.length} {messages.length === 1 ? 'mensagem' : 'mensagens'} neste fluxo
@@ -91,7 +91,7 @@ export function ScriptFlow({ scriptTitle, scriptNumber, messages }: ScriptFlowPr
               {/* Message Card */}
               <div className="relative bg-medgm-gray-1 rounded-xl p-4 border border-medgm-gray-2">
                 {/* Message Number Badge */}
-                <div className="absolute -left-3 -top-3 w-10 h-10 bg-medgm-gold rounded-full flex items-center justify-center text-medgm-black font-semibold text-sm shadow-lg z-10">
+                <div className="absolute -left-2 -top-2 min-w-[36px] h-9 px-2 bg-medgm-gold rounded-full flex items-center justify-center text-medgm-black font-semibold text-sm shadow-lg z-10">
                   {index + 1}
                 </div>
 

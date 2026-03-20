@@ -14,15 +14,30 @@ import {
   searchScripts,
   getScriptStats,
 } from '@/lib/scripts-data';
-import { FileText, Users, UserCog, Gift, Calendar, ExternalLink } from 'lucide-react';
+import { FileText, Users, UserCog, Gift, Calendar, ExternalLink, X } from 'lucide-react';
 import Image from 'next/image';
 
 export default function Home() {
   const [activeTab, setActiveTab] = useState<'secretaria' | 'medico' | 'bonus'>('secretaria');
   const [searchQuery, setSearchQuery] = useState('');
   const [activeCategory, setActiveCategory] = useState<string | null>(null);
+  const [showModal, setShowModal] = useState(false);
 
   const stats = getScriptStats();
+
+  // Carregar script do formulário quando modal abrir
+  useEffect(() => {
+    if (showModal) {
+      const script = document.createElement('script');
+      script.src = 'https://admin.medgm.com.br/js/form_embed.js';
+      script.async = true;
+      document.body.appendChild(script);
+
+      return () => {
+        document.body.removeChild(script);
+      };
+    }
+  }, [showModal]);
 
   const currentCategories =
     activeTab === 'secretaria' ? categoriesSecretaria :
@@ -68,10 +83,14 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <div className="flex items-center gap-4">
-              <div className="text-3xl font-bold tracking-tight">
-                <span className="text-white">MED</span>
-                <span className="text-medgm-gold">GM</span>
-              </div>
+              <Image
+                src="/logo-medgm.png"
+                alt="MedGM"
+                width={120}
+                height={40}
+                className="object-contain"
+                priority
+              />
               <div className="h-6 w-px bg-medgm-gold hidden md:block" />
               <h1 className="text-xl md:text-2xl font-light">Protocolos de Conversão</h1>
             </div>
@@ -144,6 +163,34 @@ export default function Home() {
           </button>
         </div>
 
+        {/* CTA Banner - Agendar Reunião */}
+        <div className="mb-8">
+          <div className="bg-gradient-to-r from-medgm-gold to-amber-500 rounded-2xl p-6 md:p-8 text-center shadow-lg">
+            <div className="flex flex-col md:flex-row items-center justify-between gap-4">
+              <div className="flex items-center gap-4">
+                <div className="bg-white/20 backdrop-blur-sm p-3 rounded-xl">
+                  <Calendar className="w-8 h-8 text-medgm-black" />
+                </div>
+                <div className="text-left">
+                  <h3 className="text-xl md:text-2xl font-bold text-medgm-black mb-1">
+                    Precisa de Ajuda na Implementação?
+                  </h3>
+                  <p className="text-medgm-dark-gray text-sm md:text-base">
+                    Agende uma reunião com nosso time para aplicar esses scripts na sua clínica
+                  </p>
+                </div>
+              </div>
+              <button
+                onClick={() => setShowModal(true)}
+                className="flex items-center gap-2 bg-medgm-black text-white px-6 py-3 rounded-xl font-semibold hover:bg-medgm-dark-gray transition-all duration-300 shadow-md hover:shadow-lg whitespace-nowrap"
+              >
+                Agendar Reunião
+                <Calendar className="w-4 h-4" />
+              </button>
+            </div>
+          </div>
+        </div>
+
         {/* Search */}
         <div className="mb-8">
           <SearchBar
@@ -209,6 +256,43 @@ export default function Home() {
           </p>
         </div>
       </footer>
+
+      {/* Modal de Agendamento */}
+      {showModal && (
+        <div
+          className="fixed inset-0 bg-black/70 backdrop-blur-sm z-50 flex items-center justify-center p-4"
+          onClick={() => setShowModal(false)}
+        >
+          <div
+            className="bg-white rounded-2xl shadow-2xl w-full max-w-2xl max-h-[90vh] overflow-hidden"
+            onClick={(e) => e.stopPropagation()}
+          >
+            {/* Header do Modal */}
+            <div className="bg-medgm-gold px-6 py-4 flex items-center justify-between">
+              <h2 className="text-xl font-bold text-medgm-black">
+                Agendar Reunião com MedGM
+              </h2>
+              <button
+                onClick={() => setShowModal(false)}
+                className="p-2 hover:bg-white/20 rounded-lg transition-colors"
+              >
+                <X className="w-5 h-5 text-medgm-black" />
+              </button>
+            </div>
+
+            {/* Conteúdo do Modal com iframe */}
+            <div className="p-6 overflow-y-auto max-h-[calc(90vh-80px)]">
+              <iframe
+                src="https://admin.medgm.com.br/widget/survey/yEebZ7Pyvvkjh25TCypM"
+                style={{ border: 'none', width: '100%', minHeight: '600px' }}
+                scrolling="no"
+                id="yEebZ7Pyvvkjh25TCypM"
+                title="Formulário de Agendamento MedGM"
+              />
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
