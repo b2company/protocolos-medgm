@@ -43,7 +43,7 @@ export function FlowTimeline({ steps, currentStep }: FlowTimelineProps) {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: index * 0.1 }}
           className={cn(
-            "relative pl-12",
+            "relative pl-12 pb-6",
             step.state === 'future' && "opacity-50",
             step.state === 'current' && "ring-2 ring-medgm-gold rounded-xl p-4 -ml-2"
           )}
@@ -52,14 +52,14 @@ export function FlowTimeline({ steps, currentStep }: FlowTimelineProps) {
           <motion.div
             whileHover={{ rotate: 360 }}
             transition={{ duration: 0.5 }}
-            className="absolute left-0 top-0 w-10 h-10 rounded-full bg-gradient-premium flex items-center justify-center text-medgm-black font-bold shadow-premium"
+            className="absolute left-0 top-0 w-10 h-10 rounded-full bg-gradient-premium flex items-center justify-center text-medgm-black font-bold shadow-premium z-10"
           >
             {step.number}
           </motion.div>
 
-          {/* Connector line */}
+          {/* Connector line - apenas até o gap entre steps */}
           {index < steps.length - 1 && (
-            <div className="absolute left-5 top-10 w-0.5 h-full bg-medgm-gray-3" />
+            <div className="absolute left-5 top-10 w-0.5 h-[calc(100%+1.5rem)] bg-medgm-gray-3" style={{ zIndex: 0 }} />
           )}
 
           {/* Step header */}
