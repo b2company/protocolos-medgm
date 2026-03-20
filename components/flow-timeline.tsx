@@ -63,7 +63,7 @@ export function FlowTimeline({ steps, currentStep }: FlowTimelineProps) {
           </motion.div>
 
           {/* Step header */}
-          <div className="mb-3">
+          <div className="mb-3 relative z-10">
             <h3 className="text-lg font-semibold text-medgm-black mb-1">{step.label}</h3>
             <div className="flex items-center gap-2 text-sm text-medgm-gray-5">
               <Clock className="w-4 h-4" />
