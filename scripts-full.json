@@ -2,7 +2,7 @@
   {
     "id": "insta-01",
     "number": 1,
-    "title": "Para Converter por Direct (Curioso x P",
+    "title": "Para Converter por Direct (Curioso x Potencial Paciente)",
     "category": "instagram",
     "targetRole": "ambos",
     "content": "### 🗂️ **TEMPLATE INSTAGRAM DIRECT – Conversão com qualificação leve de leads que entram pelo direct**\n\n---\n\n**Etapa 1 – Cumprimente com gentileza:**\n\nOi, [NOME]! Tudo bem?\n\nMuito obrigada por estar aqui comigo 💙\n\n---\n\n**Etapa 2 – Faça uma pergunta simples de qualificação:**\n\nHá quanto tempo você me acompanha por aqui?\n\n---\n\n**Etapa 3 – Classifique a resposta:**\n\n- **Se a seguidora acompanha há pouco tempo (até 3 meses):**\n\n> Que bom que chegou até aqui!\n> \n> \n> Minha consulta custa R$ [VALOR] e é 100% personalizada: com escuta ativa, avaliação clínica e plano de ação.\n> \n> Vai ser um prazer cuidar de você 💙\n> \n\n---\n\n- **Se acompanha há bastante tempo (mais de 3 meses):**\n\n> Que alegria saber disso!\n> \n> \n> Me conta: como posso te ajudar hoje?\n> \n\n---\n\n**Etapa 4 – Se houver interesse real:**\n\nFico feliz com sua confiança!\n\nSe quiser, me passa seu número de WhatsApp e a minha secretária entra em contato com você pra agendar, tá bom?\n\n---\n\n📌 **Notas para uso interno:**\n\n- Salvar como **resposta rápida** no Instagram (atalho: /consultainsta)\n- Pode ser adaptado para diferentes especialidades (obstetra, dermatologista, endocrino etc.)\n- Ideal para evitar conversas longas no direct e redirecionar para fechamento no WhatsApp"
@@ -18,7 +18,7 @@
   {
     "id": "insta-02",
     "number": 2,
-    "title": "Para Responder Pedido de Consulta por",
+    "title": "Para Responder Pedido de Consulta por Direct",
     "category": "instagram",
     "targetRole": "ambos",
     "content": "### 🗂️ **TEMPLATE INSTAGRAM DIRECT – Redirecionamento educado para agendamento via secretária**\n\n---\n\n**Mensagem direta:**\n\nOi, [NOME]! Tudo bem por aí? 😊\n\nObrigada pela confiança e pelo interesse na consulta!\n\nPra facilitar seu agendamento, vou te pedir que envie uma mensagem pro WhatsApp da minha secretária 💙\n\n👉 [NÚMERO DO WHATSAPP COM LINK]\n\nEla vai te atender com todo o cuidado e te passar os horários disponíveis 🩺✨\n\n---\n\n📌 **Notas para uso interno:**\n\n- Salvar como resposta rápida (atalho: **/agendarconsulta**)\n- Pode ser adaptado com variações conforme o tom da profissional (mais informal ou mais institucional)\n- Opcional: adicionar horário de atendimento da secretária (ex: “de segunda a sexta, das 9h às 18h”)"
@@ -26,7 +26,7 @@
   {
     "id": "insta-03",
     "number": 3,
-    "title": "Para Responder “A Doutora Atende Unime",
+    "title": "Para Responder: “A Doutora Atende Unimed?”",
     "category": "instagram",
     "targetRole": "ambos",
     "content": "### 🗂️ **TEMPLATE INSTAGRAM DIRECT – Resposta educada e estratégica para perguntas sobre convênio**\n\n---\n\n**Mensagem direta:**\n\nOi, [NOME]! Tudo bem? 😊\n\nAtualmente não atendo via Unimed.\n\nMas você pode ser atendida de forma **particular**, com todo o cuidado, escuta e atenção que ofereço por aqui 💙\n\nApós a consulta, você recebe um **relatório completo para solicitar reembolso** ao seu plano, caso tenha esse benefício.\n\nSe quiser, posso te redirecionar para o WhatsApp da minha secretária pra mais informações!\n\n---\n\n📌 **Notas para uso interno:**\n\n- Salvar como resposta rápida (atalho: **/unimed**)\n- Pode ser adaptado para qualquer outro convênio (Amil, Bradesco, SulAmérica etc.)\n- Usar sempre que o objetivo for **manter o interesse mesmo sem cobertura do plano**\n\n---"
@@ -34,7 +34,7 @@
   {
     "id": "insta-04",
     "number": 4,
-    "title": "Para Responder Pedido de Preço de Cesá",
+    "title": "Para Responder Pedido de Preço de Cesárea / Procedimento",
     "category": "instagram",
     "targetRole": "ambos",
     "content": "### 🗂️ **TEMPLATE INSTAGRAM DIRECT – Quando pedem valores de procedimentos ou cirurgias via direct**\n\n---\n\n**Mensagem direta:**\n\nOi, [NOME]! Obrigada pela sua mensagem! 😊\n\nPra te passar valores de cesárea ou outros procedimentos, a Dra. [NOME] **precisa primeiro fazer uma avaliação em consulta**.\n\nCada caso é único, e o plano de atendimento é sempre definido com base nas suas necessidades, histórico e exames 💙\n\nSe quiser, posso te passar o WhatsApp da secretária pra agendar a consulta inicial e te orientar com todos os detalhes.\n\n---\n\n📌 **Notas para uso interno:**\n\n- Salvar como resposta rápida (atalho: **/valordoprocedimento**)\n- Evita responder valores “soltos” fora de contexto, mantendo a autoridade da médica\n- Pode ser adaptado para diferentes procedimentos conforme a especialidade (ex: parto, botox, implante, cirurgia, etc.)"
@@ -42,7 +42,7 @@
   {
     "id": "insta-05",
     "number": 5,
-    "title": "Para Olhar “Rapidinho” o Resultado de",
+    "title": "Para Olhar “Rapidinho” o Resultado de um Exame",
     "category": "instagram",
     "targetRole": "ambos",
     "content": "### 🗂️ **TEMPLATE INSTAGRAM DIRECT – Quando o paciente tenta enviar exames para avaliação fora da consulta**\n\n---\n\n**Mensagem direta:**\n\nOi, [NOME]! Tudo bem?\n\nEntendo sua dúvida, mas por aqui **não consigo avaliar exames sem passar pela consulta**, tá bom?\n\nCada resultado precisa ser interpretado dentro do seu contexto clínico — e isso só consigo fazer com atenção, escuta e responsabilidade médica 🩺\n\nSe quiser, posso te direcionar para minha secretária agendar uma consulta e conversarmos com calma 💙\n\n---\n\n📌 **Notas para uso interno:**\n\n- Salvar como resposta rápida (atalho: **/exameinsta**)\n- Protege o CRM da médica e evita “consultas gratuitas” disfarçadas via direct\n- Pode ser adaptado com mais ou menos firmeza, dependendo da recorrência"
@@ -50,7 +50,7 @@
   {
     "id": "insta-06",
     "number": 6,
-    "title": "Caixinha de Perguntas “Você atende o c",
+    "title": "Caixinha de Perguntas: “Você atende o convênio X?”",
     "category": "instagram",
     "targetRole": "ambos",
     "content": "### 🗂️ **TEMPLATE STORY / CAIXINHA – Resposta institucional e clara sobre atendimento particular**\n\n---\n\n**Resposta sugerida na caixinha:**\n\nHoje não atendo via [NOME DO CONVÊNIO] 😊\n\nMas faço atendimentos particulares com tempo exclusivo, escuta ativa e cuidado individualizado 💙\n\nE após a consulta, você recebe um relatório para solicitar reembolso ao seu plano, caso tenha esse benefício!\n\nSe quiser agendar, é só chamar no WhatsApp 👉 [link da secretária]\n\n---\n\n📌 **Notas para uso interno:**\n\n- Salvar como **bloco pronto** nos rascunhos de story\n- Pode ser adaptado para várias operadoras de plano\n- Ideal usar com **template visual** com branding da médica para manter profissionalismo"
@@ -58,7 +58,7 @@
   {
     "id": "insta-07",
     "number": 7,
-    "title": "Caixinha de Perguntas “Por que você nã",
+    "title": "Caixinha de Perguntas: “Por que você não atende mais o convênio X?”",
     "category": "instagram",
     "targetRole": "ambos",
     "content": "### 🗂️ **TEMPLATE STORY / CAIXINHA – Resposta com posicionamento firme e humanizado**\n\n---\n\n**Resposta sugerida na caixinha:**\n\nEssa é uma pergunta super válida! 💬\n\nOptei por sair do convênio pra oferecer um atendimento mais completo, com tempo de escuta, sem pressa e com total atenção ao paciente 🩺\n\nAcredito que saúde precisa de profundidade — e o modelo particular me permite isso 💙\n\nE quem tem plano pode solicitar reembolso com o relatório da consulta, tá?\n\n---\n\n📌 **Notas para uso interno:**\n\n- Use com tom calmo, transparente e **zero reclamação do convênio**\n- Pode ser gravado em vídeo com a médica respondendo ou em texto com imagem institucional\n- Evite termos como “exploração dos planos” ou “planos não valorizam o médico”"
@@ -66,7 +66,7 @@
   {
     "id": "insta-08",
     "number": 8,
-    "title": "Para Residente que Já Recebe Pedido de",
+    "title": "Para Residente que Já Recebe Pedido de Consulta",
     "category": "instagram",
     "targetRole": "ambos",
     "content": "### 🗂️ **TEMPLATE INSTAGRAM DIRECT – Quando o médico ainda está na residência e recebe pedidos de atendimento**\n\n---\n\n**Mensagem direta:**\n\nOi, [NOME]! Fico muito feliz com sua confiança 🩺\n\nAtualmente ainda estou em fase de formação (residência), então **não estou realizando atendimentos particulares por enquanto**.\n\nMas se quiser, posso te indicar colegas incríveis que atendem com o mesmo cuidado que eu acredito 💙\n\nAssim que eu estiver atendendo oficialmente, vou avisar por aqui!\n\n---\n\n📌 **Notas para uso interno:**\n\n- Ideal para manter o vínculo e **nutrir o lead mesmo sem vender ainda**\n- Pode ser adaptado para pós-residência ou início de carreira com:\n    - “Estou iniciando os atendimentos em [especialidade] no consultório em breve…”"
@@ -74,7 +74,7 @@
   {
     "id": "insta-09",
     "number": 9,
-    "title": "Paciente Ansioso por Retorno na Caixin",
+    "title": "Paciente Ansioso por Retorno na Caixinha",
     "category": "instagram",
     "targetRole": "ambos",
     "content": "### 🗂️ **TEMPLATE STORY / CAIXINHA – Quando o paciente cobra resposta com urgência ou impaciência**\n\n---\n\n**Resposta sugerida:**\n\nRecebo muitas perguntas por aqui, e respondo conforme o tempo e a possibilidade 🩺\n\nSe sua questão é urgente ou pessoal, o ideal é agendar uma consulta — assim posso te atender com calma e segurança 💙\n\nA caixinha é um canal leve pra trocas rápidas, tá bom?\n\nObrigada pela compreensão e carinho!\n\n---\n\n📌 **Notas para uso interno:**\n\n- Use para educar o público sem constranger ninguém\n- Evite expor a pessoa (responda de forma geral, mesmo que a pergunta tenha sido direta)\n- Pode ser adaptado para vídeo curto ou sequência de stories com legenda"
@@ -82,7 +82,7 @@
   {
     "id": "insta-10",
     "number": 10,
-    "title": "Para Paciente que Questiona por que o",
+    "title": "Para Paciente que Questiona por que o Procedimento Não é Feito pelo Plano",
     "category": "instagram",
     "targetRole": "ambos",
     "content": "### 🗂️ **TEMPLATE INSTAGRAM DIRECT – Resposta ética e estratégica para justificativa fora da cobertura**\n\n---\n\n**Mensagem direta:**\n\nOi, [NOME]! Ótima pergunta 😊\n\nAlguns procedimentos que realizo **não fazem parte da cobertura dos planos de saúde**, seja por questões de protocolo, materiais específicos ou por serem considerados estéticos/facultativos.\n\nMas sempre busco oferecer opções seguras, eficazes e acessíveis dentro da minha proposta de cuidado 💙\n\nSe quiser saber mais detalhes ou valores, posso te direcionar pra minha secretária!\n\n---\n\n📌 **Notas para uso interno:**\n\n- Salvar como resposta rápida (atalho: **/procedimentoplano**)\n- Evita confronto ou desvalorização do plano\n- Reforça a autoridade e o critério clínico da médica"
@@ -90,7 +90,7 @@
   {
     "id": "insta-11",
     "number": 11,
-    "title": "Para Responder Elogio com Convite à Av",
+    "title": "Para Responder Elogio com Convite à Avaliação ou Vínculo",
     "category": "instagram",
     "targetRole": "ambos",
     "content": "### 🗂️ **TEMPLATE INSTAGRAM DIRECT – Resposta estratégica para elogios recebidos via DM ou story**\n\n---\n\n**Mensagem direta:**\n\nOi, [NOME]! Fiquei muito feliz com sua mensagem 💙\n\nObrigada pelo carinho e confiança!\n\nSe quiser, você pode deixar esse elogio lá no Google também — isso ajuda outras pessoas a encontrarem um atendimento cuidadoso e humanizado 🩺✨\n\nÉ só clicar aqui 👉 [LINK DA AVALIAÇÃO]\n\nObrigada de coração!\n\n---\n\n📌 **Notas para uso interno:**\n\n- Usar como reforço de **prova social espontânea**\n- Ideal para pacientes ativos e ex-pacientes que elogiam após consulta ou procedimento\n- Pode ser combinado com envio de mimo pós-consulta (ver Script M32)"
@@ -98,7 +98,7 @@
   {
     "id": "insta-12",
     "number": 12,
-    "title": "Direct Educado com Redirecionamento pa",
+    "title": "Direct Educado com Redirecionamento para Secretária",
     "category": "instagram",
     "targetRole": "ambos",
     "content": "### 🗂️ **TEMPLATE INSTAGRAM DIRECT – Para quando a médica prefere não administrar os agendamentos pessoalmente**\n\n---\n\n**Mensagem direta:**\n\nOi, [NOME]! Tudo bem? 😊\n\nObrigada por me chamar por aqui!\n\nPra facilitar sua experiência, quem cuida da minha agenda é a minha secretária 💙\n\nSe quiser, é só enviar uma mensagem pra ela no WhatsApp:\n\n👉 [NÚMERO / LINK CLICÁVEL]\n\nEla vai te orientar com carinho sobre horários, valores e todas as informações!\n\n---\n\n📌 **Notas para uso interno:**\n\n- Ideal para manter a organização da rotina médica\n- Salvar como resposta rápida (atalho: **/redirecionamento**)\n- Pode ser usado também por quem cuida do perfil em nome da médica"
@@ -106,7 +106,7 @@
   {
     "id": "insta-13",
     "number": 13,
-    "title": "Direct para Reforçar que Instagram Não",
+    "title": "Direct para Reforçar que Instagram Não é Canal de Diagnóstico",
     "category": "instagram",
     "targetRole": "ambos",
     "content": "### 🗂️ **TEMPLATE INSTAGRAM DIRECT – Resposta ética e firme para quem tenta consulta ou orientação clínica via DM**\n\n---\n\n**Mensagem direta:**\n\nOi, [NOME]! Tudo bem?\n\nFico muito feliz com sua confiança, mas por aqui não consigo te orientar sobre diagnósticos ou tratamento, tá bom?\n\nO Instagram é um canal de conteúdo e troca, mas **qualquer orientação clínica precisa ser feita em consulta**, com tempo, escuta e responsabilidade profissional 🩺💙\n\nSe quiser, posso te direcionar pra minha secretária agendar com você.\n\n---\n\n📌 **Notas para uso interno:**\n\n- Salvar como resposta rápida (atalho: **/naodiagnostico**)\n- Usar com frequência, pois muitos seguidores confundem o espaço educativo com um canal de atendimento\n- Pode ser complementado com stories educativos sobre limites éticos"
@@ -114,7 +114,7 @@
   {
     "id": "insta-14",
     "number": 14,
-    "title": "Direct Institucional com Indicação de",
+    "title": "Direct Institucional com Indicação de Colegas (Residente, Licença ou Ausência)",
     "category": "instagram",
     "targetRole": "ambos",
     "content": "### 🗂️ **TEMPLATE INSTAGRAM DIRECT – Quando a médica está indisponível e precisa indicar outro profissional com confiança**\n\n---\n\n**Mensagem direta:**\n\nOi, [NOME]! Que bom receber sua mensagem 💙\n\nAtualmente estou em [licença / pausa nos atendimentos / período de estudos], então não estou realizando atendimentos neste momento.\n\nMas posso te indicar colegas de confiança, com a mesma linha de cuidado e atenção 🩺\n\n👉 [NOME DO PROFISSIONAL + CONTATO]\n\nEspero que te ajude — e estarei de volta em breve por aqui!\n\n---\n\n📌 **Notas para uso interno:**\n\n- Usar em momentos de ausência temporária ou transição\n- Reforça o vínculo mesmo quando o médico não está disponível\n- Pode ser adaptado para residentes recém-formados que ainda não estão atendendo oficialmente"
@@ -122,7 +122,7 @@
   {
     "id": "med-01",
     "number": 1,
-    "title": "Agendamento de Retorno ou Nova Consult",
+    "title": "Agendamento de Retorno ou Nova Consulta",
     "category": "gestao-consultas",
     "targetRole": "medico",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Agendamento de Retorno ou Nova Consulta**\n\n---\n\n**Secretária:**\n\nOi, [PACIENTE]! Tudo bem por aí?\n\nAqui é a [SECRETÁRIA], secretária da [MÉDICA] 😊\n\nA doutora pediu pra eu confirmar com você o agendamento da próxima consulta, pra continuarmos o acompanhamento do seu caso com toda a atenção que ele merece.\n\nVocê prefere agendar para o período da manhã ou da tarde?\n\n---\n\n**Paciente:**\n\nPrefiro de manhã.\n\n---\n\n**Secretária:**\n\nÓtimo! 🙌\n\nTenho disponível no dia 20 de agosto, às 10h.\n\nEsse horário funciona pra você?\n\n---\n\n**Paciente:**\n\nSim, pode ser!\n\n---\n\n**Secretária:**\n\nPerfeito! Consulta confirmada então 🗓️✨\n\nVocê vai receber um lembrete automático alguns dias antes.\n\nQualquer dúvida, é só me chamar por aqui.\n\nObrigada pela confiança de sempre, Renata 💙\n\n---\n\n### 💡 *Caso o paciente não queira agendar na hora:*\n\n---\n\n**Paciente:**\n\nPrefiro não marcar agora.\n\n---\n\n**Secretária:**\n\nSem problemas, [NOME DO LEAD]!\n\nA [MÉDICA] orienta que o ideal é retornar em até 6 meses, tá bom? Assim a gente mantém tudo em ordem e evita qualquer surpresa.\n\nVou deixar um lembrete aqui no sistema pra te chamar mais perto, combinado?\n\n---\n\n**Paciente:**\n\nCombinado, obrigada!\n\n---\n\n**Secretária:**\n\nImagina! Qualquer coisa, estou por aqui 🌷"
@@ -130,7 +130,7 @@
   {
     "id": "med-02",
     "number": 2,
-    "title": "Comunicação de Descredenciamento de Co",
+    "title": "Comunicação de Descredenciamento de Convênio",
     "category": "comunicacao-institucional",
     "targetRole": "medico",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Comunicado de Saída da Unimed (ou outro convênio)**\n\n---\n\n**Médica:**\n\nOi, [PACIENTE]! Como você está?\n\nEstou passando por aqui pra te avisar com muito carinho que, a partir do dia 20 de junho, não estarei mais atendendo pelo convênio da [NOME DO PLANO], tá bom?\n\nEssa foi uma decisão bem pensada, baseada em um novo momento da minha vida profissional — e pessoal também.\n\nAcredito numa Medicina com mais tempo, mais cuidado e mais liberdade pra oferecer o melhor aos meus pacientes.\n\nE é esse o caminho que vou seguir.\n\nQuero continuar cuidando de você com todo o carinho que sempre tive.\n\nMas entendo, com respeito e afeto, caso você prefira seguir com um colega conveniado.\n\nDe toda forma, sou muito grata pela nossa caminhada até aqui 💙\n\nUm abraço com carinho,\n\nDra. [NOME DA MÉDICA]\n\n---\n\n### 💡 *Versão para comunicar pessoalmente, durante a consulta:*\n\n---\n\n**Médica (ao vivo ou adaptável para mensagem):**\n\nRenata, a partir da metade deste ano vou começar a diminuir a minha agenda com a [NOME DO CONVÊNIO], e no ano que vem pretendo encerrar totalmente os atendimentos pelo plano.\n\nEssa é uma decisão que venho amadurecendo há tempos, com o objetivo de oferecer mais atenção, tempo e qualidade aos meus pacientes.\n\nEstou te avisando com antecedência porque gostaria muito que você continuasse sendo minha paciente.\n\nTemos uma história de cuidado e confiança, e eu quero que ela continue, mesmo nesse novo formato ❤️"
@@ -138,7 +138,7 @@
   {
     "id": "med-03",
     "number": 3,
-    "title": "Renovação de Receita sem Nova Consulta",
+    "title": "Renovação de Receita sem Nova Consulta",
     "category": "limites-comunicacao",
     "targetRole": "medico",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Pedido de Receita sem Agendar Consulta**\n\n---\n\n### **🩺 Versão enviada pelo médico:**\n\n**Médica:**\n\nOi, [PACIENTE]! Como você está?\n\nVi sua mensagem pedindo a renovação da receita.\n\nMas queria reforçar que, como combinamos desde o início do seu tratamento, o uso do medicamento precisa ser acompanhado em consulta.\n\nA receita é só uma parte do cuidado — e a reavaliação é essencial pra garantir que o tratamento siga seguro e eficaz.\n\nVocê prefere que a [NOME DA SECRETÁRIA] entre em contato pra reagendar sua consulta?\n\nVai ser um prazer te atender de novo! 💙\n\nUm abraço,\n\nDra. [NOME]\n\n---\n\n### **💬 Versão enviada pela secretária:**\n\n**Secretária:**\n\nOi, [PACIENTE]! Tudo bem?\n\nConforme a Dra. [NOME] orientou, pra renovação da receita é necessário passar por uma nova consulta, tá bom?\n\nInclusive, a gente já tinha deixado agendado esse retorno para o dia [DATA] — mas você acabou não conseguindo comparecer.\n\nQuer que eu veja um novo horário pra você?\n\n---\n\n### 💡 *Observações importantes para equipe:*\n\n- Nunca diga \"não posso renovar a receita\" sem explicação. Reforce sempre a **importância da reavaliação médica**.\n- A cobrança é sempre pela **consulta**, nunca pela receita.\n- Evite frases como “só dessa vez”. Mantenha a coerência com todos os pacientes.\n- Caso o paciente insista, oriente com empatia, mas firmeza."
@@ -146,7 +146,7 @@
   {
     "id": "med-04",
     "number": 4,
-    "title": "Pedido de Alternativa de Tratamento se",
+    "title": "Pedido de Alternativa de Tratamento sem Nova Consulta",
     "category": "limites-comunicacao",
     "targetRole": "medico",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Paciente pede substituição de tratamento ou orientação sem passar em consulta**\n\n---\n\n### **🩺 Versão enviada pelo médico:**\n\n**Médica:**\n\nOi, [PACIENTE]! Como você está?\n\nVi sua mensagem pedindo uma alternativa para o tratamento — mas queria te explicar que, pra indicar qualquer mudança, eu preciso **avaliar sua condição atual pessoalmente**.\n\nSeria imprudente da minha parte sugerir algo sem examinar antes, principalmente tratando-se de [ex: pele, medicação, resposta ao tratamento anterior etc.].\n\nA agenda está um pouco cheia, mas posso pedir pra [NOME DA SECRETÁRIA] encontrar um horário pra te encaixar com prioridade.\n\nVocê prefere vir pela manhã ou pela tarde?\n\n---\n\n### **💬 Versão enviada pela secretária:**\n\n**Secretária:**\n\nOi, [PACIENTE]! Tudo bem por aí?\n\nRecebi aqui sua mensagem sobre o tratamento, e conversei com a Dra. [NOME].\n\nEla pediu pra te avisar que precisa te ver pessoalmente pra indicar qualquer alternativa, tá bom?\n\nA agenda está bem cheia nas próximas semanas, mas vou fazer o possível pra conseguir um horário pra você.\n\nVocê prefere de manhã ou de tarde? Assim já agilizo por aqui 😊\n\n---\n\n### 💡 *Notas para a equipe:*\n\n- Nunca passe sugestões de tratamento ou troca de medicação sem consulta, mesmo que o paciente insista.\n- Para pacientes fiéis e antigos, avalie o histórico: em alguns casos, a médica pode decidir responder pontualmente, com bom senso.\n- A comunicação deve ser empática, mas firme."
@@ -162,7 +162,7 @@
   {
     "id": "med-06",
     "number": 6,
-    "title": "Pedido de Orientação sem Consulta",
+    "title": "Pedido de Orientação sem Consulta",
     "category": "limites-comunicacao",
     "targetRole": "medico",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Paciente pede “só uma orientaçãozinha” sem passar em consulta**\n\n---\n\n### **🩺 Versão enviada pelo médico:**\n\n**Médica:**\n\nOi, [PACIENTE]! Tudo bem com você?\n\nRecebi sua mensagem pedindo uma orientação sobre o caso do [NOME DO FILHO / SITUAÇÃO].\n\nFico feliz com a confiança, mas queria reforçar que, pra te orientar com segurança, eu preciso avaliar presencialmente.\n\nO quadro pode ter mudado, e o atendimento completo é essencial pra garantir o cuidado certo.\n\nVou pedir pra [NOME DA SECRETÁRIA] verificar um encaixe pra você ainda essa semana, pode ser?\n\nVocê prefere manhã ou tarde?\n\n---\n\n### **💬 Versão enviada pela secretária:**\n\n**Secretária:**\n\nOi, [PACIENTE]! Tudo bem por aí?\n\nA Dra. [NOME] pediu pra avisar que precisa avaliar pessoalmente pra poder te orientar da melhor forma, tá bom?\n\nÉ que, mesmo em casos simples, a segurança do paciente vem sempre em primeiro lugar.\n\nA agenda está cheia, mas vou tentar um encaixe especial pra você.\n\nVocê prefere de manhã ou de tarde?\n\n---\n\n### 💡 *Exceção possível:*\n\nSe o paciente for **muito assíduo**, com consultas recentes e o pedido for de **baixa complexidade**, a médica pode avaliar se responde pontualmente via WhatsApp — mas com **bom senso e limites claros**."
@@ -170,7 +170,7 @@
   {
     "id": "med-07",
     "number": 7,
-    "title": "Pedido de Receita para Terceiros (Amig",
+    "title": "Pedido de Receita para Terceiros (Amigo Próximo Pedindo Favor)",
     "category": "receitas-exames",
     "targetRole": "medico",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Quando um amigo ou conhecido pede receita de outro médico, ou para terceiros, sem consulta**\n\n---\n\n### **🩺 Versão enviada pelo médico:**\n\n**Médica:**\n\nOi, [NOME]! Como você está?\n\nRecebi sua mensagem pedindo a renovação da receita do(a) [NOME DO TERCEIRO / FAMILIAR], e entendo sua preocupação e o carinho em querer ajudar.\n\nMas preciso te dizer, como médica e como sua amiga, que seria **irresponsável da minha parte prescrever um medicamento sem uma avaliação adequada**.\n\nAinda mais nesse caso, que envolve uma receita de outro profissional e um tempo considerável desde a última consulta.\n\nEspero que você entenda. Estou zelando pela saúde de quem você ama 💙\n\nSe precisar, posso agendar uma consulta para avaliarmos com calma, tudo bem?\n\nUm abraço com carinho!\n\n---\n\n### 💡 *Notas para a equipe:*\n\n- Evite ser ríspido, mas mantenha a postura **ética e inegociável**.\n- **Não é permitido legalmente prescrever medicamentos sem avaliação**, especialmente para terceiros.\n- A linguagem deve mostrar **preocupação e zelo**, não negação fria."
@@ -178,7 +178,7 @@
   {
     "id": "med-08",
     "number": 8,
-    "title": "Comunicação de Consulta Eventual",
+    "title": "Comunicação de Consulta Eventual",
     "category": "venda-procedimentos",
     "targetRole": "medico",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Apresentação da modalidade de consulta eventual**\n\n---\n\n### **🩺 Versão enviada pelo médico:**\n\n**Médica:**\n\nOi, [PACIENTE]! Como você está?\n\nQueria compartilhar uma novidade por aqui: a partir de agora, você também pode contar comigo através da **consulta eventual** 💬🩺\n\nEssa modalidade serve pra **casos agudos** como:\n\n- Febre\n\n• Gripe ou resfriado\n\n• Dor de garganta\n\n• Diarreia\n\n• Situações que normalmente te levariam ao pronto-atendimento\n\nA ideia é que você **evite ir ao PS** e seja atendida diretamente comigo, no consultório, com mais conforto e segurança.\n\nEssa consulta tem um valor fixo de **R$ 300,00**, pode ser paga via **PIX ou cartão de crédito/débito**.\n\n🟢 Inclui também o **acompanhamento via WhatsApp** até a sua melhora.\n\n❗Por se tratar de uma consulta de urgência, **não há retorno incluído**, tá bom?\n\nQualquer dúvida, é só me chamar!\n\nUm abraço,\n\nDra. [NOME]\n\n---\n\n### 💡 *Notas para equipe:*\n\n- Esta mensagem pode ser enviada como **campanha informativa** ou quando o paciente relata sintomas agudos por mensagem.\n- Sempre reforçar que **é diferente da consulta de rotina** e tem regras próprias.\n- Valor, formas de pagamento e política de retorno devem ser claras desde o início."
@@ -186,7 +186,7 @@
   {
     "id": "med-09",
     "number": 9,
-    "title": "Quando o Médico Precisa Remarcar a Con",
+    "title": "Quando o Médico Precisa Remarcar a Consult",
     "category": "gestao-consultas",
     "targetRole": "medico",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Remarcação por iniciativa do médico**\n\n---\n\n### **🩺 Versão enviada pelo médico:**\n\n**Médica:**\n\nOi, [PACIENTE]! Tudo bem por aí?\n\nAqui é a Dra. [NOME].\n\nEstou passando pra avisar que **precisarei remarcar a nossa consulta marcada para o dia [DATA], às [HORÁRIO]**, por conta de um imprevisto.\n\nEu sou extremamente comprometida com minha agenda e com cada paciente, por isso faço questão de me desculpar e já propor uma nova data:\n\n📅 Que tal **[NOVA DATA], às [NOVA HORA]**?\n\nFico no aguardo da sua confirmação — e mais uma vez, obrigada pela confiança de sempre 💙\n\nUm abraço,\n\nDra. [NOME]\n\n---\n\n### 💬 *Versão adaptável para envio pela secretária (em nome da médica):*\n\n**Secretária:**\n\nOi, [PACIENTE]! Tudo bem?\n\nAqui é a [NOME DA SECRETÁRIA], secretária da Dra. [NOME].\n\nEla pediu mil desculpas, mas por conta de um imprevisto, vai precisar remarcar a consulta que estava agendada com você para o dia [DATA], às [HORÁRIO].\n\nEla já deixou uma sugestão: **[NOVA DATA], às [NOVA HORA]**. Funciona pra você?\n\nObrigada pela compreensão e carinho de sempre! 💙\n\n---\n\n### 💡 *Notas para a equipe:*\n\n- Sempre que possível, a **médica deve assinar com o próprio nome**. Isso humaniza e transmite respeito.\n- **Sugira uma nova data já na primeira mensagem**.\n- Não se deve esperar o paciente “chamar de volta” — tome a frente da reorganização."
@@ -194,7 +194,7 @@
   {
     "id": "med-10",
     "number": 10,
-    "title": "Quando o Paciente Chega Atrasado (sem",
+    "title": "Quando o Paciente Chega Atrasado (sem perder a elegância!)",
     "category": "gestao-consultas",
     "targetRole": "medico",
     "content": "### \n\n### 🗂️ **TEMPLATE WHATSAPP – Atraso no atendimento presencial**\n\n---\n\n### **🩺 Versão enviada pessoalmente ou via WhatsApp (idealmente pelo médico):**\n\n**Médica:**\n\nOi, [PACIENTE]! Tudo bem?\n\nEu entendo que imprevistos acontecem, e não tem problema.\n\nMas como já estamos com o tempo muito apertado, **não vou conseguir te atender com a atenção e o cuidado que você merece**.\n\nMinhas consultas são pensadas pra que eu possa te ouvir com calma e cuidar de você com profundidade.\n\nVamos fazer assim? A gente remarca com tranquilidade e te atende em um momento mais adequado. Pode ser?\n\nA [NOME DA SECRETÁRIA] vai te ajudar com isso agora mesmo 💙\n\n---\n\n### 💬 *Versão adaptável para recepção (caso a secretária precise conduzir a conversa):*\n\n**Secretária:**\n\nOi, [PACIENTE]! Tudo bem?\n\nInfelizmente, como já estamos com o tempo muito justo, a Dra. [NOME] **não vai conseguir fazer um atendimento completo e atencioso agora**.\n\nVamos remarcar pra um momento melhor? Assim ela consegue te atender como você merece 🩺✨\n\nTem preferência de data ou horário?\n\n---\n\n### 💡 *Notas para a equipe:*\n\n- Sempre manter o **tom cordial e respeitoso**, mas **sem comprometer a agenda dos outros pacientes**.\n- O ideal é que o **próprio médico fale com o paciente, nem que seja por um minuto na recepção**.\n- **Tolerância de atraso** (ex: 10 minutos) deve estar descrita na comunicação pré-consulta."
@@ -202,7 +202,7 @@
   {
     "id": "med-11",
     "number": 11,
-    "title": "Quando o Paciente Pede o Número Pessoa",
+    "title": "Quando o Paciente Pede o Número Pessoal do Médico",
     "category": "redes-sociais",
     "targetRole": "medico",
     "content": "### \n\n### 🗂️ **TEMPLATE WHATSAPP – Pedido de celular pessoal**\n\n---\n\n### **🩺 Versão enviada pelo médico:**\n\n**Médica:**\n\nOi, [PACIENTE]! Tudo bem?\n\nEntendo seu pedido, mas **prefiro concentrar todas as comunicações pelo WhatsApp do consultório**, que é onde consigo organizar melhor cada caso e manter o acompanhamento de forma segura e eficiente.\n\nA [NOME DA SECRETÁRIA] é super ágil e está sempre comigo nas demandas — e, quando for algo que precise da minha atenção direta, ela me repassa prontamente.\n\nSe você tiver qualquer dúvida, pode me chamar por aqui mesmo, tá bom?\n\nSempre respondo com carinho e atenção 💙\n\n---\n\n### 💬 *Versão com tom mais objetivo (sem ser ríspido):*\n\n**Médica:**\n\nOi, [PACIENTE]! Tudo certo?\n\nEu mantenho meu número pessoal reservado apenas para **pacientes em pós-operatório ou em situações muito específicas**.\n\nMas pode ficar tranquila que **pelo WhatsApp do consultório você terá toda a assistência** que precisar.\n\nQualquer dúvida, estou por aqui 😊\n\n---\n\n### 💡 *Notas para a equipe:*\n\n- O ideal é que essa resposta venha **assinada pela médica**, mesmo que enviada pela secretária.\n- **Nunca entregue o número pessoal, a menos que isso seja parte do protocolo de atendimento (ex: pós-cirúrgico)**.\n- Essa resposta também pode ser adaptada para **DMs do Instagram** ou outras redes sociais."
@@ -210,7 +210,7 @@
   {
     "id": "med-12",
     "number": 12,
-    "title": "Quando o Médico Não Escuta Áudios por",
+    "title": "Quando o Médico Não Escuta Áudios por WhatsApp",
     "category": "limites-comunicacao",
     "targetRole": "medico",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Orientação sobre comunicação por texto**\n\n---\n\n### **🩺 Versão enviada pelo médico:**\n\n**Médica:**\n\nOi, [PACIENTE]! Tudo bem por aí?\n\nQueria te pedir uma gentileza:\n\n**eu não costumo escutar áudios por aqui**, tá bom?\n\nPeço que você escreva sua dúvida por mensagem de texto, assim consigo te responder com mais clareza e atenção.\n\nPrometo que vou ler com todo carinho e te orientar da melhor forma possível 💙\n\nObrigada pela compreensão!\n\n---\n\n### 💬 *Versão enviada pela secretária, com tom acolhedor:*\n\n**Secretária:**\n\nOi, [PACIENTE]! Tudo bem?\n\nSó te avisando que a Dra. [NOME] **não escuta áudios no WhatsApp** por uma questão de organização e segurança nos atendimentos.\n\nVocê consegue escrever aqui o que precisa?\n\nAssim ela consegue te responder com mais agilidade e atenção 😊\n\n---\n\n### 💡 *Notas para a equipe:*\n\n- Essa orientação pode (e deve) ser **padronizada no pré-atendimento**, para evitar conflitos depois.\n- O tom da mensagem deve ser **gentil e direto**, evitando parecer indelicado ou impaciente.\n- Inclua essa informação no **material de boas-vindas** ou mensagem automática do WhatsApp do consultório."
@@ -218,7 +218,7 @@
   {
     "id": "med-13",
     "number": 13,
-    "title": "Oferecer (e Converter) um Procedimento",
+    "title": "Oferecer (e Converter) um Procedimento Durante a Consulta",
     "category": "venda-procedimentos",
     "targetRole": "medico",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Encaminhamento após sugestão de procedimento feita durante a consulta**\n\n---\n\n### **🩺 Versão enviada pela médica (durante ou logo após a consulta):**\n\n**Médica:**\n\nOi, [PACIENTE]! Como falamos na consulta, pelo seu quadro atual e seus objetivos, o procedimento mais indicado seria o [NOME DO PROCEDIMENTO].\n\nEsse procedimento pode trazer benefícios como:\n\n- [Benefício 1]\n\n• [Benefício 2]\n\n• [Benefício 3]\n\nO valor é **R$ [VALOR]**, e conseguimos realizar aqui mesmo no consultório.\n\nVocê gostaria de fazer agora?\n\nCaso o valor seja um impeditivo, posso te passar as opções de pagamento também!\n\n---\n\n### 💬 *Versão enviada pela secretária após a médica sugerir o procedimento na consulta:*\n\n**Secretária:**\n\nOi, [PACIENTE]! Tudo bem?\n\nA Dra. [NOME] comentou que o procedimento [NOME DO PROCEDIMENTO] seria ideal pro seu caso.\n\nO valor é **R$ [VALOR]**, e temos disponibilidade para fazer **ainda hoje, aqui no consultório**.\n\nTemos também essas formas de pagamento:\n• Cartão (crédito/débito)\n\n• PIX\n\n• Em até [Xx] vezes sem juros\n\nVocê gostaria de realizar?\n\n---\n\n### 💡 *Notas para a equipe:*\n\n- Se o paciente demonstrar dúvida, use perguntas como:\n    \n    **“O que você gostaria de saber antes de decidir?”**\n    \n    **“Tem algo que te impede de fazer hoje?”**\n    \n- Leve sempre **material de apoio visual ou explicativo** sobre o procedimento.\n- Deixe clara a **proposta de valor** e os **benefícios**, não apenas o preço."
@@ -226,7 +226,7 @@
   {
     "id": "med-14",
     "number": 14,
-    "title": "Cobrança Elegante de Procedimento Real",
+    "title": "Cobrança Elegante de Procedimento Realizado no Mesmo Dia da Consulta",
     "category": "cobranca-preco",
     "targetRole": "medico",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Confirmação de valor e cobrança após o procedimento ser decidido na hora**\n\n---\n\n### **🩺 Versão dita ou escrita pela médica no momento da decisão:**\n\n**Médica:**\n\nPodemos realizar o procedimento agora mesmo, sim. Fico muito feliz pela confiança no meu trabalho 💙\n\nO valor da [NOME DO PROCEDIMENTO] é **R$ [VALOR]**.\n\nVocê pode pagar no cartão em até [NÚMERO DE PARCELAS] sem juros, ou à vista com **[X]% de desconto** via PIX.\n\nQual opção você prefere?\n\nEnquanto eu me preparo, a [NOME DA SECRETÁRIA] vai organizar a parte do termo de consentimento e o pagamento, tudo certinho, tá bom?\n\n---\n\n### 💬 *Versão enviada pela secretária após a confirmação do procedimento:*\n\n**Secretária:**\n\nOi, [PACIENTE]! Tudo certo?\n\nA Dra. [NOME] já me avisou que vocês decidiram realizar o procedimento agora mesmo, e eu fico responsável por organizar tudo pra você 💼✨\n\nO valor é **R$ [VALOR]**, e temos essas opções de pagamento:\n• À vista no PIX (com [X]% de desconto)\n\n• Cartão de crédito em até [NÚMERO] vezes sem juros\n\nQual forma você prefere?\n\nVou te encaminhar o termo de consentimento também, e já deixo tudo pronto por aqui!\n\n---\n\n### 💡 *Notas para a equipe:*\n\n- Se o paciente **não perguntar o preço**, a médica ou a secretária deve **apresentar com naturalidade** antes de iniciar o procedimento.\n- Use frases de **transição leve e confiante**, como:\n    \n    **\"Vamos alinhar o valor e já seguimos?\"**\n    \n    **\"Deixo tudo prontinho com a secretária, pode ser?\"**\n    \n- Este é um momento importante para demonstrar **profissionalismo, firmeza e elegância**."
@@ -234,7 +234,7 @@
   {
     "id": "med-15",
     "number": 15,
-    "title": "Médico que Não Tem Secretária e Faz a",
+    "title": "Médico que Não Tem Secretária e Faz a Própria Cobrança",
     "category": "cobranca-preco",
     "targetRole": "medico",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Cobrança direta feita pelo próprio médico antes da consulta**\n\n---\n\n### **🩺 Versão enviada pelo médico:**\n\n**Médica:**\n\nOi, [PACIENTE]! Tudo bem por aí?\n\nPassando pra te lembrar que a nossa consulta está marcada para **amanhã, às [HORÁRIO]** 🗓️\n\nPara confirmar, peço que envie o comprovante de pagamento **até 2h antes da consulta**, tá bom?\n\nSegue abaixo os dados:\n\n🔹 PIX: [CHAVE PIX]\n\n🔹 Banco: [BANCO]\n\n🔹 Nome: [NOME COMPLETO]\n\n🔹 Valor: R$ [VALOR]\n\nAssim que receber, já deixo tudo confirmado por aqui.\n\nObrigada pela confiança! Qualquer dúvida, estou à disposição 💙\n\nUm abraço,\n\nDra. [NOME]\n\n---\n\n### 💡 *Notas importantes:*\n\n- A cobrança deve ser **clara, cordial e objetiva**.\n- Se for atendimento online, vale reforçar:\n    \n    **“Assim que confirmar o pagamento, envio o link da consulta.”**\n    \n- Esse template também serve para **consultas presenciais com pagamento antecipado**."
@@ -242,7 +242,7 @@
   {
     "id": "med-16",
     "number": 16,
-    "title": "Amigo Pedindo Desconto ou Atendimento",
+    "title": "Amigo Pedindo Desconto ou Atendimento pelo Convênio (via celular pessoal)",
     "category": "cobranca-preco",
     "targetRole": "medico",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Pedido informal de atendimento via plano ou com desconto**\n\n---\n\n### **🩺 Versão enviada pelo médico:**\n\n**Médica:**\n\nOi, [NOME]! Tudo certo?\n\nVou ficar muito feliz em cuidar da [NOME DO PARENTE / PACIENTE].\n\nSe os episódios de [CITAR SINTOMA, EX: sangramentos nasais] estão acontecendo com frequência, é mesmo muito importante fazer uma avaliação.\n\nAtualmente, **não estou atendendo mais pela [NOME DO CONVÊNIO]**, mas atendo de forma particular aqui no consultório.\n\nSe quiser, posso pedir pra [NOME DA SECRETÁRIA] te passar todos os detalhes e verificar os horários disponíveis, tudo bem?\n\nMe avisa que eu encaminho com carinho 💙\n\n---\n\n### 💡 *Notas para a equipe (ou para o próprio médico):*\n\n- Mantenha um **tom cordial, mas com posicionamento firme**.\n- Você **não é obrigado a dar desconto nem a atender por plano**, mesmo sendo amigo ou conhecido.\n- Evite se justificar demais — **a autoridade médica se reforça com naturalidade**."
@@ -250,7 +250,7 @@
   {
     "id": "med-17",
     "number": 17,
-    "title": "Retomar o Contato com Paciente que Não",
+    "title": "Retomar o Contato com Paciente que Não Voltou Após a Última Consulta",
     "category": "relacionamento-pos",
     "targetRole": "medico",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Reativação de paciente que ficou de retornar e não agendou**\n\n---\n\n### **🩺 Versão enviada pelo médico:**\n\n**Médica:**\n\nOi, [PACIENTE]! Como você está?\n\nAqui é a Dra. [NOME], sua médica [ESPECIALIDADE].\n\nPercebi que já faz [X MESES] desde a nossa última consulta, e queria saber como você está se sentindo.\n\nNa época, havíamos combinado de fazer um acompanhamento mais próximo, lembra?\n\nSe quiser, posso pedir pra minha secretária, [NOME], verificar um horário pra agendarmos esse retorno com calma.\n\nVocê prefere manhã ou tarde?\n\nUm abraço com carinho! 💙\n\n---\n\n### 💬 *Versão enviada pela secretária:*\n\n**Secretária:**\n\nOi, [PACIENTE]! Tudo bem por aí?\n\nAqui é a [NOME], secretária da Dra. [NOME].\n\nPassando pra saber como você está!\n\nNotei que já se passaram [X MESES] desde sua última consulta, e a doutora pediu pra te lembrar da importância do retorno.\n\nQuer que eu veja uma data com carinho pra você?\n\n---\n\n### 💡 *Notas para a equipe:*\n\n- Sempre que possível, personalize com **detalhes do histórico do paciente**:\n    \n    **“Como foi a viagem?”**, **“Sua rinite melhorou?”**, **“Conseguiu manter o tratamento direitinho?”**\n    \n- Reative com empatia, sem parecer cobrança. O tom é de **preocupação e cuidado contínuo**.\n- Essa mensagem pode ser enviada pelo **CRM, WhatsApp ou até e-mail personalizado**.\n\n---"
@@ -258,7 +258,7 @@
   {
     "id": "med-18",
     "number": 18,
-    "title": "Responder uma Reclamação que Tem Funda",
+    "title": "Responder uma Reclamação que Tem Fundamento",
     "category": "situacoes-delicadas",
     "targetRole": "medico",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Pedido de desculpas com profissionalismo e empatia**\n\n---\n\n### **🩺 Versão enviada pelo médico:**\n\n**Médica:**\n\nOi, [PACIENTE]! Como você está?\n\nQuero te pedir desculpas, em meu nome e em nome da minha equipe.\n\n**Em nenhum momento foi nossa intenção causar qualquer transtorno ou dificultar seu atendimento.**\n\nO que aconteceu foi um ponto fora da curva, mas serviu como aprendizado.\n\nJá estamos revendo nossos processos pra que situações assim não se repitam com você — ou com nenhum outro paciente.\n\nDesejo muita saúde e me coloco à disposição sempre que precisar 💙\n\nUm abraço,\n\nDra. [NOME]\n\n---\n\n### 💡 *Notas para a equipe:*\n\n- Nunca terceirize esse tipo de resposta — deve vir **da própria médica, com nome e tom humano**.\n- **Assuma a responsabilidade** sem justificativas excessivas.\n- Termine sempre com uma **mensagem de acolhimento e reabertura do canal de comunicação.**"
@@ -266,7 +266,7 @@
   {
     "id": "med-19",
     "number": 19,
-    "title": "Quando o Paciente Diz que Está se Cons",
+    "title": "Quando o Paciente Diz que Está se Consultando com Outro Médico",
     "category": "situacoes-delicadas",
     "targetRole": "medico",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Resposta com empatia e profissionalismo, sem confronto**\n\n---\n\n### **🩺 Versão enviada pelo médico:**\n\n**Médica:**\n\nOi, [PACIENTE]! Tudo bem?\n\nVi sua mensagem e queria te perguntar com carinho:\n\n**aconteceu alguma coisa?** Você ficou chateada com algum ponto no nosso atendimento?\n\nSeu feedback é muito importante pra mim — é através dele que consigo melhorar e cuidar cada vez melhor dos meus pacientes.\n\nDe toda forma, desejo saúde e sigo por aqui, caso precise de mim em algum momento 💙\n\nUm abraço,\n\nDra. [NOME]\n\n---\n\n### 💡 *Notas para a equipe/médico:*\n\n- **Nunca reaja com defesa, confronto ou julgamento.**\n- Evite terceirizar essa resposta: **deve vir da própria médica**, especialmente se havia vínculo anterior.\n- Mostre que está **aberta ao diálogo**, mas **sem apelar para o convencimento**.\n- Se o paciente realmente for um perfil desalinhado, **responda com respeito e libere com leveza.**"
@@ -274,7 +274,7 @@
   {
     "id": "med-20",
     "number": 20,
-    "title": "Quando o Paciente Diz que Outro Médico",
+    "title": "Quando o Paciente Diz que Outro Médico “Faz Mais Barato”",
     "category": "cobranca-preco",
     "targetRole": "medico",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Resposta elegante e com firmeza sobre valor profissional**\n\n---\n\n### **🩺 Versão enviada pelo médico:**\n\n**Médica:**\n\nOi, [PACIENTE]! Tudo bem por aí?\n\nEntendo perfeitamente sua consideração com os custos.\n\nRealmente, cada profissional tem sua forma de trabalhar — e seus critérios de valor.\n\nNo meu caso, o valor do [PROCEDIMENTO / TRATAMENTO] reflete a minha formação, experiência, segurança e a entrega completa que ofereço em cada atendimento.\n\nMas, claro: você está livre pra escolher o profissional com quem se sentir mais segura.\n\nO mais importante é que você seja bem cuidada 💙\n\nSe decidir seguir comigo, vai ser um prazer continuar esse caminho juntas.\n\nUm abraço,\n\nDra. [NOME]\n\n---\n\n### 💡 *Notas para o médico ou equipe:*\n\n- **Nunca fale mal de outro profissional.**\n- Use o **gatilho do desapego com autoridade**: posicione seu valor e deixe o paciente à vontade.\n- Você pode incluir essa frase, se sentir coerente:\n    \n    **“Se fosse minha mãe, eu indicaria esse procedimento de olhos fechados.”**\n    \n- Mantenha a compostura e reafirme o que você entrega além do preço: **tempo, atenção, personalização, segurança.**"
@@ -282,7 +282,7 @@
   {
     "id": "med-21",
     "number": 21,
-    "title": "Quando o Paciente Acha Caro ou Gostari",
+    "title": "Quando o Paciente Acha Caro ou Gostaria de Pagar Menos",
     "category": "cobranca-preco",
     "targetRole": "medico",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Resposta respeitosa com reforço de valor e posicionamento profissional**\n\n---\n\n### **🩺 Versão enviada pelo médico:**\n\n**Médica:**\n\nOi, [PACIENTE]! Tudo bem?\n\nEu entendo totalmente a sua percepção — a gente sabe que hoje em dia tudo está mais caro mesmo.\n\nMas quero te explicar com transparência:\n\n**minha formação foi longa, contínua e exige investimento constante.**\n\nAlém disso, manter um consultório bem estruturado e com os melhores recursos também tem um custo.\n\nO valor do [PROCEDIMENTO/TRATAMENTO] reflete tudo isso — e principalmente, o cuidado, a segurança e a entrega que você vai receber aqui.\n\nEntendo se agora não for o melhor momento pra você. Mas se precisar, estarei aqui.\n\nE se quiser conversar sobre formas de pagamento, posso te apresentar algumas opções também.\n\nCom carinho,\n\nDra. [NOME]\n\n---\n\n### 💡 *Notas para a equipe/médico:*\n\n- **Nunca invalide a dor financeira do paciente.** Às vezes, realmente é caro pra ele.\n- O objetivo aqui é **educar com empatia** e manter a autoridade.\n- Se perceber abertura, conduza para uma **negociação leve com boas condições de pagamento** (ex: PIX com desconto ou parcelamento)."
@@ -290,7 +290,7 @@
   {
     "id": "med-22",
     "number": 22,
-    "title": "Quando o Paciente Questiona Formas de",
+    "title": "Quando o Paciente Questiona Formas de Pagamento para Procedimento ou Cirurgia",
     "category": "cobranca-preco",
     "targetRole": "medico",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Apresentação clara e estratégica das formas de pagamento**\n\n---\n\n### **🩺 Versão enviada pela médica ou secretária:**\n\n**Secretária (ou médica):**\n\nOi, [PACIENTE]! Tudo bem?\n\nSobre o [NOME DO PROCEDIMENTO/CIRURGIA], temos algumas opções de pagamento que podem facilitar pra você:\n\n- **À vista no PIX ou dinheiro**: com **[X]% de desconto**\n\n• **Cartão de crédito**: em até **[NÚMERO DE PARCELAS] sem juros**\n\n• Ou ainda em até **[NÚMERO MAIOR DE PARCELAS] com juros da operadora** (opcional)\n\nSe quiser, posso simular as opções pra você agora mesmo.\n\nO importante é que a gente encontre a melhor forma pra você realizar o que precisa, com tranquilidade e segurança 💙\n\n---\n\n### 💡 *Notas estratégicas:*\n\n- **Tenha sempre uma “carta na manga”**: não revele a melhor condição de cara. Vá sentindo o perfil do paciente.\n- Posicione-se com naturalidade: **vender com dignidade é cuidar com intenção.**\n- Se perceber hesitação, conduza com perguntas como:\n    - “Você prefere à vista ou parcelado?”\n    - “Quer que eu veja em quantas parcelas fica melhor pra você?”"
@@ -298,7 +298,7 @@
   {
     "id": "med-23",
     "number": 23,
-    "title": "Quando o Paciente Pede Mais Desconto M",
+    "title": "Quando o Paciente Pede Mais Desconto Mesmo Após as Opções Apresentadas",
     "category": "cobranca-preco",
     "targetRole": "medico",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Negociação com firmeza, respeito e foco no valor percebido**\n\n---\n\n### **🩺 Versão enviada pela médica ou secretária:**\n\n**Médica:**\n\nOi, [PACIENTE]! Eu entendo que organizar o orçamento às vezes é um desafio, e quero que você saiba que respeito muito isso.\n\nO valor do [PROCEDIMENTO] é o mais justo possível dentro da estrutura que ofereço — e do cuidado que entrego.\n\nMas pra facilitar, temos essas condições especiais:\n\n- **PIX à vista com [X]% de desconto**\n\n• **Cartão em até [Nº] vezes sem juros**\n\nPosso parcelar em até **[Nº MAIOR] vezes com juros**, caso isso ajude no seu planejamento.\n\nO mais importante é que você se sinta segura com a decisão — e que consiga cuidar da sua saúde com tranquilidade 💙\n\nSe quiser, posso te ajudar a escolher a melhor forma agora mesmo.\n\n---\n\n### 💡 *Notas práticas:*\n\n- **Nunca entre em disputa de valor.** Reforce o que o paciente está comprando: segurança, experiência, personalização.\n- Demonstre flexibilidade **sem desvalorizar o serviço.**\n- Se o paciente continuar hesitando, pergunte:\n    - “O que te impede de fazer agora?”\n    - “Você quer pensar um pouco e te retorno amanhã com as mesmas condições?”"
@@ -306,7 +306,7 @@
   {
     "id": "med-24",
     "number": 24,
-    "title": "Follow-up Quando o Paciente Disse que",
+    "title": "Follow-up Quando o Paciente Disse que Vai Pensar",
     "category": "venda-procedimentos",
     "targetRole": "medico",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Retorno com leveza após objeção “vou pensar”**\n\n---\n\n### **🩺 Versão enviada pela médica:**\n\n**Médica:**\n\nOi, [PACIENTE]! Como você está?\n\nNa nossa última conversa, você mencionou que queria pensar um pouco antes de decidir sobre o [PROCEDIMENTO].\n\nSó queria saber se teve tempo de conversar com alguém da família ou refletir com calma.\n\nSe quiser, posso retomar com você os benefícios e esclarecer qualquer dúvida.\n\nLembre-se: esse procedimento é um passo importante pra sua saúde e bem-estar 💙\n\nMe avisa se quiser seguir — ou se eu puder te ajudar com algo mais!\n\nUm abraço,\n\nDra. [NOME]\n\n---\n\n### 💬 *Versão adaptada para objeções específicas (ex: “vou falar com meu marido”):*\n\n**Médica:**\n\nOi, [PACIENTE]! Tudo certo?\n\nVocê conseguiu conversar com seu marido sobre o [PROCEDIMENTO]?\n\nSe for necessário, fico à disposição pra tirar as dúvidas dele também.\n\nO que acha da gente confirmar o agendamento e garantir o seu cuidado?\n\nTô por aqui 💙\n\n---\n\n### 💡 *Notas para aplicação:*\n\n- Sempre anote no prontuário ou CRM **qual foi a objeção exata**.\n- Retome a conversa com empatia, mas com clareza de proposta.\n- Mantenha o foco em **relembrar a transformação e facilitar a tomada de decisão.**"
@@ -314,7 +314,7 @@
   {
     "id": "med-25",
     "number": 25,
-    "title": "Reativar Contato com Pacientes que Fic",
+    "title": "Reativar Contato com Pacientes que Ficaram de Retornar sobre Procedimento ou Cirurgia",
     "category": "venda-procedimentos",
     "targetRole": "medico",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Último follow-up com leve urgência e respeito à decisão do paciente**\n\n---\n\n### **🩺 Versão enviada pela médica:**\n\n**Médica:**\n\nOi, [PACIENTE]! Tudo bem?\n\nPassando por aqui pra saber se você ainda está com vontade de fazer o [NOME DO PROCEDIMENTO].\n\nSei que a rotina às vezes atropela e acabamos adiando aquilo que é importante pra gente.\n\nNão quero pressionar de forma alguma — só te lembrar que esse cuidado pode fazer diferença real na sua saúde, autoestima e qualidade de vida 💙\n\nSe quiser agendar, é só me avisar que a [NOME DA SECRETÁRIA] organiza tudo com carinho.\n\nCaso tenha decidido não seguir, sem problemas — fico feliz em ter caminhado com você até aqui 😊\n\nUm abraço,\n\nDra. [NOME]\n\n---\n\n### 💡 *Notas de aplicação:*\n\n- Use esse script como **último contato antes de encerrar o ciclo** de tentativa de conversão.\n- O tom deve ser **firme, gentil e sem carência**.\n- Dê espaço para a paciente se sentir respeitada mesmo se não quiser seguir — isso mantém a **porta aberta para um retorno futuro.**"
@@ -322,7 +322,7 @@
   {
     "id": "med-26",
     "number": 26,
-    "title": "Quando o Paciente Não Cumpre o Prazo d",
+    "title": "Quando o Paciente Não Cumpre o Prazo de Retorno",
     "category": "gestao-consultas",
     "targetRole": "medico",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Reforço da importância do acompanhamento clínico**\n\n---\n\n### **🩺 Versão enviada pela secretária:**\n\n**Secretária:**\n\nOi, [PACIENTE]! Tudo bem por aí?\n\nPassando pra lembrar que já se passaram [X MESES] desde a sua última consulta com a Dra. [NOME].\n\nNa ocasião, ela orientou o retorno em até [X DIAS/SEMANAS], pra revisar os exames e acompanhar de perto o seu tratamento.\n\nQuer que eu veja um horário pra você nos próximos dias?\n\nA agenda está apertada, mas posso tentar encaixar com prioridade 💙\n\n---\n\n### 💬 *Versão enviada pela médica:*\n\n**Médica:**\n\nOi, [PACIENTE]! Como você está?\n\nLembro que combinamos o retorno após [X TEMPO] da última consulta, especialmente por conta dos exames e da evolução do tratamento.\n\nEssa etapa é essencial pra garantir que está tudo indo no caminho certo — ou pra ajustar, se for preciso.\n\nSe quiser, posso pedir pra [NOME DA SECRETÁRIA] te ajudar com o agendamento.\n\nVocê prefere manhã ou tarde?\n\nUm abraço,\n\nDra. [NOME]\n\n---\n\n### 💡 *Notas para a equipe:*\n\n- O sistema de prontuário deve sinalizar os pacientes com **retornos pendentes ou vencidos**.\n- Essa mensagem deve ser enviada **com até 10 dias de antecedência ao prazo combinado**, como lembrete.\n- Reforce sempre que o retorno **faz parte do cuidado, não é opcional.**"
@@ -330,7 +330,7 @@
   {
     "id": "med-27",
     "number": 27,
-    "title": "Como Lidar com Pacientes Difíceis (Voc",
+    "title": "Como Lidar com Pacientes Difíceis (Você + Secretária)",
     "category": "situacoes-delicadas",
     "targetRole": "medico",
     "content": "### 🗂️ **TEMPLATE WHATSAPP / PRESENCIAL – Comunicação firme, acolhedora e resolutiva em situações delicadas**\n\n---\n\n### **🩺 Versão para o médico (durante ou após a consulta):**\n\n**Médica:**\n\nOi, [PACIENTE]. Eu entendo você.\n\nPode me explicar com calma o que gerou sua insatisfação?\n\nEstou aqui pra escutar, de verdade — e pra resolver da melhor forma possível.\n\nMeu objetivo é que você saia do consultório satisfeita e tranquila.\n\nSe algo ficou mal resolvido, podemos ajustar agora mesmo.\n\nO que posso fazer pra te ajudar nesse momento?\n\n---\n\n### **💬 Versão para a secretária (caso o paciente manifeste insatisfação na recepção):**\n\n**Secretária:**\n\nOi, [PACIENTE]. Eu entendo completamente o que você está sentindo.\n\nA Dra. [NOME] sempre faz questão de garantir o melhor atendimento possível, e sua opinião é muito importante pra nós.\n\nSe algo saiu diferente do que você esperava, peço desculpas de coração.\n\nVamos tentar resolver isso juntos?\n\n---\n\n### 💡 *Notas práticas para lidar com pacientes difíceis:*\n\n- **Respire antes de responder**: não reaja no impulso.\n- Nunca entre em embate. **O paciente difícil só quer ser ouvido.**\n- Dê espaço para o desabafo, mas conduza de volta à solução com frases como:\n    - “Vamos resolver juntos?”\n    - “Me diz o que eu posso fazer agora pra melhorar isso pra você.”\n- Após o ocorrido, **registre tudo no prontuário** com data e comportamento — isso protege você e a equipe."
@@ -338,7 +338,7 @@
   {
     "id": "med-28",
     "number": 28,
-    "title": "Quando é Necessário “Demitir” um Pacie",
+    "title": "Quando é Necessário “Demitir” um Paciente",
     "category": "situacoes-delicadas",
     "targetRole": "medico",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Comunicação firme, respeitosa e finalizadora da relação médico-paciente**\n\n---\n\n### **🩺 Versão enviada pela médica (via WhatsApp ou e-mail):**\n\n**Médica:**\n\nOi, [PACIENTE]. Como você está?\n\nEssa não é uma mensagem fácil de escrever, mas é necessária.\n\nVocê desmarcou sua consulta em cima da hora algumas vezes, e isso tem prejudicado a organização da minha agenda — e também o atendimento a outros pacientes que aguardam por horários disponíveis.\n\nPor esse motivo, a partir de hoje, **não seguirei mais com seu atendimento no consultório.**\n\nClaro, se você precisar de um encaminhamento ou repasse de informações para outro profissional, estarei à disposição para colaborar com sua continuidade de cuidados.\n\nDesejo sinceramente que encontre um bom caminho de saúde e bem-estar 💙\n\nUm abraço,\n\nDra. [NOME]\n\n---\n\n### 💡 *Notas para a médica e equipe:*\n\n- Essa mensagem **deve ser enviada com clareza, sem julgamento, mas com firmeza.**\n- Sempre use **“em nome da agenda, da organização, da responsabilidade”**, nunca tom pessoal.\n- Situações que justificam esse script:\n    - Repetidas faltas sem aviso.\n    - Mau comportamento com a equipe.\n    - Condutas que colocam o ambiente clínico em risco"
@@ -346,7 +346,7 @@
   {
     "id": "med-29",
     "number": 29,
-    "title": "Comunicar Licença Maternidade ou Perío",
+    "title": "Comunicar Licença Maternidade ou Período de Ausência",
     "category": "gestao-consultas",
     "targetRole": "medico",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Comunicação com afeto, organização e segurança para o paciente**\n\n---\n\n### **🩺 Versão enviada pela médica:**\n\n**Médica:**\n\nOi, [PACIENTE]! Tudo bem com você?\n\nPassando pra compartilhar uma novidade: em breve, vou vivenciar novamente a maternidade — o [NOME DO BEBÊ] está chegando! 👶🏼💙\n\nEstarei atendendo normalmente no consultório até o mês de [MÊS], e depois entrarei em **licença maternidade** por um período.\n\nDurante essa pausa, você pode continuar contando com o suporte da minha secretária, [NOME], para orientações básicas.\n\nCaso haja qualquer necessidade clínica, me comprometo a te indicar um colega de confiança.\n\nObrigada por caminhar comigo até aqui — e por me permitir fazer parte do seu cuidado 💙\n\nNos vemos em breve!\n\nUm abraço,\n\nDra. [NOME]\n\n---\n\n### 💡 *Notas para personalização e equipe:*\n\n- O ideal é que essa mensagem seja enviada com **antecedência mínima de 2 a 3 meses**.\n- Pode ser adaptada para **outros motivos de afastamento**: cirurgias, viagens longas, estudos.\n- Reforce que o paciente **não ficará desassistido**."
@@ -354,7 +354,7 @@
   {
     "id": "med-30",
     "number": 30,
-    "title": "Comunicar Retorno da Licença + Novidad",
+    "title": "Comunicar Retorno da Licença + Novidades no Consultório",
     "category": "gestao-consultas",
     "targetRole": "medico",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Retorno com acolhimento e reaproximação do paciente**\n\n---\n\n### **🩺 Versão enviada pela médica:**\n\n**Médica:**\n\nOi, [PACIENTE]! Tudo bem? Como você está?\n\nDepois de um tempo me dedicando à maternidade e à chegada do [NOME DO BEBÊ], estou retornando com alegria aos atendimentos no consultório 💙\n\nA partir deste mês, a agenda está reaberta — e aproveito pra te contar que agora também estou oferecendo **consultas eventuais** para casos como febre, gripe, dor de garganta, entre outros.\n\nAssim, você evita o pronto-socorro e é atendida com todo o cuidado de sempre, aqui no consultório mesmo 🩺✨\n\nSe quiser agendar sua consulta de acompanhamento, a [NOME DA SECRETÁRIA] está à disposição.\n\nVai ser um prazer te reencontrar!\n\nUm abraço,\n\nDra. [NOME]\n\n---\n\n### 💡 *Notas para aplicação:*\n\n- Essa mensagem serve também para **ações de reativação de pacientes antigos**.\n- Sempre que possível, **anuncie uma novidade junto com o retorno**: novos serviços, novos horários, atendimentos especiais etc.\n- Enviar via WhatsApp em **lista de transmissão segmentada** ou individualmente para pacientes ativos/ausentes"
@@ -362,7 +362,7 @@
   {
     "id": "med-31",
     "number": 31,
-    "title": "Agradecimento por Indicação de Pacient",
+    "title": "Agradecimento por Indicação de Paciente",
     "category": "relacionamento-pos",
     "targetRole": "medico",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Gratidão pela confiança e ativação de gatilho de reciprocidade**\n\n---\n\n### **🩺 Versão enviada pela médica:**\n\n**Médica:**\n\nOi, [NOME]! Como você está?\n\nPassando aqui pra te agradecer: a [NOME DA PACIENTE INDICADA] veio até mim por sua indicação 💙\n\nMuito obrigada por confiar no meu trabalho — indicações assim significam muito pra mim, de verdade!\n\nSe eu puder retribuir de alguma forma, me avisa.\n\nFico sempre à disposição 🩺✨\n\nUm abraço com carinho,\n\nDra. [NOME]\n\n---\n\n### 💡 *Notas para a médica e equipe:*\n\n- O ideal é enviar essa mensagem **logo após o atendimento da paciente indicada.**\n- Pode ser enviada por WhatsApp, áudio curto ou até por mensagem escrita à mão.\n- Essa simples ação **fortalece vínculos e estimula novas indicações.**\n- Opcional: envie um mimo digital junto (ex: e-book, dica personalizada) como **overdelivery simbólico.**"
@@ -370,7 +370,7 @@
   {
     "id": "med-32",
     "number": 32,
-    "title": "Agradecimento Após Consulta Online + E",
+    "title": "Agradecimento Após Consulta Online + Envio de Mimo (Overdelivery)",
     "category": "relacionamento-pos",
     "targetRole": "medico",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Encantamento pós-consulta com reforço de vínculo**\n\n---\n\n### **🩺 Versão enviada pela médica:**\n\n**Médica:**\n\nOi, [PACIENTE]! Como foi bom te conhecer melhor na nossa consulta 💙\n\nFico muito feliz por ter feito parte desse passo importante na sua jornada de cuidado com a saúde.\n\nEstarei sempre por aqui pro que você precisar — e torcendo pelo sucesso do seu tratamento!\n\nNos encontramos novamente no dia [DATA DO RETORNO], às [HORÁRIO], combinado?\n\nAh! E como prometido, segue um mimo especial pra você:\n\n📩 [LINK DO E-BOOK / PDF / CONTEÚDO EXCLUSIVO]\n\nCom carinho,\n\nDra. [NOME]\n\n---\n\n### 💡 *Notas para aplicação prática:*\n\n- O envio do mimo pode ser feito **logo após a consulta** ou no dia seguinte.\n- Exemplos de mimos:\n    - E-book com dicas complementares\n    - Receita saudável\n    - Guia prático sobre o tema da consulta\n    - Vídeo personalizado com explicação adicional\n- Pequenos gestos **reforçam o cuidado e criam encantamento.**"
@@ -378,7 +378,7 @@
   {
     "id": "med-33",
     "number": 33,
-    "title": "Confirmação com Orientação e Toque Pes",
+    "title": "Confirmação com Orientação e Toque Pessoal",
     "category": "gestao-consultas",
     "targetRole": "medico",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Mensagem enviada pela própria médica para confirmar e acolher o paciente**\n\n---\n\n**Médica:**\n\nOi, [NOME]! Aqui é a Dra. [SEU NOME] 😊\n\nPassando só pra confirmar sua consulta comigo no dia **[DATA]**, às **[HORÁRIO]**, e dizer que fico feliz de caminhar com você nesse processo.\n\nSe quiser, anote aí:\n\n📍 Endereço: [ENDEREÇO COMPLETO]\n\n📄 Traga exames recentes e, se quiser, uma lista com dúvidas ou sintomas.\n\nNos vemos em breve! Qualquer coisa, estou por aqui 💙\n\n---\n\n📌 **Notas para uso interno:**\n\n- Ideal para primeira consulta ou pacientes que chegam por indicação direta.\n- Cria vínculo e transmite **autoridade acolhedora**.\n- Pode ser enviada manualmente ou em áudio curto para personalizar."
@@ -386,7 +386,7 @@
   {
     "id": "med-34",
     "number": 34,
-    "title": "Reclamação de Reajuste de Preço",
+    "title": "Reclamação de Reajuste de Preço",
     "category": "cobranca-preco",
     "targetRole": "medico",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Quando o paciente questiona um aumento de valor na consulta ou procedimento**\n\n---\n\n**Médica:**\n\nOi, [NOME]! Entendo totalmente a sua colocação, e agradeço por me trazer esse feedback.\n\nO reajuste foi necessário pra manter o padrão de atendimento que sempre ofereci por aqui — com tempo exclusivo, acompanhamento próximo e decisões clínicas seguras.\n\nTudo que eu faço é pensando em entregar o melhor cuidado possível 💙\n\nSe quiser seguir com o atendimento, será uma alegria continuar te acompanhando.\n\nSe não for possível agora, entendo perfeitamente — e sigo torcendo pela sua saúde!\n\n---\n\n📌 **Notas para uso interno:**\n\n- Use sempre que o paciente demonstra resistência ao reajuste, principalmente se for recorrente.\n- Evite justificar em excesso. Use termos como:\n    - “Atualização de tabela”\n    - “Manutenção da estrutura e qualidade”\n- Pode ser adaptado para casos de **tratamento antigo que sofreu reajuste (ver Script M18)**."
@@ -394,7 +394,7 @@
   {
     "id": "med-35",
     "number": 35,
-    "title": "“Não Ouço Áudios”",
+    "title": "“Não Ouço Áudios”",
     "category": "limites-comunicacao",
     "targetRole": "medico",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Para responder com firmeza e gentileza quando o paciente envia áudio com conteúdo clínico**\n\n---\n\n**Médica:**\n\nOi, [NOME]! Tudo bem?\n\nPra manter minha organização e o acompanhamento dos pacientes com mais precisão, **prefiro que a gente se comunique por mensagem de texto aqui no WhatsApp**, tá bom?\n\nAssim consigo visualizar, responder com atenção e manter o histórico mais organizado também 💙\n\nSe puder escrever, te agradeço demais!\n\n---\n\n📌 **Notas para uso interno:**\n\n- Enviar essa mensagem quando o paciente envia áudios com dúvidas clínicas, atualizações ou desabafos longos.\n- **Jamais reprimir ou criticar** — sempre manter o tom educativo e profissional.\n- Se necessário, configurar como **resposta rápida** ou atalho."
@@ -402,7 +402,7 @@
   {
     "id": "med-36",
     "number": 36,
-    "title": "Solicitação de Encaixe (Gestante)",
+    "title": "Solicitação de Encaixe (Gestante)",
     "category": "gestao-consultas",
     "targetRole": "medico",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Quando a paciente gestante pede encaixe fora da agenda regular**\n\n---\n\n**Médica:**\n\nOi, [NOME]! Entendo sua preocupação — gestação é mesmo uma fase que exige atenção em tempo integral 💙\n\nVou verificar se consigo um encaixe na agenda pra te atender com calma e segurança.\n\nSe for algo muito urgente ou que esteja gerando desconforto intenso, não hesite em procurar um pronto-atendimento obstétrico, combinado?\n\nMas vou tentar te encaixar por aqui e já te dou um retorno ainda hoje 🩺\n\n---\n\n📌 **Notas para uso interno:**\n\n- A mensagem equilibra **acolhimento emocional com responsabilidade profissional**.\n- Não comprometa a agenda se não for possível — **encaixes só com segurança.**\n- Pode ser adaptado para intercorrências não obstétricas com leve ajuste de tom.\n\n---"
@@ -410,7 +410,7 @@
   {
     "id": "med-37",
     "number": 37,
-    "title": "Interação entre Medicamentos",
+    "title": "Interação entre Medicamentos",
     "category": "limites-comunicacao",
     "targetRole": "medico",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Quando o paciente pergunta se pode tomar dois medicamentos juntos, sem ter sido avaliado**\n\n---\n\n**Médica:**\n\nOi, [NOME]! Obrigada pela confiança 💙\n\nMas por aqui, **prefiro não orientar uso de medicamentos sem uma avaliação adequada** — especialmente quando envolve combinação entre remédios, que pode ter riscos importantes.\n\nSe for algo pontual, recomendo que procure um pronto-atendimento.\n\nOu, se quiser, posso verificar um horário pra te atender com calma, entender o contexto e indicar o melhor caminho com segurança 🩺\n\n---\n\n📌 **Notas para uso interno:**\n\n- Esse tipo de mensagem deve **reforçar o cuidado profissional e evitar o papel de “receitadora informal”**.\n- Use para:\n    - Solicitações de “posso tomar X com Y?”\n    - Dúvidas com antibióticos ou remédios prescritos por terceiros\n- Ofereça sempre a consulta como **resposta ética e segura.**"
@@ -426,7 +426,7 @@
   {
     "id": "med-39",
     "number": 39,
-    "title": "Segunda Opinião via Instagram",
+    "title": "Segunda Opinião via Instagram",
     "category": "redes-sociais",
     "targetRole": "medico",
     "content": "### 🗂️ **TEMPLATE DIRECT / WHATSAPP – Quando alguém pede “uma olhadinha” em exames ou sintomas fora do contexto da consulta**\n\n---\n\n**Médica:**\n\nOi, [NOME]! Tudo bem?\n\nAgradeço sua confiança, mas por questões éticas e de responsabilidade profissional, **não consigo dar orientações clínicas nem avaliar exames fora da consulta** — mesmo que seja só uma dúvida rápida.\n\nSe quiser, posso verificar um horário na agenda pra te atender com atenção e segurança 🩺✨\n\nFico à disposição 💙\n\n---\n\n📌 **Notas para uso interno:**\n\n- Usar tanto em DMs quanto em mensagens de WhatsApp.\n- Protege o CRM da médica e evita **riscos jurídicos ou éticos**.\n- Caso o paciente insista, manter a firmeza com educação:\n    - “Espero que compreenda — é o cuidado com você e com meu trabalho que me faz agir assim.”"
@@ -442,7 +442,7 @@
   {
     "id": "med-41",
     "number": 41,
-    "title": "Solicitação por WhatsApp Fora de Hora",
+    "title": "Solicitação por WhatsApp Fora de Hora",
     "category": "limites-comunicacao",
     "targetRole": "medico",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Quando o paciente envia mensagens em horários inadequados (ex: noite, fim de semana)**\n\n---\n\n**Médica:**\n\nOi, [NOME]! Tudo bem?\n\nVi sua mensagem aqui agora, mas queria te lembrar com carinho que **nosso canal de atendimento funciona em horário comercial**.\n\nFico super feliz com sua confiança, mas pra garantir que eu consiga cuidar de você (e dos outros pacientes) com toda a atenção, preciso organizar bem meus horários — inclusive os de descanso 💙\n\nSe for algo urgente, recomendo buscar um pronto-atendimento.\n\nSe puder aguardar, te respondo assim que possível no horário de atendimento, combinado?\n\n---\n\n📌 **Notas para uso interno:**\n\n- Pode ser usado em nome da médica ou da secretária.\n- Adotar também uma **mensagem automática fora do expediente** no WhatsApp Business reforça esse posicionamento.\n- Se for reincidente, usar tom mais firme:\n    - “Como já falamos anteriormente, esse canal não é emergencial…”"
@@ -458,7 +458,7 @@
   {
     "id": "med-43",
     "number": 43,
-    "title": "Paciente “Chiclete” (Mensagens Frequen",
+    "title": "Paciente “Chiclete” (Mensagens Frequentes Após Consulta)",
     "category": "limites-comunicacao",
     "targetRole": "medico",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Quando o paciente continua enviando mensagens após o fim do acompanhamento previsto**\n\n---\n\n**Médica:**\n\nOi, [NOME]! Vi suas mensagens e queria te orientar com carinho 💙\n\nDepois da consulta, costumo manter um período curto de acompanhamento por aqui — só pra garantir que o plano esteja funcionando bem.\n\nMas se surgirem novas dúvidas ou sintomas, o ideal é agendarmos uma nova avaliação. Assim consigo te orientar com calma, segurança e toda a atenção que você merece 🩺\n\nSe quiser, posso pedir pra minha secretária verificar os horários disponíveis!\n\n---\n\n📌 **Notas para uso interno:**\n\n- Usar após o paciente ultrapassar o limite razoável de acompanhamento pós-consulta (ex: 3 a 7 dias).\n- Reforça o limite saudável entre cuidado e disponibilidade.\n- Se o paciente insistir, manter tom firme e gentil, ou envolver a secretária para redirecionamento."
@@ -466,7 +466,7 @@
   {
     "id": "med-44",
     "number": 44,
-    "title": "Paciente que Faltou ao Retorno Gratuit",
+    "title": "Paciente que Faltou ao Retorno Gratuito",
     "category": "gestao-consultas",
     "targetRole": "medico",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Quando o paciente não comparece à consulta de retorno e tenta reagendar fora do prazo**\n\n---\n\n**Médica:**\n\nOi, [NOME]! Tudo bem?\n\nVi aqui que você não conseguiu comparecer ao retorno que estava marcado pra [DATA].\n\nComo já se passou o prazo previsto, será necessário **agendarmos uma nova consulta completa** — assim consigo te avaliar novamente com segurança 🩺\n\nSe quiser, peço pra minha secretária verificar os melhores horários pra você 💙\n\n---\n\n📌 **Notas para uso interno:**\n\n- Usar quando o paciente tenta \"recuperar\" o retorno após o período-limite (ex: 15 dias, 30 dias, conforme política do consultório).\n- Sempre comunicar com clareza e acolhimento, evitando embates.\n- Combine com **mensagem de reagendamento (Script 15 ou 16)**, se for conduzido pela secretária."
@@ -474,7 +474,7 @@
   {
     "id": "med-45",
     "number": 45,
-    "title": "Comunicação de Fim dos Descontos",
+    "title": "Comunicação de Fim dos Descontos",
     "category": "cobranca-preco",
     "targetRole": "medico",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Quando a médica decide encerrar cortesias ou descontos oferecidos anteriormente**\n\n---\n\n**Médica:**\n\nOi, [NOME]! Queria te avisar com carinho que a partir de [DATA], **não estarei mais oferecendo descontos nas consultas**.\n\nEssa decisão foi tomada pra manter a estrutura e qualidade do atendimento, garantindo o mesmo cuidado e atenção a todos os pacientes 💙\n\nSe quiser manter o acompanhamento, vai ser um prazer te receber — e a secretária pode verificar os horários disponíveis!\n\n---\n\n📌 **Notas para uso interno:**\n\n- Usar para pacientes que receberam descontos anteriores por motivo especial (ex: pandemia, indicação, valor antigo).\n- A mensagem deve ser **firme e gentil**, evitando justificativas longas.\n- Ideal enviar **antes do próximo agendamento** para alinhar expectativas."
@@ -482,7 +482,7 @@
   {
     "id": "med-46",
     "number": 46,
-    "title": "Novo Endereço de Consultório",
+    "title": "Novo Endereço de Consultório",
     "category": "gestao-consultas",
     "targetRole": "medico",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Comunicação direta da médica informando mudança de local de atendimento**\n\n---\n\n**Médica:**\n\nOi, [NOME]! Passando pra te contar uma novidade ✨\n\nA partir de [DATA], estarei atendendo em um **novo endereço**!\n\n📍 [ENDEREÇO COMPLETO COM PONTO DE REFERÊNCIA]\n\nPreparei tudo com muito carinho pra oferecer um espaço ainda mais acolhedor, confortável e com a mesma atenção de sempre 💙\n\nSe quiser agendar ou precisar de algo, estou à disposição!\n\n---\n\n📌 **Notas para uso interno:**\n\n- Usar como **mensagem proativa da médica** para pacientes ativos ou em acompanhamento.\n- Pode ser adaptado para campanhas de reativação ou lista de transmissão.\n- Combine com o Script 20 (versão secretária) se o envio for feito pela equipe."
@@ -498,7 +498,7 @@
   {
     "id": "med-48",
     "number": 48,
-    "title": "Uso Indevido do Instagram (Pedidos de",
+    "title": "Uso Indevido do Instagram (Pedidos de Diagnóstico)",
     "category": "redes-sociais",
     "targetRole": "medico",
     "content": "### 🗂️ **TEMPLATE INSTAGRAM DM / WHATSAPP – Para responder quando alguém usa as redes sociais da médica para tentar obter diagnóstico ou receita**\n\n---\n\n**Médica:**\n\nOi, [NOME]! Tudo bem?\n\nFico feliz que me acompanhe por aqui 💙\n\nMas preciso reforçar que **o Instagram não é um canal adequado para orientações clínicas, diagnósticos ou avaliação de sintomas**, tá bom?\n\nPor questões éticas e de responsabilidade profissional, **só consigo fazer isso em consulta** — com tempo e atenção necessários pra te atender com segurança 🩺\n\nSe quiser, posso pedir pra minha secretária verificar os horários disponíveis.\n\n---\n\n📌 **Notas para uso interno:**\n\n- Usar sempre que a médica receber perguntas como:\n    - “Pode me dizer o que é essa manchinha?”\n    - “O que eu faço com esse sintoma?”\n    - “Você pode olhar meus exames?”\n- Reforce sempre: **rede social é canal de conteúdo, não atendimento**.\n- Configure essa resposta como **atalho nas DMs do Instagram.**\n\n###"
@@ -506,7 +506,7 @@
   {
     "id": "med-49",
     "number": 49,
-    "title": "Consulta Domiciliar Justificativa de V",
+    "title": "Consulta Domiciliar: Justificativa de Valor",
     "category": "cobranca-preco",
     "targetRole": "medico",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Quando o paciente questiona o valor da consulta domiciliar**\n\n---\n\n**Médica:**\n\nOi, [NOME]! Tudo bem?\n\nSobre o valor da **consulta domiciliar**, ele é um pouco mais elevado que o do consultório porque envolve o deslocamento, transporte de equipamentos e o tempo exclusivo que reservo pra esse tipo de atendimento 🩺\n\nMas o cuidado e a atenção são os mesmos — com o benefício de estar no conforto da sua casa 💙\n\nSe quiser seguir, posso verificar os horários disponíveis pra te atender com calma.\n\n---\n\n📌 **Notas para uso interno:**\n\n- Use esse script para:\n    - Pacientes que perguntam \"por que é mais caro?\"\n    - Famílias em dúvida sobre optar entre presencial e domiciliar\n- Reforce o valor do serviço com **benefícios práticos e emocionais**:\n    - Mais conforto\n    - Menos exposição\n    - Mais tempo de escuta\n\n---"
@@ -514,7 +514,7 @@
   {
     "id": "med-50",
     "number": 50,
-    "title": "Orientações para Consulta Domiciliar",
+    "title": "Orientações para Consulta Domiciliar",
     "category": "consultas-domiciliares",
     "targetRole": "medico",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Enviado após o agendamento de uma consulta domiciliar, com instruções práticas**\n\n---\n\n**Médica:**\n\nOi, [NOME]! Tudo certo?\n\nSua consulta domiciliar comigo está agendada para o dia **[DATA]**, às **[HORÁRIO]** 🩺\n\nAqui vão algumas orientações importantes pra garantir que tudo corra bem:\n\n🏠 Deixe um espaço tranquilo, com cadeira ou poltrona confortável\n\n💡 Se possível, mantenha o ambiente bem iluminado\n\n📝 Tenha à mão seus exames, medicamentos e anotações\n\n🧾 O pagamento poderá ser feito via [PIX / cartão / dinheiro] no final do atendimento\n\nSe tiver qualquer dúvida até lá, é só me chamar por aqui 💙\n\n---\n\n📌 **Notas para uso interno:**\n\n- Use como **padrão pós-agendamento** para atendimento domiciliar.\n- Pode ser enviada pela médica ou secretária — manter tom humanizado e direto.\n- Combine com o Script M17, se houver questionamento de valor."
@@ -522,7 +522,7 @@
   {
     "id": "sec-01",
     "number": 1,
-    "title": "Conversão de Primeira Consulta",
+    "title": "Conversão de Primeira Consulta",
     "category": "conversao-agendamento",
     "targetRole": "secretaria",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Quando o paciente entra em contato interessado, mas ainda não agendou**\n\n---\n\n**Secretária:**\n\nOi, [NOME]! Tudo bem por aí?\n\nAqui é a [SEU NOME], secretária da Dra. [NOME DA MÉDICA], especialista em [ESPECIALIDADE].\n\nRecebi sua mensagem e queria entender melhor pra gente te ajudar da melhor forma possível.\n\nVocê está com algum sintoma específico ou está buscando um acompanhamento de rotina?\n\n---\n\n⏳ **(Paciente responde que quer saber mais sobre a consulta)**\n\n---\n\n**Secretária:**\n\nPerfeito! Vou te explicar direitinho 😊\n\nA consulta com a Dra. [NOME] é feita de forma [PRESENCIAL ou ONLINE] e tem duração de aproximadamente [DURAÇÃO].\n\nEla é super detalhista e cuidadosa — vai conversar com você sobre tudo, avaliar seu caso com calma e, se necessário, já indicar os próximos passos (exames, tratamento, etc.).\n\nO valor da consulta é **R$ [VALOR]** e pode ser pago via [FORMAS DE PAGAMENTO].\n\nQuer que eu veja os horários disponíveis pra você?\n\n---\n\n📌 **Notas para uso interno (não enviar):**\n\n- Se o paciente responder “tá caro” ou “vou pensar”, seguir com **Script 08 ou 24**.\n- Se perguntar “aceita convênio?”, seguir com **Script 05 ou 06** conforme política.\n- Reforce os diferenciais da médica: tempo de consulta, escuta ativa, exclusividade, etc."
@@ -530,7 +530,7 @@
   {
     "id": "sec-02",
     "number": 2,
-    "title": "Agendamento de Consulta Paciente Antig",
+    "title": "Agendamento de Consulta | Paciente Antigo",
     "category": "conversao-agendamento",
     "targetRole": "secretaria",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Quando o paciente já é da casa e quer marcar nova consulta**\n\n---\n\n**Secretária:**\n\nOi, [NOME]! Que bom falar com você de novo 😊\n\nVamos agendar sua consulta com a Dra. [NOME]?\n\nEla sempre gosta de acompanhar de perto seus pacientes e vai adorar te ver novamente.\n\nVocê prefere algum dia ou turno específico?\n\n---\n\n⏳ **(Paciente responde preferência)**\n\n---\n\n**Secretária:**\n\nPerfeito! Temos disponível no dia **[DATA]**, às **[HORÁRIO]**.\n\nPode confirmar pra eu já garantir esse horário pra você?\n\n---\n\n📌 **Notas para uso interno (não enviar):**\n\n- Para pacientes que ficaram mais de **6 meses sem retorno**, vale perguntar:\n    \n    **“Você fez os exames da última consulta? Quer que eu confirme com a Dra. se está tudo certo?”**\n    \n- Se o paciente for recorrente, ofereça **encaixe ou prioridade na agenda**.\n- Se for pós-cirúrgico ou acompanhamento sensível, usar tom mais atento:\n    \n    **“A Dra. pediu que a gente mantivesse um acompanhamento regular no seu caso, tudo bem a gente já deixar isso agendado?”**"
@@ -538,7 +538,7 @@
   {
     "id": "sec-03",
     "number": 3,
-    "title": "Agendamento de Urgência Paciente Antig",
+    "title": "Agendamento de Urgência | Paciente Antigo",
     "category": "conversao-agendamento",
     "targetRole": "secretaria",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Quando um paciente já conhecido entra em contato com urgência**\n\n---\n\n**Secretária:**\n\nOi, [NOME]! Que bom que você nos procurou 🙏🏼\n\nA Dra. [NOME] sempre pede que, em casos como esse, os pacientes **não esperem piorar para buscar ajuda**.\n\nVocê pode me contar rapidinho o que está sentindo, só pra eu entender se é necessário priorizar um encaixe?\n\n---\n\n⏳ **(Paciente relata sintomas ou situação)**\n\n---\n\n**Secretária:**\n\nEntendi.\n\nVou verificar com a Dra. [NOME] agora mesmo se conseguimos um encaixe ainda hoje ou amanhã.\n\nCaso não haja vaga imediata, a gente sempre tenta ajustar a agenda nesses casos urgentes, tá?\n\nJá te aviso em alguns minutinhos.\n\n---\n\n📌 **Notas para uso interno (não enviar):**\n\n- Use esse script apenas para **pacientes antigos** que já passaram por avaliação e confiam no atendimento.\n- Sempre confirme com a médica se a urgência relatada **justifica um encaixe imediato**.\n- Após confirmação de horário, enviar orientação padrão pré-consulta se for presencial (ver Script 20)."
@@ -546,7 +546,7 @@
   {
     "id": "sec-04",
     "number": 4,
-    "title": "Agendamento de Urgência por Indicação",
+    "title": "Agendamento de Urgência por Indicação (sem convênio)",
     "category": "conversao-agendamento",
     "targetRole": "secretaria",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Quando alguém chega por indicação e precisa de urgência, mas o atendimento é particular**\n\n---\n\n**Secretária:**\n\nOi, [NOME]! Tudo bem?\n\nSou a [SEU NOME], secretária da Dra. [NOME DA MÉDICA].\n\nFico feliz que você tenha chegado até nós pela [NOME DA PESSOA QUE INDICOU] — pode ter certeza que vai ser muito bem atendido(a) por aqui 💙\n\nMe conta um pouquinho do que está acontecendo? Assim consigo verificar com a Dra. se é necessário encaixe urgente.\n\n---\n\n⏳ **(Paciente relata a urgência)**\n\n---\n\n**Secretária:**\n\nEntendi!\n\nA Dra. atende apenas **de forma particular**, ok?\n\nA consulta tem duração de cerca de [TEMPO MÉDIO] e o valor é **R$ [VALOR]**, com pagamento via [FORMAS DE PAGAMENTO].\n\nVou verificar aqui um horário o quanto antes pra gente te atender com a atenção que você merece.\n\nVocê tem preferência de dia ou turno?\n\n---\n\n📌 **Notas para uso interno (não enviar):**\n\n- Confirme se o paciente **não estava esperando atendimento por convênio**.\n- Se ele for indicado por outro paciente fiel, **reforçar o cuidado e a confiança**:\n    \n    “A [NOME DA PESSOA QUE INDICOU] falou com muito carinho de você — vamos cuidar com o mesmo zelo.”\n    \n- Usar o **gatilho de escassez real**, se houver:\n    \n    “Estamos com a agenda cheia esta semana, mas posso tentar um encaixe especial.”"
@@ -554,7 +554,7 @@
   {
     "id": "sec-05",
     "number": 5,
-    "title": "Convênio ou Particular (Médico Atende",
+    "title": "Convênio ou Particular? (Médico Atende Apenas Particular)",
     "category": "conversao-agendamento",
     "targetRole": "secretaria",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Resposta para pacientes que perguntam sobre convênio, mas o atendimento é exclusivamente particular**\n\n---\n\n**Secretária:**\n\nOi, [NOME]! Tudo bem?\n\nA Dra. [NOME] realiza os atendimentos apenas de forma **particular**, com toda a atenção, calma e profundidade que cada paciente precisa e merece 💙\n\nA consulta tem duração de cerca de [TEMPO], e o valor é **R$ [VALOR]**, com pagamento via [FORMAS DE PAGAMENTO].\n\nApós a consulta, você recebe a nota fiscal para **solicitar reembolso ao seu convênio**, caso tenha esse direito.\n\nSe quiser, posso verificar os horários disponíveis pra você!\n\n---\n\n📌 **Notas para uso interno (não enviar):**\n\n- Se o paciente demonstrar resistência, usar reforços como:\n    - “Esse modelo permite uma consulta mais completa, sem pressa.”\n    - “A Dra. prefere dedicar o tempo necessário a cada caso.”\n- Se o convênio permitir reembolso, ofereça ajuda para gerar a **nota fiscal ou relatório médico** (ver Script 33)."
@@ -562,7 +562,7 @@
   {
     "id": "sec-06",
     "number": 6,
-    "title": "Convênio ou Particular (Médico Atende",
+    "title": "Convênio ou Particular? (Médico Atende os Dois)",
     "category": "conversao-agendamento",
     "targetRole": "secretaria",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Quando o médico atende convênio e particular, e o paciente pergunta qual o modelo disponível**\n\n---\n\n**Secretária:**\n\nOi, [NOME]! Tudo bem por aí?\n\nA Dra. [NOME] atende tanto de forma **particular** quanto por alguns **convênios**.\n\nVocê prefere agendar de forma particular ou utilizar convênio? Assim consigo verificar a disponibilidade certinha.\n\n---\n\n⏳ **(Paciente responde que prefere convênio)**\n\n---\n\n**Secretária:**\n\nPerfeito!\n\nVocê pode me informar qual é o seu plano?\n\nSó pra eu confirmar se a Dra. atende esse convênio e em qual unidade.\n\n---\n\n⏳ **(Paciente responde convênio não aceito / ou sem convênio)**\n\n---\n\n**Secretária:**\n\nAh, entendi!\n\nNesse caso, a consulta particular tem duração de aproximadamente [TEMPO] e o valor é **R$ [VALOR]**, com possibilidade de pagamento via [FORMAS DE PAGAMENTO].\n\nApós a consulta, enviamos a nota fiscal pra você solicitar **reembolso**, caso seu plano permita.\n\nQuer que eu veja os horários disponíveis?\n\n---\n\n📌 **Notas para uso interno (não enviar):**\n\n- Tenha uma lista pronta com os **convênios aceitos**, com unidades e dias.\n- Sempre que possível, conduza o paciente para **modelo particular com foco na qualidade do atendimento**.\n- Evite usar “não atende” de forma seca — prefira termos como “atende apenas particular neste caso” ou “pode fazer reembolso”."
@@ -570,7 +570,7 @@
   {
     "id": "sec-07",
     "number": 7,
-    "title": "Reforçar que o Agendamento é Particula",
+    "title": "Reforçar que o Agendamento é Particular (Paciente Conveniado",
     "category": "conversao-agendamento",
     "targetRole": "secretaria",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Quando o paciente tem convênio, mas o atendimento desejado é apenas particular**\n\n---\n\n**Secretária:**\n\nOi, [NOME]! Tudo bem?\n\nRecebi sua mensagem e só queria te lembrar com carinho que, para esse tipo de atendimento, **a Dra. [NOME] atende apenas de forma particular**, tá?\n\nA consulta tem duração de aproximadamente [TEMPO] e o valor é **R$ [VALOR]**, com possibilidade de pagamento via [FORMAS DE PAGAMENTO].\n\nApós o atendimento, você recebe a nota fiscal pra solicitar reembolso ao seu plano (se houver essa opção).\n\nSe quiser, posso verificar os horários disponíveis pra você agora mesmo 💙\n\n---\n\n📌 **Notas para uso interno (não enviar):**\n\n- Esse script é útil quando:\n    - O paciente agendou sem saber que era particular.\n    - O convênio não cobre o atendimento solicitado (ex: procedimentos, especialidades específicas).\n- Use um tom **tranquilo e acolhedor**, mas firme.\n- Reforce os **benefícios da consulta particular**: mais tempo, atenção, personalização.\n\n###"
@@ -578,7 +578,7 @@
   {
     "id": "sec-08",
     "number": 8,
-    "title": "Potencial Paciente que Achou a Consult",
+    "title": "Potencial Paciente que Achou a Consulta Cara",
     "category": "conversao-agendamento",
     "targetRole": "secretaria",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Quando o paciente demonstra objeção ao valor da consulta**\n\n---\n\n**Secretária:**\n\nOi, [NOME]! Tudo bem?\n\nEntendo sua dúvida — é super válido considerar os custos.\n\nMas queria te explicar com carinho o porquê do valor da consulta com a Dra. [NOME].\n\nEla reserva um tempo exclusivo pra cada paciente, ouve com atenção, avalia com profundidade e, sempre que necessário, monta um plano de cuidado completo — com segurança, clareza e orientação.\n\nÉ um atendimento realmente diferenciado, pensado pra evitar consultas corridas e sem escuta, sabe?\n\nSe quiser, posso verificar os horários disponíveis.\n\nQualquer dúvida, estou por aqui 💙\n\n---\n\n📌 **Notas para uso interno (não enviar):**\n\n- O objetivo aqui **não é convencer pelo preço, e sim pelo valor percebido.**\n- Evite entrar em comparação com outros profissionais.\n- Use esse momento para reforçar diferenciais como:\n    - Tempo de consulta\n    - Qualidade do atendimento\n    - Experiência da médica\n    - Segurança clínica\n\n###"
@@ -586,7 +586,7 @@
   {
     "id": "sec-09",
     "number": 9,
-    "title": "Retomar Contato com Paciente que Não R",
+    "title": "Retomar Contato com Paciente que Não Respondeu",
     "category": "conversao-agendamento",
     "targetRole": "secretaria",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Reaproximação leve e estratégica após ausência de resposta**\n\n---\n\n**Secretária:**\n\nOi, [NOME]! Tudo bem?\n\nSó passando aqui pra saber se você conseguiu ver a nossa última mensagem 😊\n\nVi que ficou de pensar ou avaliar melhor o agendamento com a Dra. [NOME] — e queria me colocar à disposição caso ainda precise de ajuda.\n\nSe preferir, posso verificar novamente os horários disponíveis pra te atender com calma e atenção 💙\n\nFico no aguardo!\n\n---\n\n📌 **Notas para uso interno (não enviar):**\n\n- Essa mensagem deve ser enviada **1 a 2 dias após o último contato**, caso o paciente tenha visualizado mas não respondido.\n- **Jamais usar tom cobrador ou insistente.**\n- Se houver histórico da conversa, personalize com detalhes como:\n    - “Você comentou que iria conversar com seu marido...”\n    - “Você mencionou estar esperando o plano liberar…”"
@@ -594,7 +594,7 @@
   {
     "id": "sec-10",
     "number": 10,
-    "title": "Paciente Conveniado Querendo Agendar C",
+    "title": "Paciente Conveniado Querendo Agendar Cirurgia/Procedimento sem Cobertura (Filtragem)",
     "category": "conversao-agendamento",
     "targetRole": "secretaria",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Quando o paciente tem convênio, mas o procedimento desejado não é coberto**\n\n---\n\n**Secretária:**\n\nOi, [NOME]! Tudo bem?\n\nA Dra. [NOME] realiza alguns procedimentos que **não têm cobertura pelos convênios**, como é o caso do [NOME DO PROCEDIMENTO].\n\nNesse caso, o atendimento é feito de forma **particular**, com toda a estrutura, acompanhamento e segurança garantidos pela Dra.\n\nSe quiser, posso te passar os detalhes de valor, forma de pagamento e os próximos passos pra agendarmos com tranquilidade 💙\n\nPosso te enviar?\n\n---\n\n📌 **Notas para uso interno (não enviar):**\n\n- Antes de enviar essa mensagem, **confirme se o procedimento de fato não é coberto** (pela TUSS ou operadora).\n- Se o paciente insistir em usar o convênio, explique:\n    - “O plano cobre apenas em casos específicos, e esse procedimento não se enquadra nos critérios.”\n- Ofereça facilidades: parcelamento, desconto no PIX, orientação sobre reembolso se aplicável."
@@ -602,7 +602,7 @@
   {
     "id": "sec-11",
     "number": 11,
-    "title": "Tentar Converter Paciente Conveniado p",
+    "title": "Tentar Converter Paciente Conveniado para Particular (Procedimento/Cirurgia)",
     "category": "conversao-agendamento",
     "targetRole": "secretaria",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Estratégia gentil para conversão quando o plano não cobre o procedimento**\n\n---\n\n**Secretária:**\n\nOi, [NOME]! Tudo bem?\n\nSobre o procedimento que você conversou com a Dra. [NOME], verifiquei aqui e, infelizmente, **ele não tem cobertura pelos planos de saúde**, nem por reembolso.\n\nMas a gente sabe o quanto esse cuidado é importante pra você — por isso, organizamos tudo pra facilitar ao máximo o seu acesso:\n\n- **Valor:** R$ [VALOR]\n\n• **Pagamento:** até [X] vezes no cartão ou à vista com [X]% de desconto no PIX\n\n• **Incluso:** [ex: retorno, acompanhamento, materiais]\n\nSe quiser, posso reservar uma data e deixar tudo pronto pra você 💙\n\nTe envio agora mesmo o passo a passo, tudo bem?\n\n---\n\n📌 **Notas para uso interno (não enviar):**\n\n- Enfatize a **estrutura, o acompanhamento e a segurança** do procedimento particular.\n- Use perguntas de ativação, como:\n    - “O que você considera mais importante: o reembolso ou a confiança no cuidado?”\n- Caso o paciente ainda hesite, ofereça follow-up com a médica ou condições especiais temporárias (ex: “condição válida até sexta”)."
@@ -610,7 +610,7 @@
   {
     "id": "sec-12",
     "number": 12,
-    "title": "Confirmação de Consulta – Primeira Men",
+    "title": "Confirmação de Consulta – Primeira Mensagem",
     "category": "confirmacao-reagendamento",
     "targetRole": "secretaria",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Confirmação enviada logo após o agendamento**\n\n---\n\n**Secretária:**\n\nOi, [NOME]! Tudo certo?\n\nSua consulta com a Dra. [NOME DA MÉDICA] foi agendada para o dia **[DATA]**, às **[HORÁRIO]**.\n\nEla será realizada na [UNIDADE ou ONLINE – inserir link se necessário].\n\nFicamos muito felizes em te receber por aqui! 💙\n\nSe tiver qualquer dúvida até lá, pode me chamar por aqui.\n\n---\n\n📌 **Notas para uso interno:**\n\n- Enviar imediatamente após o paciente confirmar o agendamento.\n- Salvar como **mensagem padrão no WhatsApp Business**."
@@ -618,7 +618,7 @@
   {
     "id": "sec-13",
     "number": 13,
-    "title": "Confirmação de Consulta – 7 Dias Antes",
+    "title": "Confirmação de Consulta – 7 Dias Antes",
     "category": "confirmacao-reagendamento",
     "targetRole": "secretaria",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Confirmação enviada uma semana antes da consulta para reforçar o compromisso**\n\n---\n\n**Secretária:**\n\nOi, [NOME]! Tudo bem por aí?\n\nPassando pra **relembrar a sua consulta com a Dra. [NOME DA MÉDICA]**, marcada para o dia **[DATA]**, às **[HORÁRIO]**.\n\nEstamos te aguardando na [LOCAL / LINK da consulta online].\n\nSe tiver qualquer imprevisto ou precisar reagendar, me avisa com antecedência, tá bom?\n\nAssim conseguimos organizar melhor os horários e ajudar outros pacientes também 😊\n\n---\n\n📌 **Notas para uso interno:**\n\n- Enviar **7 dias antes da consulta**, especialmente se a agenda for concorrida ou houver fila de espera.\n- Se o paciente responder confirmando, **marcar como “confirmado” no sistema**.\n- Se não responder, enviar novo lembrete **48h antes** (ver próximo script)."
@@ -626,7 +626,7 @@
   {
     "id": "sec-14",
     "number": 14,
-    "title": "Confirmação de Consulta – 24 Horas Ant",
+    "title": "Confirmação de Consulta – 24 Horas Antes",
     "category": "confirmacao-reagendamento",
     "targetRole": "secretaria",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Confirmação final no dia anterior ao atendimento**\n\n---\n\n**Secretária:**\n\nOi, [NOME]! Tudo certo?\n\nPassando pra lembrar que **sua consulta com a Dra. [NOME] está confirmada para amanhã, [DATA], às [HORÁRIO]** ⏰\n\nNos encontramos na [LOCAL ou LINK], e qualquer dúvida é só me chamar por aqui!\n\nAté amanhã 💙\n\n---\n\n📌 **Notas para uso interno:**\n\n- Enviar **no dia anterior** entre 08h e 12h.\n- Se for consulta online, **reenvie o link** junto da mensagem.\n- Se o paciente não responder até o fim do dia, faça um **último lembrete no dia da consulta, 1 hora antes.**"
@@ -658,7 +658,7 @@
   {
     "id": "sec-18",
     "number": 18,
-    "title": "Alertar Paciente Antes de Demiti-lo (Ú",
+    "title": "Alertar Paciente Antes de Demiti-lo (Último Aviso)",
     "category": "confirmacao-reagendamento",
     "targetRole": "secretaria",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Comunicação firme, porém respeitosa, após reincidência de faltas ou desmarques em cima da hora**\n\n---\n\n**Secretária:**\n\nOi, [NOME]. Tudo bem?\n\nGostaria de conversar com você sobre a sua agenda com a Dra. [NOME].\n\nNotamos que nas últimas consultas houve [faltas ou desmarcações em cima da hora], o que acaba comprometendo a organização do consultório e também o atendimento de outros pacientes que aguardam horário.\n\nSabemos que imprevistos acontecem e entendemos perfeitamente.\n\nMas precisamos te pedir que, a partir de agora, nos avise com **no mínimo 24h de antecedência**, caso precise reagendar.\n\nA Dra. preza muito pelo cuidado com cada paciente — e pra isso, é essencial mantermos uma agenda respeitosa e organizada 💙\n\nContamos com a sua colaboração!\n\n---\n\n📌 **Notas para uso interno:**\n\n- Este é o **último aviso antes da demissão formal** (ver Script 19).\n- Personalize conforme o histórico:\n    - “Essa foi a terceira vez em 2 meses...”\n- Mantenha a **comunicação profissional e impessoal**, evitando julgamentos ou frases ríspidas."
@@ -666,7 +666,7 @@
   {
     "id": "sec-19",
     "number": 19,
-    "title": "Demitir Paciente (Decisão Final)",
+    "title": "Demitir Paciente (Decisão Final)",
     "category": "confirmacao-reagendamento",
     "targetRole": "secretaria",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Comunicação definitiva e ética para encerramento do vínculo**\n\n---\n\n**Secretária (em nome da médica):**\n\nOi, [NOME]. Tudo bem?\n\nA Dra. [NOME] pediu pra te enviar essa mensagem com muito respeito.\n\nDevido às [faltas recorrentes / desmarcações sucessivas / postura incompatível com a conduta da equipe], ela optou por **encerrar o atendimento médico com você a partir de hoje**.\n\nSabemos que essa é uma decisão delicada, mas necessária para garantir a organização do consultório e o cuidado com todos os pacientes que confiam no nosso trabalho.\n\nCaso você precise de qualquer documento, relatório ou encaminhamento, seguimos à disposição para colaborar com sua continuidade de cuidados.\n\nDesejamos saúde e sucesso no seu caminho 💙\n\n---\n\n📌 **Notas para uso interno:**\n\n- **Sempre enviar em nome da médica**, mesmo que seja pela secretária.\n- Registrar a decisão no prontuário com **data, motivo e mensagem enviada**.\n- Não entrar em discussão. Caso o paciente insista, manter a posição com cordialidade."
@@ -674,7 +674,7 @@
   {
     "id": "sec-20",
     "number": 20,
-    "title": "Orientações Pré-Consulta Presencial",
+    "title": "Orientações Pré-Consulta Presencial",
     "category": "orientacoes",
     "targetRole": "secretaria",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Enviado após o agendamento para preparar o paciente**\n\n---\n\n**Secretária:**\n\nOi, [NOME]! Tudo certo?\n\nPassando pra te lembrar de algumas informações importantes pra sua consulta presencial com a Dra. [NOME], marcada para o dia **[DATA]**, às **[HORÁRIO]** 🩺\n\n📍 Endereço: [ENDEREÇO COMPLETO]\n\n🕐 Chegue com pelo menos **10 min de antecedência**\n\n📄 Traga seus exames anteriores e lista de medicamentos (se houver)\n\n📲 Se precisar remarcar, **nos avise com pelo menos 24h de antecedência**\n\nQualquer dúvida, estou por aqui 💙\n\n---\n\n📌 **Notas para uso interno:**\n\n- Salvar como **resposta automática padrão** no WhatsApp Business.\n- Personalizar a depender da especialidade médica (ex: jejum, roupas adequadas, medicações suspensas etc.).\n- Pode ser combinado com **Script 13 ou 14 (confirmação)** se a data estiver próxima."
@@ -682,7 +682,7 @@
   {
     "id": "sec-21",
     "number": 21,
-    "title": "Orientações Pré-Consulta Online",
+    "title": "Orientações Pré-Consulta Online",
     "category": "orientacoes",
     "targetRole": "secretaria",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Enviado após o agendamento de consulta online para garantir organização e conexão**\n\n---\n\n**Secretária:**\n\nOi, [NOME]! Tudo bem?\n\nSua consulta com a Dra. [NOME] será **online**, no dia **[DATA]**, às **[HORÁRIO]** 🖥️\n\nAqui vão algumas orientações pra tudo correr bem:\n\n🔗 Link da consulta: [INSERIR LINK DE ACESSO]\n\n📲 Conecte-se com **5 min de antecedência**\n\n📶 Esteja em local silencioso, com boa internet e privacidade\n\n📄 Tenha à mão seus exames e perguntas que queira fazer\n\n🧾 Após a consulta, você receberá receita e atestado digital, se necessário\n\nQualquer dúvida até lá, estou por aqui 💙\n\n---\n\n📌 **Notas para uso interno:**\n\n- Sempre envie o link da plataforma usada (Zoom, Google Meet, Doctoralia etc.).\n- Combine com **Script 14 – Confirmação 24h antes**.\n- Se o paciente não estiver habituado com atendimento online, ofereça suporte:\n    - “Se quiser, posso te enviar um passo a passo pra acessar com mais facilidade!”"
@@ -690,7 +690,7 @@
   {
     "id": "sec-22",
     "number": 22,
-    "title": "Encaminhar Informativo ou Vídeo de Ori",
+    "title": "Encaminhar Informativo ou Vídeo de Orientações",
     "category": "orientacoes",
     "targetRole": "secretaria",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Enviado antes da consulta ou procedimento, para preparar o paciente com conteúdo visual ou escrito**\n\n---\n\n**Secretária:**\n\nOi, [NOME]! Tudo bem?\n\nA Dra. [NOME] preparou um material super prático pra te ajudar a se preparar para a consulta/procedimento.\n\n📩 Aqui está o link com as orientações completas:\n\n👉 [LINK DO VÍDEO / PDF / GUIA]\n\nLá você vai encontrar informações sobre:\n\n• Como se preparar\n\n• O que trazer\n\n• O que esperar do atendimento\n\n• Cuidados antes/depois do procedimento (se for o caso)\n\nSe tiver qualquer dúvida depois de assistir/ler, é só me chamar por aqui 💙\n\n---\n\n📌 **Notas para uso interno:**\n\n- Ideal para:\n    - Consultas que exigem preparo\n    - Procedimentos estéticos, ginecológicos, cirúrgicos\n    - Primeira consulta com abordagem diferenciada\n- Pode ser enviado em conjunto com **Script 20 ou 21**, conforme o caso.\n- Personalize o texto de acordo com o conteúdo enviado."
@@ -698,7 +698,7 @@
   {
     "id": "sec-23",
     "number": 23,
-    "title": "Encaminhar Formulário Pré-Consulta",
+    "title": "Encaminhar Formulário Pré-Consulta",
     "category": "orientacoes",
     "targetRole": "secretaria",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Enviado para coleta de informações antes da consulta**\n\n---\n\n**Secretária:**\n\nOi, [NOME]! Tudo certo?\n\nPra otimizar seu tempo com a Dra. [NOME] e deixar sua consulta ainda mais personalizada, te envio aqui o formulário pré-consulta 📝\n\n👉 [LINK DO FORMULÁRIO]\n\nEle é simples, rápido de preencher, e ajuda a Dra. a entender melhor seu histórico e suas queixas logo no início do atendimento.\n\nSe possível, preencha até **[DATA]**, combinado?\n\nQualquer dúvida, me chama por aqui 💙\n\n---\n\n📌 **Notas para uso interno:**\n\n- Utilize Google Forms, Typeform ou ferramenta integrada ao prontuário.\n- Se o formulário for obrigatório, envie com **pelo menos 48h de antecedência.**\n- Após o preenchimento, confirme com a paciente:\n    - “Recebido! Já está no prontuário da Dra., obrigada 💙”"
@@ -706,7 +706,7 @@
   {
     "id": "sec-24",
     "number": 24,
-    "title": "Solicitar Avaliação no Google + Formul",
+    "title": "Solicitar Avaliação no Google + Formulário de Pós-Consulta",
     "category": "orientacoes",
     "targetRole": "secretaria",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Enviado após a consulta para coletar feedback e fortalecer reputação online**\n\n---\n\n**Secretária:**\n\nOi, [NOME]! Espero que tenha se sentido bem cuidada na sua consulta com a Dra. [NOME] 💙\n\nA gente valoriza muito cada paciente por aqui — e por isso, sua opinião é super importante pra nós!\n\nSe você puder deixar uma avaliação no Google contando como foi sua experiência, vai ajudar outras pessoas a encontrarem um atendimento com mais carinho e atenção também 🙏\n\n📝 Avaliação no Google: [LINK DO GOOGLE MEU NEGÓCIO]\n\n📩 Formulário de feedback: [LINK DO FORMULÁRIO]\n\nMuito obrigada pela confiança 💙\n\nQualquer coisa, seguimos à disposição!\n\n---\n\n📌 **Notas para uso interno:**\n\n- Enviar até 24h após a consulta, enquanto a experiência ainda está fresca.\n- Se for o caso, ofereça um mimo digital após o preenchimento (ex: PDF, material bônus).\n- Reforce com a médica a importância de responder ou agradecer quem avaliar."
@@ -714,7 +714,7 @@
   {
     "id": "sec-25",
     "number": 25,
-    "title": "Responder que a Consulta Não Dá Direit",
+    "title": "Responder que a Consulta Não Dá Direito a Retorno",
     "category": "orientacoes",
     "targetRole": "secretaria",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Quando o paciente pergunta sobre retorno e a política do consultório não inclui essa possibilidade**\n\n---\n\n**Secretária:**\n\nOi, [NOME]! Tudo bem?\n\nA Dra. [NOME] trabalha com um modelo de atendimento **focado, personalizado e com bastante tempo reservado pra cada paciente**.\n\nPor isso, as consultas são organizadas de forma **única**, sem retorno incluso — o que permite uma avaliação completa já no primeiro atendimento 💙\n\nCaso você sinta necessidade de reavaliar ou conversar sobre alguma dúvida após a consulta, será um prazer te receber novamente!\n\nPosso verificar a agenda?\n\n---\n\n📌 **Notas para uso interno:**\n\n- Essa política deve estar **esclarecida previamente**, preferencialmente no momento do agendamento.\n- Se o paciente insistir, explicar que:\n    - “Cada consulta ocupa um horário exclusivo, sem encaixes — por isso, é cobrada normalmente.”\n- Pode ser complementado com um gesto de overdelivery pós-consulta (ex: áudio da médica, dica, PDF etc.)."
@@ -722,7 +722,7 @@
   {
     "id": "sec-26",
     "number": 26,
-    "title": "Comunicar que Consultas Não Terão Mais",
+    "title": "Comunicar que Consultas Não Terão Mais Retorno a Partir de Nova Política",
     "category": "orientacoes",
     "targetRole": "secretaria",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Atualização de política de retorno para pacientes recorrentes**\n\n---\n\n**Secretária:**\n\nOi, [NOME]! Tudo bem por aí?\n\nPassando pra te avisar com carinho que a Dra. [NOME] atualizou a política de atendimentos do consultório 🗂️\n\nA partir de [DATA], **as consultas não incluirão mais retorno sem cobrança**.\n\nEssa mudança foi necessária pra manter a qualidade e o tempo dedicado a cada paciente, como sempre foi prioridade por aqui 💙\n\nClaro que você continua sendo super bem-vinda(o) quando precisar — e pode contar com um atendimento sempre atencioso, detalhado e seguro.\n\nSe tiver dúvidas ou quiser reagendar, estou por aqui!\n\n---\n\n📌 **Notas para uso interno:**\n\n- Essa mensagem deve ser enviada **com antecedência e em tom preventivo**.\n- Pode ser usada:\n    - Após um aumento de demanda\n    - Quando o volume de “retornos gratuitos” começa a comprometer a agenda\n- Se necessário, complemente com:\n    - “Essa é uma decisão da Dra. baseada em experiências recentes com a agenda.”"
@@ -730,7 +730,7 @@
   {
     "id": "sec-27",
     "number": 27,
-    "title": "Responder Pedido de Desconto na Consul",
+    "title": "Responder Pedido de Desconto na Consulta",
     "category": "valores-pagamento",
     "targetRole": "secretaria",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Quando o paciente pede desconto e a consulta tem valor fixo**\n\n---\n\n**Secretária:**\n\nOi, [NOME]! Tudo bem?\n\nA consulta com a Dra. [NOME] tem o valor fixado em **R$ [VALOR]**, com base no tempo, atenção e profundidade do atendimento que ela oferece.\n\nEla reserva um horário exclusivo pra cada paciente, com escuta ativa, explicações completas e um cuidado muito individualizado 💙\n\nEntendemos que cada um tem seu momento financeiro, e respeitamos isso.\n\nSe agora não for possível, podemos te manter em contato pra uma próxima oportunidade!\n\nFico por aqui, à disposição 😊\n\n---\n\n📌 **Notas para uso interno:**\n\n- Evite justificar demais. Reforce o **valor, não o preço**.\n- Se o paciente insistir e for um caso sensível, consulte a médica sobre alguma exceção.\n- Evite expressões como “infelizmente” ou “não podemos” — troque por **postura firme com acolhimento.**"
@@ -738,7 +738,7 @@
   {
     "id": "sec-28",
     "number": 28,
-    "title": "Responder Pedido de Desconto na Consul",
+    "title": "Responder Pedido de Desconto na Consulta Online",
     "category": "valores-pagamento",
     "targetRole": "secretaria",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Quando o paciente pede desconto por ser uma consulta à distância**\n\n---\n\n**Secretária:**\n\nOi, [NOME]! Entendo sua dúvida, e é super válida 😊\n\nMas apesar da consulta ser online, o atendimento da Dra. [NOME] segue o **mesmo nível de dedicação, tempo exclusivo e responsabilidade** do presencial.\n\nEla analisa com calma cada caso, orienta com clareza, e cuida pra que você saia da consulta com um plano de ação seguro — tudo isso sem a pressa dos atendimentos tradicionais.\n\nO valor é **R$ [VALOR]**, e temos opções de pagamento via [FORMAS DE PAGAMENTO].\n\nSe quiser, posso verificar um horário pra você 💙\n\n---\n\n📌 **Notas para uso interno:**\n\n- Essa objeção é comum — prepare-se com um tom **educativo e posicionado**.\n- Evite frases que reforcem “inferioridade” do atendimento online.\n- Se necessário, ofereça um **mimo extra** (PDF, resumo pós-consulta, orientação complementar)."
@@ -746,7 +746,7 @@
   {
     "id": "sec-29",
     "number": 29,
-    "title": "Responder Pedido de Desconto de Pacien",
+    "title": "Responder Pedido de Desconto de Paciente do Convênio (Pós-Descredenciamento)",
     "category": "valores-pagamento",
     "targetRole": "secretaria",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Quando um ex-paciente conveniado pede desconto por já ser da casa**\n\n---\n\n**Secretária:**\n\nOi, [NOME]! Fico muito feliz que você queira continuar sendo atendido(a) pela Dra. [NOME] mesmo com a mudança 💙\n\nA gente entende que a transição do convênio para o particular pode gerar dúvidas — por isso, estou aqui pra te ajudar com todas as informações!\n\nA consulta tem o valor de **R$ [VALOR]**, e oferecemos formas de pagamento que facilitam esse novo momento:\n• PIX ou dinheiro com [X]% de desconto\n\n• Cartão em até [Nº] vezes\n\nA Dra. segue com o mesmo cuidado de sempre — só que agora com ainda mais liberdade e tempo exclusivo pra você 🩺✨\n\nSe quiser, já posso verificar um horário!\n\n---\n\n📌 **Notas para uso interno:**\n\n- O ideal é que essa conversa seja iniciada **proativamente** após o descredenciamento (conforme Script 2).\n- Reforce **continuidade de vínculo** e os diferenciais do novo formato.\n- Evite frases como “não damos desconto” — troque por “o valor é fixo, mas temos opções que facilitam”."
@@ -754,7 +754,7 @@
   {
     "id": "sec-30",
     "number": 30,
-    "title": "Informar Ajuste de Preço para Paciente",
+    "title": "Informar Ajuste de Preço para Pacientes Recorrentes",
     "category": "valores-pagamento",
     "targetRole": "secretaria",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Quando há aumento no valor da consulta e o paciente já é da casa**\n\n---\n\n**Secretária:**\n\nOi, [NOME]! Tudo bem?\n\nPassando por aqui pra avisar com carinho que a Dra. [NOME] fez um ajuste no valor da consulta, seguindo a atualização da tabela do consultório 📈\n\nA partir de [DATA], a consulta passa a ser **R$ [NOVO VALOR]**.\n\nEsse ajuste reflete o cuidado contínuo que a Dra. oferece — com mais tempo por paciente, aprofundamento nos casos e um atendimento cada vez mais completo 💙\n\nSe quiser, sigo à disposição pra verificar os horários disponíveis pra você!\n\n---\n\n📌 **Notas para uso interno:**\n\n- Enviar com **pelo menos 30 dias de antecedência** à nova tabela.\n- Reforçar diferenciais qualitativos: mais tempo, mais atenção, mais recursos.\n- Se houver exceção para quem já estava agendado, avisar:\n    - “Consultas já agendadas com o valor anterior serão mantidas normalmente.”"
@@ -762,7 +762,7 @@
   {
     "id": "sec-31",
     "number": 31,
-    "title": "Responder “Qual o Valor do Tratamento",
+    "title": "Responder: “Qual o Valor do Tratamento?",
     "category": "valores-pagamento",
     "targetRole": "secretaria",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Quando o paciente pergunta o valor do tratamento sem passar em consulta ainda**\n\n---\n\n**Secretária:**\n\nOi, [NOME]! Entendo sua dúvida e fico feliz pelo interesse no tratamento com a Dra. [NOME] 💙\n\nMas pra te passar valores com segurança e responsabilidade, a Dra. precisa antes fazer uma avaliação completa do seu caso.\n\nCada paciente tem um histórico, uma necessidade e objetivos diferentes — e é isso que define o plano de tratamento ideal.\n\nSe quiser, posso agendar sua consulta pra gente começar esse processo com todo o cuidado que você merece 🩺✨\n\nMe avisa que já verifico os horários!\n\n---\n\n📌 **Notas para uso interno:**\n\n- Nunca passe valores genéricos ou estimativas sem autorização.\n- Reforce a **individualização do plano de tratamento** como argumento central.\n- Se a médica permitir dar uma faixa de valores, diga:\n    - “Os valores variam entre R$ [mínimo] e R$ [máximo], dependendo do plano indicado.”"
@@ -770,7 +770,7 @@
   {
     "id": "sec-32",
     "number": 32,
-    "title": "Responder Pedido de Preço de Procedime",
+    "title": "Responder Pedido de Preço de Procedimento ou Cirurgia",
     "category": "valores-pagamento",
     "targetRole": "secretaria",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Quando o paciente quer saber o preço antes da avaliação**\n\n---\n\n**Secretária:**\n\nOi, [NOME]! Tudo certo?\n\nSobre o procedimento que você mencionou, a Dra. [NOME] sempre reforça que o ideal é passar por uma **avaliação prévia**.\n\nIsso porque o valor pode variar conforme o tipo de abordagem indicada, complexidade do caso e estrutura envolvida.\n\nNa consulta, ela vai te examinar com calma, entender suas queixas, e só então indicar o melhor plano com **clareza e segurança** — inclusive com os valores detalhados 💙\n\nSe quiser, posso verificar um horário pra você agendar?\n\n---\n\n📌 **Notas para uso interno:**\n\n- Evite passar preço “de tabela” para procedimentos — a não ser que seja padronizado e autorizado.\n- Reforce sempre os pilares:\n    - Segurança\n    - Personalização\n    - Ética no cuidado\n- Após a consulta, retome com **scripts do bloco de conversão** caso o paciente não feche de imediato (ex: Script 24 e 25)."
@@ -778,7 +778,7 @@
   {
     "id": "sec-33",
     "number": 33,
-    "title": "“O Convênio Não Reembolsa o Valor Tota",
+    "title": "“O Convênio Não Reembolsa o Valor Total” – Como Responder",
     "category": "valores-pagamento",
     "targetRole": "secretaria",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Quando o paciente questiona o valor da consulta ao descobrir que o reembolso é parcial**\n\n---\n\n**Secretária:**\n\nOi, [NOME]! Entendo sua dúvida — realmente, cada convênio tem uma política de reembolso diferente, e muitas vezes os valores não cobrem o total da consulta.\n\nA Dra. [NOME] optou por atender de forma particular justamente pra oferecer **mais tempo, mais escuta e mais profundidade no atendimento**, o que muitas vezes o modelo do convênio não permite 💙\n\nVocê pode contar com a nota fiscal e o relatório detalhado para enviar ao plano — e, se quiser, posso te ajudar com esse processo.\n\nMe avisa se quiser seguir com o agendamento! Vai ser um prazer te receber 🩺\n\n---\n\n📌 **Notas para uso interno:**\n\n- Nunca “peça desculpas” pelo valor. Reforce a proposta de valor da consulta.\n- Ofereça ajuda prática com o reembolso:\n    - Nota fiscal com CPF\n    - Relatório médico\n- Se o paciente demonstrar abertura, ofereça também alternativas de pagamento (PIX com desconto, cartão etc.)."
@@ -786,7 +786,7 @@
   {
     "id": "sec-34",
     "number": 34,
-    "title": "Paciente com Pagamento Não Identificad",
+    "title": "Paciente com Pagamento Não Identificado – Cobrança Elegante",
     "category": "valores-pagamento",
     "targetRole": "secretaria",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Quando o paciente alega ter pago, mas não há registro do pagamento**\n\n---\n\n**Secretária:**\n\nOi, [NOME]! Tudo bem?\n\nEstamos finalizando o fechamento da agenda da Dra. [NOME] e percebi que **ainda não localizamos o comprovante de pagamento referente à sua consulta de [DATA]**.\n\nPode verificar pra gente, por gentileza?\n\nÀs vezes é só uma questão de conciliação bancária ou erro no envio — acontece mesmo!\n\nAssim que confirmar, já deixamos tudo certinho aqui 💙\n\nObrigada!\n\n---\n\n📌 **Notas para uso interno:**\n\n- Sempre assuma que pode ter sido uma falha técnica ou de comunicação — nunca comece com tom de cobrança dura.\n- Caso o paciente alegue que já enviou, peça:\n    - “Você consegue me encaminhar o comprovante por aqui de novo?”\n- Após confirmação, marcar como resolvido e **atualizar no sistema/planilha.**"
@@ -794,7 +794,7 @@
   {
     "id": "sec-35",
     "number": 35,
-    "title": "Processo de Transição de Convênio para",
+    "title": "Processo de Transição de Convênio para Particular",
     "category": "transicao-convenio",
     "targetRole": "secretaria",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Mensagem para pacientes da base informando a mudança no modelo de atendimento**\n\n---\n\n**Secretária (em nome da médica):**\n\nOi, [NOME]! Tudo bem com você?\n\nPassando aqui pra avisar com carinho que, a partir do dia **[DATA]**, a Dra. [NOME] **não estará mais realizando atendimentos via convênio**.\n\nEssa foi uma decisão bem pensada, com o objetivo de oferecer **mais tempo, atenção e profundidade em cada consulta**, algo que o modelo particular permite entregar com mais liberdade 💙\n\nClaro que você continua sendo super bem-vindo(a) no consultório!\n\nSe desejar, posso te passar os detalhes da nova forma de atendimento, valores e formas de pagamento.\n\nNosso vínculo continua — com ainda mais cuidado ✨\n\n---\n\n📌 **Notas para uso interno:**\n\n- Enviar com pelo menos **30 dias de antecedência** do encerramento com o plano.\n- Enviar **individualmente ou via lista de transmissão segmentada**.\n- Oferecer, em seguida, o **Script 29 ou 36**, conforme a resposta do paciente."
@@ -802,7 +802,7 @@
   {
     "id": "sec-36",
     "number": 36,
-    "title": "Comunicar que Agenda de Novos Paciente",
+    "title": "Comunicar que Agenda de Novos Pacientes Conveniados Está Fechada",
     "category": "transicao-convenio",
     "targetRole": "secretaria",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Quando o consultório deixa de aceitar novos pacientes via convênio, mantendo apenas os atuais**\n\n---\n\n**Secretária:**\n\nOi, [NOME]! Tudo bem?\n\nA Dra. [NOME] **não está mais recebendo novos pacientes por convênio** no momento.\n\nMas, se desejar, ela pode te atender de forma particular — com um modelo de consulta mais completo, individualizado e sem pressa 💙\n\nA consulta particular tem o valor de **R$ [VALOR]**, e pode ser paga via [FORMAS DE PAGAMENTO].\n\nApós a consulta, você recebe a nota fiscal pra **solicitar reembolso ao seu plano**, caso tenha esse benefício.\n\nSe quiser, posso verificar os horários disponíveis pra você!\n\n---\n\n📌 **Notas para uso interno:**\n\n- Esse script evita choque direto e ainda **abre porta para conversão para particular.**\n- Reforce que a decisão está ligada à **qualidade do atendimento**.\n- Se for um paciente já da base do convênio, aplicar o **Script 35 ou 29**."
@@ -810,7 +810,7 @@
   {
     "id": "sec-37",
     "number": 37,
-    "title": "Paciente do Convênio Querendo Fazer Pr",
+    "title": "Paciente do Convênio Querendo Fazer Procedimento sem Cobertura",
     "category": "transicao-convenio",
     "targetRole": "secretaria",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Quando o paciente tem convênio, mas o procedimento não é coberto**\n\n---\n\n**Secretária:**\n\nOi, [NOME]! Tudo bem?\n\nVerifiquei aqui e o procedimento que você conversou com a Dra. [NOME] **não é coberto pelo seu plano de saúde**.\n\nMas você pode realizá-lo de forma **particular**, com toda a estrutura do consultório, segurança e o acompanhamento completo da Dra. ✨\n\nO valor do procedimento é **R$ [VALOR]**, e pode ser pago via [FORMAS DE PAGAMENTO].\n\nSe quiser, posso te passar os detalhes e já verificar a próxima disponibilidade!\n\n---\n\n📌 **Notas para uso interno:**\n\n- Reforce que **a qualidade e a segurança continuam elevadas**, mesmo fora do plano.\n- Evite entrar em justificativas sobre “culpa do plano” — mantenha o foco no **valor da experiência com a médica.**\n- Combine este script com opções de parcelamento ou bônus quando necessário (ver bloco 04)."
@@ -818,7 +818,7 @@
   {
     "id": "sec-38",
     "number": 38,
-    "title": "Reforçar que o Atendimento Será Partic",
+    "title": "Reforçar que o Atendimento Será Particular",
     "category": "transicao-convenio",
     "targetRole": "secretaria",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Quando o paciente ainda está em dúvida se o atendimento será via plano ou particular**\n\n---\n\n**Secretária:**\n\nOi, [NOME]! Tudo certo?\n\nSó reforçando que, neste momento, os atendimentos com a Dra. [NOME] estão sendo realizados **exclusivamente de forma particular**, tá bom?\n\nA consulta tem duração de aproximadamente [TEMPO], o valor é **R$ [VALOR]**, e o pagamento pode ser feito via [FORMAS DE PAGAMENTO].\n\nApós o atendimento, você recebe a nota fiscal pra solicitar reembolso ao convênio, caso tenha esse benefício 💙\n\nSe estiver de acordo, posso verificar os melhores horários pra te atender com todo o cuidado de sempre!\n\n---\n\n📌 **Notas para uso interno:**\n\n- Esse script deve ser usado **em caso de dúvida persistente** ou quando o paciente tenta confirmar “só pra garantir”.\n- Evite dizer “não atendemos mais convênio” com rigidez — reforce o **modelo de atendimento e seus benefícios.**\n- Combinar com **Script 05 ou 29**, se necessário."
@@ -826,7 +826,7 @@
   {
     "id": "sec-39",
     "number": 39,
-    "title": "Responder Profissional do Convênio que",
+    "title": "Responder Profissional do Convênio que Precisa de Solicitação Médica",
     "category": "transicao-convenio",
     "targetRole": "secretaria",
     "content": "### 🗂️ **TEMPLATE WHATSAPP ou E-MAIL – Quando outro profissional solicita relatório, guia ou solicitação médica de atendimento prévio pelo convênio**\n\n---\n\n**Secretária:**\n\nOlá, [NOME DO PROFISSIONAL]. Tudo bem?\n\nA Dra. [NOME] **não está mais vinculada ao plano [NOME DO CONVÊNIO]** — os atendimentos agora estão sendo realizados apenas de forma particular.\n\nPor isso, nesse momento, **ela não emite solicitações ou documentos vinculados ao convênio**, inclusive guias de autorização ou encaminhamentos formalizados para rede credenciada.\n\nCaso o(a) paciente opte por atendimento particular, seguimos à disposição para colaborar com o que for necessário, inclusive com relatórios e orientações pós-consulta.\n\nFico à disposição,\n\n[SEU NOME]\n\nSecretária da Dra. [NOME]\n\n---\n\n📌 **Notas para uso interno:**\n\n- Resposta usada principalmente com:\n    - Clínicas parceiras\n    - Profissionais que encaminham para exames\n    - Operadoras solicitando documentos\n- O tom deve ser **formal, educado e firme**, reforçando o posicionamento da médica.\n- Pode ser adaptado para **e-mail ou comunicação institucional.**"
@@ -834,7 +834,7 @@
   {
     "id": "sec-40",
     "number": 40,
-    "title": "Informar Novidades do Consultório (Nov",
+    "title": "Informar Novidades do Consultório (Novo Tratamento ou Tecnologia)",
     "category": "relacionamento",
     "targetRole": "secretaria",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Comunicação estratégica para reativar pacientes e gerar interesse**\n\n---\n\n**Secretária:**\n\nOi, [NOME]! Tudo bem por aí?\n\nPassando pra te contar uma novidade que chegou aqui no consultório da Dra. [NOME] e pode ser muito útil pra você 💙\n\nAgora oferecemos [NOME DO NOVO TRATAMENTO OU TECNOLOGIA], ideal pra casos como [DESCRIÇÃO RÁPIDA DA INDICAÇÃO].\n\nA Dra. tem usado essa abordagem com ótimos resultados, e achei que você poderia gostar de saber.\n\nSe quiser, posso te enviar mais informações ou verificar um horário pra avaliarmos se é indicado pro seu caso 😊\n\n---\n\n📌 **Notas para uso interno:**\n\n- Enviar para pacientes que já passaram por consulta e têm perfil compatível com o novo serviço.\n- Personalize sempre que possível:\n    - “Lembrei de você porque na sua última consulta mencionou que...”\n- Utilize como campanha de reativação ou em listas de transmissão."
@@ -842,7 +842,7 @@
   {
     "id": "sec-41",
     "number": 41,
-    "title": "Lembrar Paciente da Consulta Semestral",
+    "title": "Lembrar Paciente da Consulta Semestral/Anua",
     "category": "relacionamento",
     "targetRole": "secretaria",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Reativação gentil para pacientes em acompanhamento periódico**\n\n---\n\n**Secretária:**\n\nOi, [NOME]! Tudo certo?\n\nVerifiquei aqui no sistema que já se passaram **[6 meses / 1 ano]** desde sua última consulta com a Dra. [NOME] 🩺\n\nEla sempre recomenda o acompanhamento regular pra manter sua saúde em dia e evitar surpresas lá na frente.\n\nSe quiser, posso verificar os melhores horários pra você agendar essa consulta de acompanhamento.\n\nMe avisa que já deixo reservado por aqui 💙\n\n---\n\n📌 **Notas para uso interno:**\n\n- Usar como campanha periódica (mensal, trimestral) com base nos registros do prontuário.\n- Priorizar pacientes com histórico clínico que exige reavaliação.\n- Após envio, marcar no CRM ou prontuário o contato feito para follow-up posterior."
@@ -850,7 +850,7 @@
   {
     "id": "sec-42",
     "number": 42,
-    "title": "Retomar Contato com Paciente que Não V",
+    "title": "Retomar Contato com Paciente que Não Voltou (Reativação)",
     "category": "relacionamento",
     "targetRole": "secretaria",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Quando o paciente sumiu após a primeira consulta ou não retornou para acompanhamento**\n\n---\n\n**Secretária:**\n\nOi, [NOME]! Tudo bem?\n\nNotei aqui que já faz um tempo desde sua última consulta com a Dra. [NOME], e queria saber como você está 😊\n\nNa época, vocês haviam conversado sobre [TRATAMENTO, SINTOMA OU OBJETIVO], e por isso a Dra. costuma recomendar um acompanhamento mais próximo.\n\nSe quiser, posso verificar os horários disponíveis pra reagendarmos com calma 💙\n\nFico à disposição!\n\n---\n\n📌 **Notas para uso interno:**\n\n- Personalize sempre que possível com o motivo da última consulta:\n    - “Naquela época, você estava tratando da sua enxaqueca...”\n- Use como **follow-up leve** entre 2 e 6 meses após ausência de retorno.\n- Se o paciente visualizar e não responder, reenvie o lembrete após 7 dias."
@@ -858,7 +858,7 @@
   {
     "id": "sec-43",
     "number": 43,
-    "title": "Paciente que Deseja Antecipar a Consul",
+    "title": "Paciente que Deseja Antecipar a Consulta (Modelo 1 – Negativa Cordial)",
     "category": "relacionamento",
     "targetRole": "secretaria",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Quando o paciente pede antecipação e não há horários disponíveis**\n\n---\n\n**Secretária:**\n\nOi, [NOME]! Tudo bem?\n\nVerifiquei aqui a agenda da Dra. [NOME], mas no momento **não temos horários disponíveis para antecipar sua consulta** 😕\n\nA agenda está bem ajustada pra que cada paciente seja atendido com calma e profundidade, como você também merece 💙\n\nMas, se houver alguma desistência ou encaixe, posso te avisar em primeira mão. Pode ser?\n\n---\n\n📌 **Notas para uso interno:**\n\n- Sempre verifique antes de negar.\n- Se a agenda for muito concorrida, crie uma **lista de espera organizada** com pacientes que pediram antecipação.\n- Envie um aviso automático assim que surgir uma vaga."
@@ -866,7 +866,7 @@
   {
     "id": "sec-44",
     "number": 44,
-    "title": "Paciente que Deseja Antecipar a Consul",
+    "title": "Paciente que Deseja Antecipar a Consulta (Modelo 2 – Tentativa de Encaixe)",
     "category": "relacionamento",
     "targetRole": "secretaria",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Quando há possibilidade de encaixe ou ajuste pontual**\n\n---\n\n**Secretária:**\n\nOi, [NOME]! Tudo certo?\n\nConferi aqui a agenda da Dra. [NOME], e vou tentar um **encaixe pra você ainda essa semana**.\n\nA consulta deve ser feita com o mesmo cuidado e atenção de sempre — então, pra isso, preciso alinhar certinho o tempo disponível.\n\nVocê teria flexibilidade de horário nos próximos dias? Se sim, consigo te avisar assim que surgir uma vaga 💙\n\n---\n\n📌 **Notas para uso interno:**\n\n- Usar apenas quando houver **real possibilidade de encaixe**.\n- Mantenha uma **lista dinâmica de pacientes que aguardam antecipação**, com preferências de turno.\n- Se encaixar o paciente, envie mensagem de confirmação e orientações padrão."
@@ -874,7 +874,7 @@
   {
     "id": "sec-45",
     "number": 45,
-    "title": "Paciente de Outra Cidade que Não Sabe",
+    "title": "Paciente de Outra Cidade que Não Sabe da Consulta Online",
     "category": "relacionamento",
     "targetRole": "secretaria",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Quando o paciente demonstra interesse, mas mora longe e ainda não sabe da modalidade online**\n\n---\n\n**Secretária:**\n\nOi, [NOME]! Que bom saber do seu interesse em ser atendido pela Dra. [NOME] 💙\n\nMesmo morando em outra cidade, você pode se consultar com ela normalmente — oferecemos a opção de **consulta online**, feita por vídeo, com a mesma atenção e cuidado do presencial 🩺✨\n\nApós o atendimento, você recebe todos os documentos digitais (receitas, atestados, solicitações).\n\nSe quiser, posso verificar os horários disponíveis e te explicar como funciona direitinho!\n\n---\n\n📌 **Notas para uso interno:**\n\n- Ideal para pacientes de outras cidades, estados ou até do exterior.\n- Enviar junto com o **Script 21 – Orientações Pré-Consulta Online**, caso o paciente agende.\n- Reforce a equivalência de cuidado e a praticidade do modelo online."
@@ -882,7 +882,7 @@
   {
     "id": "sec-46",
     "number": 46,
-    "title": "Paciente da Mesma Cidade que Reclama d",
+    "title": "Paciente da Mesma Cidade que Reclama da Distância do Consultório",
     "category": "relacionamento",
     "targetRole": "secretaria",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Quando o paciente demonstra resistência por causa da localização da clínica**\n\n---\n\n**Secretária:**\n\nOi, [NOME]! Entendo perfeitamente — realmente, o deslocamento pode ser desafiador dependendo da rotina e da região 😌\n\nMas queria te lembrar que a Dra. [NOME] também realiza **consultas online**, com o mesmo cuidado, escuta e aprofundamento do presencial 🩺✨\n\nSe for mais prático pra você, posso te explicar como funciona e verificar os horários disponíveis 💙\n\n---\n\n📌 **Notas para uso interno:**\n\n- Usar sempre que o paciente da mesma cidade expressar dificuldade com deslocamento.\n- Apresente a consulta online como **solução**, não substituição inferior.\n- Combine com o **Script 21 – Pré-Consulta Online**, se houver agendamento."
@@ -890,7 +890,7 @@
   {
     "id": "sec-47",
     "number": 47,
-    "title": "Pedido de Renovação de Receita (Respos",
+    "title": "Pedido de Renovação de Receita (Resposta Médica)",
     "category": "scripts-especificos",
     "targetRole": "secretaria",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Quando a médica responde diretamente ao pedido de receita de paciente já atendido**\n\n---\n\n**Médica:**\n\nOi, [NOME]! Tudo bem?\n\nRecebi seu pedido de renovação da receita do [NOME DO MEDICAMENTO], e queria te lembrar que **é essencial mantermos o acompanhamento médico regular**, mesmo em tratamentos contínuos.\n\nSe sua última consulta foi há mais de [X meses], o ideal é agendarmos uma nova avaliação pra garantir que está tudo bem e que o uso do medicamento continua seguro 💙\n\nSe preferir, posso pedir pra minha secretária verificar os horários pra você!\n\n---\n\n📌 **Notas para uso interno:**\n\n- Usar quando:\n    - O medicamento exige controle médico\n    - A última consulta foi há muito tempo\n- Personalizar com o nome do remédio e a data da última consulta, se possível."
@@ -898,7 +898,7 @@
   {
     "id": "sec-48",
     "number": 48,
-    "title": "Pedido de Renovação de Receita (Respos",
+    "title": "Pedido de Renovação de Receita (Resposta da Secretária)",
     "category": "scripts-especificos",
     "targetRole": "secretaria",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Quando o paciente pede receita diretamente à secretária e é necessário passar pela médica**\n\n---\n\n**Secretária:**\n\nOi, [NOME]! Tudo bem?\n\nRecebi sua mensagem sobre a renovação da receita — e vou repassar à Dra. [NOME] agora mesmo 🩺\n\nMas antes, ela sempre pede que a gente confirme **a data da última consulta** e **o nome exato do medicamento**, tá bom?\n\nVocê pode me confirmar essas duas informações? Assim consigo agilizar a liberação por aqui 💙\n\n---\n\n📌 **Notas para uso interno:**\n\n- Este script é útil para:\n    - Validar se o paciente está em dia com o acompanhamento\n    - Evitar envio de receita sem controle médico\n- Após retorno da médica, adaptar com:\n    - “Ela liberou e vou te encaminhar.”\n    - Ou: “A Dra. solicitou que agendemos uma nova avaliação antes da renovação.”"
@@ -906,7 +906,7 @@
   {
     "id": "sec-49",
     "number": 49,
-    "title": "Marcar Consulta Eventual (Intercorrênc",
+    "title": "Marcar Consulta Eventual (Intercorrência / Urgência Clínica)",
     "category": "scripts-especificos",
     "targetRole": "secretaria",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Quando o paciente relata sintomas agudos ou situação que demanda avaliação rápida**\n\n---\n\n**Secretária:**\n\nOi, [NOME]! Tudo bem?\n\nA Dra. [NOME] realiza **consultas eventuais** para casos como o que você descreveu: [DESCREVER RESUMIDAMENTE A QUEIXA, EX: febre, dor de garganta, mal-estar].\n\nEsse atendimento é feito com agilidade, mas com a mesma atenção e segurança de sempre 🩺✨\n\nO valor da consulta eventual é **R$ [VALOR]**, e pode ser paga por [FORMAS DE PAGAMENTO].\n\nInclui o acompanhamento por WhatsApp até a melhora, mas **não inclui retorno**, tá bom?\n\nSe quiser, posso verificar um horário ainda hoje ou amanhã!\n\n---\n\n📌 **Notas para uso interno:**\n\n- Ideal para: sintomas agudos, pequenos quadros clínicos, intercorrências.\n- Sempre alinhar com a médica a urgência real do caso.\n- Diferencie da consulta de rotina para não gerar confusão sobre retorno e escopo."
@@ -914,7 +914,7 @@
   {
     "id": "sec-50",
     "number": 50,
-    "title": "Informar Necessidade de Pedido Médico",
+    "title": "Informar Necessidade de Pedido Médico para Atendimento via Convênio",
     "category": "scripts-especificos",
     "targetRole": "secretaria",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Quando o convênio exige encaminhamento para autorizar consulta com especialista**\n\n---\n\n**Secretária:**\n\nOi, [NOME]! Tudo bem?\n\nPra agendarmos sua consulta via convênio com a Dra. [NOME], é necessário apresentar um **pedido médico (encaminhamento)**, de acordo com as regras do seu plano de saúde.\n\nEsse pedido deve ser emitido por um profissional da rede credenciada, e precisa estar **dentro do prazo de validade (geralmente 30 dias)**.\n\nAssim que tiver esse documento em mãos, me avisa que já seguimos com o agendamento por aqui 💙\n\n---\n\n📌 **Notas para uso interno:**\n\n- Verifique sempre o **tipo de plano (ambulatorial/hospitalar)** e a exigência específica do convênio.\n- Essa exigência pode variar de acordo com a especialidade.\n- Se o paciente não conseguir o encaminhamento, ofereça a consulta **particular com reembolso**, se aplicável."
@@ -922,7 +922,7 @@
   {
     "id": "sec-51",
     "number": 51,
-    "title": "Cobrança Antecipada de Consulta",
+    "title": "Cobrança Antecipada de Consulta",
     "category": "scripts-especificos",
     "targetRole": "secretaria",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Para cobrar antecipadamente de forma clara, gentil e objetiva**\n\n---\n\n### **Opção 1 – Mensagem padrão (paciente já agendado):**\n\n**Secretária:**\n\nOi, [NOME]! Tudo bem?\n\nPassando pra te lembrar que sua consulta com a Dra. [NOME] está marcada para o dia **[DATA]**, às **[HORÁRIO]**.\n\nPara confirmar, pedimos que o pagamento seja feito **até [X horas/dia antes]**, conforme nossa política de agendamento 💙\n\n📌 PIX: [CHAVE PIX]\n\n💳 Valor: R$ [VALOR]\n\n📄 Envie o comprovante aqui por gentileza assim que realizar!\n\nObrigada desde já 😊\n\n---\n\n### **Opção 2 – Mensagem no momento do agendamento:**\n\n**Secretária:**\n\nA Dra. [NOME] trabalha com **pagamento antecipado da consulta**.\n\nAssim que o pagamento for feito, seu horário estará reservado com exclusividade ✨\n\n📌 PIX: [CHAVE PIX]\n\n💳 Valor: R$ [VALOR]\n\n🧾 Assim que enviar o comprovante, já confirmo tudo por aqui, combinado?\n\n---\n\n📌 **Notas para uso interno:**\n\n- Essa cobrança deve ser clara e feita com **naturalidade e profissionalismo**.\n- Combine sempre com uma **mensagem de confirmação (Script 12)** após o pagamento."
@@ -938,7 +938,7 @@
   {
     "id": "sec-53",
     "number": 53,
-    "title": "Avaliação no Google Após Elogio",
+    "title": "Avaliação no Google Após Elogio",
     "category": "scripts-especificos",
     "targetRole": "secretaria",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Enviar após o paciente elogiar o atendimento no particular ou no grupo**\n\n---\n\n**Secretária:**\n\nOi, [NOME]! Fiquei muito feliz com seu carinho 💙\n\nVocê toparia deixar esse elogio lá no Google também? Isso ajuda outras pessoas a encontrarem um atendimento cuidadoso e humanizado, como o que você recebeu por aqui.\n\nSe quiser, é só clicar no link abaixo 👇\n\n📝 [LINK DE AVALIAÇÃO GOOGLE]\n\nMuito obrigada mais uma vez!\n\n---\n\n📌 **Notas para uso interno:**\n\n- Enviar **logo após o elogio espontâneo** (em consulta, grupo, WhatsApp).\n- Incentivar sem forçar. Caso o paciente não responda, **não insista**.\n- Combine esse script com o de pós-consulta (Script 24) para maior eficiência."
@@ -946,7 +946,7 @@
   {
     "id": "sec-54",
     "number": 54,
-    "title": "Cancelamento de Consulta Não Confirmad",
+    "title": "Cancelamento de Consulta Não Confirmada",
     "category": "scripts-especificos",
     "targetRole": "secretaria",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Quando o paciente não confirma a consulta e é necessário liberar o horário**\n\n---\n\n**Secretária:**\n\nOi, [NOME]! Tudo bem?\n\nTe enviei uma mensagem sobre a confirmação da sua consulta com a Dra. [NOME], mas **como não tivemos retorno**, vamos liberar esse horário na agenda, tá bom?\n\nCaso ainda queira agendar, é só me chamar por aqui que verifico os próximos disponíveis com carinho 💙\n\n---\n\n📌 **Notas para uso interno:**\n\n- Use apenas após **tentativas claras de contato não respondidas** (ideal: 2 mensagens com 24h de intervalo).\n- Seja cordial e mantenha a **porta aberta para reagendamento**.\n- Marque no sistema o motivo do cancelamento como \"não confirmado pelo paciente\"."
@@ -954,7 +954,7 @@
   {
     "id": "sec-55",
     "number": 55,
-    "title": "Informativo Pré-Consulta (Versão Esten",
+    "title": "Informativo Pré-Consulta (Versão Estendida)",
     "category": "scripts-especificos",
     "targetRole": "secretaria",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Mensagem completa com todas as orientações importantes antes da consulta**\n\n---\n\n**Secretária:**\n\nOi, [NOME]! Tudo bem por aí?\n\nPassando pra te lembrar da sua **consulta com a Dra. [NOME]**, marcada para o dia **[DATA]**, às **[HORÁRIO]** 🩺\n\nAqui vão algumas orientações importantes pra esse dia:\n\n📍 Endereço: [ENDEREÇO COMPLETO]\n\n⏰ Chegue com pelo menos **10 minutos de antecedência**\n\n📄 Traga exames recentes, lista de medicamentos e anotações de sintomas\n\n💳 Pagamento: [FORMAS DE PAGAMENTO DISPONÍVEIS]\n\n📞 Em caso de imprevisto, avise com **mínimo 24h de antecedência**\n\nCaso tenha qualquer dúvida, estou por aqui 💙\n\n---\n\n📌 **Notas para uso interno:**\n\n- Ideal para ser salvo como **template fixo no WhatsApp Business**.\n- Pode ser ajustado para pré-consulta online com Script 21.\n- Caso seja a primeira consulta do paciente, incluir link para **formulário pré-consulta** ou **vídeo informativo**."
@@ -962,7 +962,7 @@
   {
     "id": "sec-56",
     "number": 56,
-    "title": "Mensagem de Ausência no WhatsApp",
+    "title": "Mensagem de Ausência no WhatsApp",
     "category": "scripts-especificos",
     "targetRole": "secretaria",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Resposta automática para momentos em que a secretária não pode responder de imediato**\n\n---\n\n**Mensagem automática:**\n\nOi! 👋\n\nSou a [SEU NOME], secretária da Dra. [NOME].\n\nAtendemos de segunda a sexta, das [HORÁRIO DE ATENDIMENTO].\n\nSe você enviou uma mensagem fora desse horário, vamos te responder assim que possível no próximo expediente, combinado?\n\nSe for algo urgente e você já for paciente da Dra., por favor sinalize aqui que organizo a resposta com prioridade 💙\n\nObrigada pela compreensão!\n\n---\n\n📌 **Notas para uso interno:**\n\n- Essa mensagem pode ser configurada como **resposta automática** no WhatsApp Business.\n- Pode ser ajustada para períodos de férias ou recesso:\n    - “Estamos em recesso até [DATA]. Agradecemos a compreensão e retornamos assim que possível.”"
@@ -978,7 +978,7 @@
   {
     "id": "sec-58",
     "number": 58,
-    "title": "PIX Não Identificado",
+    "title": "PIX Não Identificado",
     "category": "scripts-especificos",
     "targetRole": "secretaria",
     "content": "### 🗂️ **TEMPLATE WHATSAPP – Quando o paciente diz que pagou, mas o comprovante não foi localizado**\n\n---\n\n**Secretária:**\n\nOi, [NOME]! Tudo certo?\n\nRecebemos seu aviso sobre o pagamento via PIX, mas **ainda não localizamos o comprovante aqui no sistema** 😕\n\nVocê poderia, por gentileza, verificar se o valor foi debitado corretamente e **reenviar o comprovante por aqui**?\n\nAssim conseguimos finalizar o registro com segurança 💙\n\nObrigada desde já!\n\n---\n\n📌 **Notas para uso interno:**\n\n- Não utilizar tom de cobrança — mantenha a comunicação leve e confiante.\n- Confirmar no extrato por nome ou CPF, caso o paciente insista que foi feito.\n- Após o reenvio, sempre confirmar com:\n    - “Recebido por aqui, obrigada! Tudo certo agora.”"

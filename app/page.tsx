@@ -1,9 +1,10 @@
 'use client';
 
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import { SearchBar } from '@/components/search-bar';
 import { CategoryFilter } from '@/components/category-filter';
-import { ScriptCard } from '@/components/script-card';
+import { ScriptFlow } from '@/components/script-flow';
+import { getAllMessages, ParsedMessage } from '@/lib/parse-messages';
 import {
   getAllScripts,
   categoriesSecretaria,
@@ -27,31 +28,36 @@ export default function Home() {
     activeTab === 'medico' ? categoriesMedicos :
     categoriesBonus;
 
-  const filteredScripts = useMemo(() => {
+  const groupedScripts = useMemo(() => {
     const allScripts = getAllScripts();
     let scripts = allScripts;
 
     // Filtrar por aba
     if (activeTab === 'bonus') {
-      scripts = allScripts.filter(s => s.category === 'instagram' || s.category === 'reativacao');
+      scripts = scripts.filter(s => s.category === 'instagram' || s.category === 'reativacao');
     } else {
-      scripts = allScripts.filter(s => s.targetRole === activeTab || s.targetRole === 'ambos');
+      scripts = scripts.filter(s => s.targetRole === activeTab || s.targetRole === 'ambos');
+    }
+
+    // Filtrar por categoria
+    if (activeCategory) {
+      scripts = scripts.filter(s => s.category === activeCategory);
     }
 
     // Filtrar por busca
     if (searchQuery) {
-      const searchResults = searchScripts(searchQuery);
-      if (activeTab === 'bonus') {
-        scripts = searchResults.filter(s => s.category === 'instagram' || s.category === 'reativacao');
-      } else {
-        scripts = searchResults.filter(s => s.targetRole === activeTab || s.targetRole === 'ambos');
-      }
-    } else if (activeCategory) {
-      // Filtrar por categoria
-      scripts = getScriptsByCategory(activeCategory);
+      const lowerQuery = searchQuery.toLowerCase();
+      scripts = scripts.filter(s =>
+        s.title.toLowerCase().includes(lowerQuery) ||
+        s.content.toLowerCase().includes(lowerQuery)
+      );
     }
 
-    return scripts;
+    // Agrupar mensagens por script
+    return scripts.map(script => ({
+      script,
+      messages: getAllMessages([script])
+    }));
   }, [activeTab, searchQuery, activeCategory]);
 
   return (
@@ -70,7 +76,7 @@ export default function Home() {
             </div>
             <div className="flex items-center gap-2 text-sm text-medgm-gray-3">
               <FileText className="w-4 h-4" />
-              <span>{stats.total} scripts disponíveis</span>
+              <span>{getAllMessages(getAllScripts()).length} mensagens prontas</span>
             </div>
           </div>
         </div>
@@ -167,27 +173,20 @@ export default function Home() {
         {/* Results Count */}
         <div className="mb-6">
           <p className="text-medgm-gray-5">
-            {searchQuery ? (
-              <span>
-                <strong>{filteredScripts.length}</strong> script(s) encontrado(s) para "{searchQuery}"
-              </span>
-            ) : activeCategory ? (
-              <span>
-                <strong>{filteredScripts.length}</strong> script(s) na categoria
-              </span>
-            ) : (
-              <span>
-                <strong>{filteredScripts.length}</strong> script(s) disponíveis
-              </span>
-            )}
+            <strong>{groupedScripts.length}</strong> script(s) {searchQuery && `encontrado(s) para "${searchQuery}"`}
           </p>
         </div>
 
-        {/* Scripts Grid */}
-        {filteredScripts.length > 0 ? (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {filteredScripts.map((script) => (
-              <ScriptCard key={script.id} script={script} />
+        {/* Scripts Flow */}
+        {groupedScripts.length > 0 ? (
+          <div className="space-y-6">
+            {groupedScripts.map(({ script, messages }, index) => (
+              <ScriptFlow
+                key={script.id}
+                scriptNumber={index + 1}
+                scriptTitle={script.title}
+                messages={messages}
+              />
             ))}
           </div>
         ) : (
