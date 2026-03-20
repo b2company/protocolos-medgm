@@ -1,6 +1,8 @@
 'use client';
 
 import { useState, useMemo, useEffect } from 'react';
+import { DashboardLayout } from '@/components/dashboard-layout';
+import { DashboardHeader } from '@/components/dashboard-header';
 import { SearchBar } from '@/components/search-bar';
 import { CategoryFilter } from '@/components/category-filter';
 import { ScriptFlow } from '@/components/script-flow';
@@ -76,33 +78,22 @@ export default function Home() {
   }, [activeTab, searchQuery, activeCategory]);
 
   return (
-    <div className="min-h-screen bg-medgm-clean">
-      {/* Header */}
-      <header className="glass-dark sticky top-0 z-50 shadow-elevation-3 py-8">
-        <div className="container mx-auto px-4">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-            <div className="flex items-center gap-4">
-              <div className="relative">
-                <Image
-                  src="/logo-medgm.png"
-                  alt="MedGM"
-                  width={120}
-                  height={40}
-                  className="object-contain relative z-10"
-                  priority
-                />
-                <div className="absolute inset-0 bg-gradient-premium opacity-20 blur-xl" />
-              </div>
-              <div className="h-6 w-px bg-medgm-gold hidden md:block" />
-              <h1 className="text-xl md:text-2xl font-light text-white">Protocolos de Conversão</h1>
-            </div>
-            <div className="flex items-center gap-2 text-sm text-medgm-gray-3">
-              <FileText className="w-4 h-4" />
-              <span>{getAllMessages(getAllScripts()).length} mensagens prontas</span>
-            </div>
+    <DashboardLayout
+      header={
+        <DashboardHeader
+          totalMessages={getAllMessages(getAllScripts()).length}
+          userInitials="DG"
+        />
+      }
+      sidebar={
+        <div className="flex flex-col h-full p-4 text-white">
+          <h2 className="text-lg font-semibold mb-4">Navegação</h2>
+          <div className="flex-1">
+            <p className="text-sm text-medgm-gray-3">Sidebar temporário - Fase 2 em progresso...</p>
           </div>
         </div>
-      </header>
+      }
+    >
 
 
       {/* Main Content */}
@@ -258,67 +249,6 @@ export default function Home() {
           </div>
         )}
       </main>
-
-      {/* Footer */}
-      <footer className="bg-medgm-black text-white py-8 mt-16">
-        <div className="container mx-auto px-4 text-center">
-          <div className="text-2xl font-bold mb-2">
-            <span className="text-white">MED</span>
-            <span className="text-medgm-gold">GM</span>
-          </div>
-          <p className="text-medgm-gray-3">
-            Assessoria de Growth para Profissionais da Saúde
-          </p>
-        </div>
-      </footer>
-
-      {/* Modal de Agendamento */}
-      <AnimatePresence>
-        {showModal && (
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            className="fixed inset-0 bg-black/80 backdrop-blur-md z-50 flex items-center justify-center p-4"
-            onClick={() => setShowModal(false)}
-          >
-            <motion.div
-              initial={{ scale: 0.9, opacity: 0, y: 20 }}
-              animate={{ scale: 1, opacity: 1, y: 0 }}
-              exit={{ scale: 0.9, opacity: 0, y: 20 }}
-              transition={{ type: 'spring', damping: 25, stiffness: 300 }}
-              className="glass rounded-2xl shadow-elevation-4 w-full max-w-2xl overflow-hidden"
-              onClick={(e: React.MouseEvent) => e.stopPropagation()}
-            >
-              {/* Header do Modal */}
-              <div className="bg-gradient-premium px-6 py-4 flex items-center justify-between">
-                <h2 className="text-xl font-bold text-medgm-black">
-                  Agendar Reunião com MedGM
-                </h2>
-                <motion.button
-                  whileHover={{ scale: 1.1, rotate: 90 }}
-                  whileTap={{ scale: 0.95 }}
-                  onClick={() => setShowModal(false)}
-                  className="p-2 hover:bg-white/20 rounded-lg transition-colors"
-                >
-                  <X className="w-5 h-5 text-medgm-black" />
-                </motion.button>
-              </div>
-
-              {/* Conteúdo do Modal com iframe */}
-              <div className="p-6 overflow-y-auto max-h-[calc(90vh-80px)] bg-white">
-                <iframe
-                  src="https://admin.medgm.com.br/widget/survey/yEebZ7Pyvvkjh25TCypM"
-                  style={{ border: 'none', width: '100%', minHeight: '600px' }}
-                  scrolling="no"
-                  id="yEebZ7Pyvvkjh25TCypM"
-                  title="Formulário de Agendamento MedGM"
-                />
-              </div>
-            </motion.div>
-          </motion.div>
-        )}
-      </AnimatePresence>
-    </div>
+    </DashboardLayout>
   );
 }
