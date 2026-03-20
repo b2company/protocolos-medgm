@@ -1,0 +1,98 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "generated_at": "2026-03-20",
+    "total_scripts": 123,
+    "source_directory": "/Users/odavi.feitosa/Desktop/Private & Shared/Protocolos de Conversão"
+  },
+  "statistics": {
+    "by_role": {
+      "secretaria": 58,
+      "medico": 50,
+      "ambos": 15
+    },
+    "by_category": {
+      "secretaria": {
+        "conversao-agendamento": 11,
+        "confirmacao-reagendamento": 8,
+        "orientacoes": 7,
+        "valores-pagamento": 8,
+        "transicao-convenio": 5,
+        "relacionamento": 7,
+        "scripts-especificos": 12
+      },
+      "medico": {
+        "gestao-consultas": 10,
+        "limites-comunicacao": 11,
+        "cobranca-preco": 11,
+        "receitas-exames": 2,
+        "redes-sociais": 3,
+        "venda-procedimentos": 4,
+        "relacionamento-pos": 3,
+        "situacoes-delicadas": 4,
+        "consultas-domiciliares": 1,
+        "comunicacao-institucional": 1
+      },
+      "ambos": {
+        "instagram": 14,
+        "reativacao": 1
+      }
+    }
+  },
+  "categories_description": {
+    "secretaria": {
+      "conversao-agendamento": "Scripts 1-11: Primeiros contatos, conversão de leads, agendamentos iniciais",
+      "confirmacao-reagendamento": "Scripts 12-19: Confirmações, reagendamentos, gestão de faltas",
+      "orientacoes": "Scripts 20-26: Orientações pré-consulta, informativos, formulários",
+      "valores-pagamento": "Scripts 27-34: Descontos, ajustes de preço, cobrança",
+      "transicao-convenio": "Scripts 35-39: Transição convênio para particular",
+      "relacionamento": "Scripts 40-46: Relacionamento, reativação, fidelização",
+      "scripts-especificos": "Scripts 47-58: Situações específicas (receitas, urgências, cobrança)"
+    },
+    "medico": {
+      "gestao-consultas": "Agendamento de retornos, remarcações, encaixes, confirmações",
+      "limites-comunicacao": "Pedidos fora de hora, renovação de receita, orientações sem consulta",
+      "cobranca-preco": "Descontos, reajustes, formas de pagamento, valor de tratamentos",
+      "receitas-exames": "Receitas para terceiros, exames sem consulta, interação medicamentosa",
+      "redes-sociais": "Número pessoal, Instagram, segunda opinião online",
+      "venda-procedimentos": "Oferta e conversão de procedimentos, consulta eventual",
+      "relacionamento-pos": "Follow-up, agradecimento, indicações",
+      "situacoes-delicadas": "Reclamações, demissão de pacientes, pacientes difíceis",
+      "consultas-domiciliares": "Consultas em domicílio, justificativa de valor",
+      "comunicacao-institucional": "Licenças, descredenciamento, mudança de endereço"
+    },
+    "ambos": {
+      "instagram": "Scripts para uso em Direct e Stories",
+      "reativacao": "Mensagens para reativar pacientes inativos"
+    }
+  },
+  "usage_tips": {
+    "secretaria": [
+      "Use scripts 1-11 para conversão inicial de leads",
+      "Scripts 12-19 são essenciais para reduzir no-show",
+      "Scripts 27-34 ajudam a manter preço firme sem perder paciente",
+      "Scripts 35-39 são cruciais para transição convenio→particular"
+    ],
+    "medico": [
+      "Scripts 3-6 protegem seu tempo e estabelecem limites profissionais",
+      "Scripts 14-23 facilitam negociação sem desvalorizar seu trabalho",
+      "Scripts 13, 24-25 aumentam ticket médio com procedimentos",
+      "Scripts 18-19, 27-28 ajudam em situações delicadas com pacientes difíceis"
+    ],
+    "instagram": [
+      "Scripts 1-4 convertem curiosos em agendamentos",
+      "Scripts 5, 7, 13 estabelecem limites claros no Instagram",
+      "Script 11 transforma elogios em avaliações no Google",
+      "Script 14 mantém relacionamento ao indicar colegas"
+    ]
+  },
+  "index_structure": {
+    "id_format": "Formato: [sec/med/insta]-[XX]",
+    "numbering": {
+      "secretaria": "1 a 58",
+      "medico": "1 a 50",
+      "instagram": "1 a 14",
+      "reativacao": "1 (arquivo único)"
+    }
+  }
+}
