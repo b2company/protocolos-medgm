@@ -11,10 +11,45 @@
     @apply bg-medgm-clean text-medgm-black;
     font-feature-settings: "rlig" 1, "calt" 1;
   }
+
+  body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background:
+      radial-gradient(circle at 20% 50%, rgba(214, 185, 145, 0.1) 0%, transparent 50%),
+      radial-gradient(circle at 80% 20%, rgba(178, 148, 99, 0.08) 0%, transparent 50%),
+      radial-gradient(circle at 40% 80%, rgba(232, 220, 207, 0.06) 0%, transparent 50%),
+      #F5F5F5;
+    animation: gradient-shift 15s ease infinite;
+  }
+}
+
+@keyframes gradient-shift {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.glass-dark {
+  background: rgba(21, 21, 21, 0.7);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }

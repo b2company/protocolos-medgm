@@ -13,6 +13,7 @@ import {
   getScriptStats,
 } from '@/lib/scripts-data';
 import { FileText, Users, UserCog, Gift, Calendar, X } from 'lucide-react';
+import { motion, AnimatePresence } from 'framer-motion';
 import Image from 'next/image';
 
 export default function Home() {
@@ -77,20 +78,23 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-medgm-clean">
       {/* Header */}
-      <header className="bg-medgm-black text-white py-8 sticky top-0 z-50">
+      <header className="glass-dark sticky top-0 z-50 shadow-elevation-3 py-8">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <div className="flex items-center gap-4">
-              <Image
-                src="/logo-medgm.png"
-                alt="MedGM"
-                width={120}
-                height={40}
-                className="object-contain"
-                priority
-              />
+              <div className="relative">
+                <Image
+                  src="/logo-medgm.png"
+                  alt="MedGM"
+                  width={120}
+                  height={40}
+                  className="object-contain relative z-10"
+                  priority
+                />
+                <div className="absolute inset-0 bg-gradient-premium opacity-20 blur-xl" />
+              </div>
               <div className="h-6 w-px bg-medgm-gold hidden md:block" />
-              <h1 className="text-xl md:text-2xl font-light">Protocolos de Conversão</h1>
+              <h1 className="text-xl md:text-2xl font-light text-white">Protocolos de Conversão</h1>
             </div>
             <div className="flex items-center gap-2 text-sm text-medgm-gray-3">
               <FileText className="w-4 h-4" />
@@ -105,16 +109,18 @@ export default function Home() {
       <main className="container mx-auto px-4 py-12">
         {/* Tabs */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
-          <button
+          <motion.button
+            whileHover={{ scale: 1.02 }}
+            whileTap={{ scale: 0.98 }}
             onClick={() => {
               setActiveTab('secretaria');
               setActiveCategory(null);
               setSearchQuery('');
             }}
-            className={`flex items-center justify-center gap-3 py-4 px-6 rounded-2xl font-semibold transition-all duration-300 ${
+            className={`group flex items-center justify-center gap-3 py-5 px-6 rounded-2xl font-semibold transition-all duration-500 ease-out transform ${
               activeTab === 'secretaria'
-                ? 'bg-medgm-gold text-medgm-black shadow-lg'
-                : 'bg-white text-medgm-dark-gray hover:bg-medgm-gray-1 border border-medgm-gray-2'
+                ? 'bg-gradient-premium text-medgm-black shadow-premium scale-105'
+                : 'glass hover:shadow-elevation-2 hover:scale-102 text-medgm-dark-gray border border-medgm-gray-2'
             }`}
           >
             <Users className="w-5 h-5" />
@@ -122,17 +128,19 @@ export default function Home() {
               <span>Secretárias</span>
               <span className="text-xs font-normal opacity-70">{stats.secretaria} scripts</span>
             </div>
-          </button>
-          <button
+          </motion.button>
+          <motion.button
+            whileHover={{ scale: 1.02 }}
+            whileTap={{ scale: 0.98 }}
             onClick={() => {
               setActiveTab('medico');
               setActiveCategory(null);
               setSearchQuery('');
             }}
-            className={`flex items-center justify-center gap-3 py-4 px-6 rounded-2xl font-semibold transition-all duration-300 ${
+            className={`group flex items-center justify-center gap-3 py-5 px-6 rounded-2xl font-semibold transition-all duration-500 ease-out transform ${
               activeTab === 'medico'
-                ? 'bg-medgm-gold text-medgm-black shadow-lg'
-                : 'bg-white text-medgm-dark-gray hover:bg-medgm-gray-1 border border-medgm-gray-2'
+                ? 'bg-gradient-premium text-medgm-black shadow-premium scale-105'
+                : 'glass hover:shadow-elevation-2 hover:scale-102 text-medgm-dark-gray border border-medgm-gray-2'
             }`}
           >
             <UserCog className="w-5 h-5" />
@@ -140,17 +148,19 @@ export default function Home() {
               <span>Médicos</span>
               <span className="text-xs font-normal opacity-70">{stats.medico} scripts</span>
             </div>
-          </button>
-          <button
+          </motion.button>
+          <motion.button
+            whileHover={{ scale: 1.02 }}
+            whileTap={{ scale: 0.98 }}
             onClick={() => {
               setActiveTab('bonus');
               setActiveCategory(null);
               setSearchQuery('');
             }}
-            className={`flex items-center justify-center gap-3 py-4 px-6 rounded-2xl font-semibold transition-all duration-300 ${
+            className={`group flex items-center justify-center gap-3 py-5 px-6 rounded-2xl font-semibold transition-all duration-500 ease-out transform ${
               activeTab === 'bonus'
-                ? 'bg-medgm-gold text-medgm-black shadow-lg'
-                : 'bg-white text-medgm-dark-gray hover:bg-medgm-gray-1 border border-medgm-gray-2'
+                ? 'bg-gradient-premium text-medgm-black shadow-premium scale-105'
+                : 'glass hover:shadow-elevation-2 hover:scale-102 text-medgm-dark-gray border border-medgm-gray-2'
             }`}
           >
             <Gift className="w-5 h-5" />
@@ -158,17 +168,22 @@ export default function Home() {
               <span>Bônus</span>
               <span className="text-xs font-normal opacity-70">{stats.ambos} scripts</span>
             </div>
-          </button>
+          </motion.button>
         </div>
 
         {/* CTA Banner - Agendar Reunião */}
-        <div className="mb-8">
-          <div className="bg-gradient-to-r from-medgm-gold to-amber-500 rounded-2xl p-6 md:p-8 text-center shadow-lg">
+        <div className="mb-8 relative overflow-hidden rounded-2xl shadow-elevation-4 group">
+          <div className="absolute inset-0 bg-gradient-mesh opacity-50 group-hover:opacity-70 transition-opacity duration-700" />
+          <div className="relative bg-gradient-to-br from-medgm-gold via-amber-500 to-medgm-gold p-6 md:p-8">
             <div className="flex flex-col md:flex-row items-center justify-between gap-4">
               <div className="flex items-center gap-4">
-                <div className="bg-white/20 backdrop-blur-sm p-3 rounded-xl">
+                <motion.div
+                  whileHover={{ rotate: 360 }}
+                  transition={{ duration: 0.6 }}
+                  className="bg-white/20 backdrop-blur-sm p-3 rounded-xl"
+                >
                   <Calendar className="w-8 h-8 text-medgm-black" />
-                </div>
+                </motion.div>
                 <div className="text-left">
                   <h3 className="text-xl md:text-2xl font-bold text-medgm-black mb-1">
                     Precisa de Ajuda na Implementação?
@@ -178,13 +193,15 @@ export default function Home() {
                   </p>
                 </div>
               </div>
-              <button
+              <motion.button
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
                 onClick={() => setShowModal(true)}
                 className="flex items-center gap-2 bg-medgm-black text-white px-6 py-3 rounded-xl font-semibold hover:bg-medgm-dark-gray transition-all duration-300 shadow-md hover:shadow-lg whitespace-nowrap"
               >
                 Agendar Reunião
                 <Calendar className="w-4 h-4" />
-              </button>
+              </motion.button>
             </div>
           </div>
         </div>
@@ -256,41 +273,52 @@ export default function Home() {
       </footer>
 
       {/* Modal de Agendamento */}
-      {showModal && (
-        <div
-          className="fixed inset-0 bg-black/70 backdrop-blur-sm z-50 flex items-center justify-center p-4"
-          onClick={() => setShowModal(false)}
-        >
-          <div
-            className="bg-white rounded-2xl shadow-2xl w-full max-w-2xl max-h-[90vh] overflow-hidden"
-            onClick={(e) => e.stopPropagation()}
+      <AnimatePresence>
+        {showModal && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            className="fixed inset-0 bg-black/80 backdrop-blur-md z-50 flex items-center justify-center p-4"
+            onClick={() => setShowModal(false)}
           >
-            {/* Header do Modal */}
-            <div className="bg-medgm-gold px-6 py-4 flex items-center justify-between">
-              <h2 className="text-xl font-bold text-medgm-black">
-                Agendar Reunião com MedGM
-              </h2>
-              <button
-                onClick={() => setShowModal(false)}
-                className="p-2 hover:bg-white/20 rounded-lg transition-colors"
-              >
-                <X className="w-5 h-5 text-medgm-black" />
-              </button>
-            </div>
+            <motion.div
+              initial={{ scale: 0.9, opacity: 0, y: 20 }}
+              animate={{ scale: 1, opacity: 1, y: 0 }}
+              exit={{ scale: 0.9, opacity: 0, y: 20 }}
+              transition={{ type: 'spring', damping: 25, stiffness: 300 }}
+              className="glass rounded-2xl shadow-elevation-4 w-full max-w-2xl overflow-hidden"
+              onClick={(e: React.MouseEvent) => e.stopPropagation()}
+            >
+              {/* Header do Modal */}
+              <div className="bg-gradient-premium px-6 py-4 flex items-center justify-between">
+                <h2 className="text-xl font-bold text-medgm-black">
+                  Agendar Reunião com MedGM
+                </h2>
+                <motion.button
+                  whileHover={{ scale: 1.1, rotate: 90 }}
+                  whileTap={{ scale: 0.95 }}
+                  onClick={() => setShowModal(false)}
+                  className="p-2 hover:bg-white/20 rounded-lg transition-colors"
+                >
+                  <X className="w-5 h-5 text-medgm-black" />
+                </motion.button>
+              </div>
 
-            {/* Conteúdo do Modal com iframe */}
-            <div className="p-6 overflow-y-auto max-h-[calc(90vh-80px)]">
-              <iframe
-                src="https://admin.medgm.com.br/widget/survey/yEebZ7Pyvvkjh25TCypM"
-                style={{ border: 'none', width: '100%', minHeight: '600px' }}
-                scrolling="no"
-                id="yEebZ7Pyvvkjh25TCypM"
-                title="Formulário de Agendamento MedGM"
-              />
-            </div>
-          </div>
-        </div>
-      )}
+              {/* Conteúdo do Modal com iframe */}
+              <div className="p-6 overflow-y-auto max-h-[calc(90vh-80px)] bg-white">
+                <iframe
+                  src="https://admin.medgm.com.br/widget/survey/yEebZ7Pyvvkjh25TCypM"
+                  style={{ border: 'none', width: '100%', minHeight: '600px' }}
+                  scrolling="no"
+                  id="yEebZ7Pyvvkjh25TCypM"
+                  title="Formulário de Agendamento MedGM"
+                />
+              </div>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </div>
   );
 }

@@ -1,6 +1,7 @@
 'use client';
 
 import { cn } from '@/lib/utils';
+import { motion } from 'framer-motion';
 
 interface Category {
   id: string;
@@ -17,31 +18,35 @@ interface CategoryFilterProps {
 export function CategoryFilter({ categories, activeCategory, onCategoryChange }: CategoryFilterProps) {
   return (
     <div className="flex flex-wrap gap-3">
-      <button
+      <motion.button
+        whileHover={{ scale: 1.05, y: -2 }}
+        whileTap={{ scale: 0.95 }}
         onClick={() => onCategoryChange(null)}
         className={cn(
-          "px-4 py-2 rounded-xl text-sm font-medium transition-all duration-300",
+          "px-4 py-2 rounded-xl text-sm font-medium transition-all duration-300 shadow-elevation-1",
           activeCategory === null
-            ? "bg-medgm-black text-white"
-            : "bg-white text-medgm-dark-gray hover:bg-medgm-gray-1 border border-medgm-gray-2"
+            ? "bg-medgm-black text-white shadow-elevation-3"
+            : "glass text-medgm-dark-gray hover:shadow-elevation-2 border border-medgm-gray-2"
         )}
       >
         Todos
-      </button>
+      </motion.button>
       {categories.map((category) => (
-        <button
+        <motion.button
           key={category.id}
+          whileHover={{ scale: 1.05, y: -2 }}
+          whileTap={{ scale: 0.95 }}
           onClick={() => onCategoryChange(category.id)}
           className={cn(
-            "px-4 py-2 rounded-xl text-sm font-medium transition-all duration-300 flex items-center gap-2",
+            "px-4 py-2 rounded-xl text-sm font-medium transition-all duration-300 shadow-elevation-1 flex items-center gap-2",
             activeCategory === category.id
-              ? "bg-medgm-gold text-medgm-black"
-              : "bg-white text-medgm-dark-gray hover:bg-medgm-gray-1 border border-medgm-gray-2"
+              ? "bg-gradient-premium text-medgm-black shadow-premium"
+              : "glass text-medgm-dark-gray hover:shadow-elevation-2 border border-medgm-gray-2"
           )}
         >
           <span>{category.icon}</span>
           <span>{category.name}</span>
-        </button>
+        </motion.button>
       ))}
     </div>
   );
