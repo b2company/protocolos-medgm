@@ -17,13 +17,13 @@ export function CategoryChip({ label, icon, active, onClick }: CategoryChipProps
       whileTap={{ scale: 0.98 }}
       onClick={onClick}
       className={cn(
-        "w-full flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium transition-all duration-300 text-left",
+        "w-full flex items-center gap-1.5 px-2 py-1.5 rounded-md text-xs font-medium transition-all duration-300 text-left",
         active
-          ? "bg-medgm-gold text-medgm-black shadow-elevation-2"
+          ? "bg-medgm-gold text-medgm-black shadow-elevation-1"
           : "bg-white hover:bg-medgm-gray-1 text-medgm-dark-gray border border-medgm-gray-2"
       )}
     >
-      {icon && <span className="text-base">{icon}</span>}
+      {icon && <span className="text-sm">{icon}</span>}
       <span className="flex-1 truncate">{label}</span>
     </motion.button>
   );

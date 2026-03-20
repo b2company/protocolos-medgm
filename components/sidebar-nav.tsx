@@ -41,25 +41,25 @@ export function SidebarNav({
   stats,
 }: SidebarNavProps) {
   return (
-    <div className="flex flex-col h-full bg-white">
+    <div className="flex flex-col h-full bg-white overflow-hidden">
       {/* Tabs verticais */}
-      <div className="p-4 space-y-2 border-b border-medgm-gray-2">
+      <div className="p-3 space-y-1.5 border-b border-medgm-gray-2 shrink-0">
         <TabButton
-          icon={<Users className="w-5 h-5" />}
+          icon={<Users className="w-4 h-4" />}
           label="Secretárias"
           count={stats.secretaria}
           active={activeTab === 'secretaria'}
           onClick={() => onTabChange('secretaria')}
         />
         <TabButton
-          icon={<Heart className="w-5 h-5" />}
+          icon={<Heart className="w-4 h-4" />}
           label="Médicos"
           count={stats.medico}
           active={activeTab === 'medico'}
           onClick={() => onTabChange('medico')}
         />
         <TabButton
-          icon={<Star className="w-5 h-5" />}
+          icon={<Star className="w-4 h-4" />}
           label="Bônus"
           count={stats.ambos}
           active={activeTab === 'bonus'}
@@ -68,18 +68,18 @@ export function SidebarNav({
       </div>
 
       {/* Search inline */}
-      <div className="p-4 border-b border-medgm-gray-2">
+      <div className="p-3 border-b border-medgm-gray-2 shrink-0">
         <SearchBar
           value={searchQuery}
           onChange={onSearchChange}
-          placeholder={`Buscar ${activeTab === 'secretaria' ? 'secretária' : activeTab === 'medico' ? 'médico' : 'bônus'}...`}
+          placeholder="Buscar..."
         />
       </div>
 
       {/* Category chips */}
       {!searchQuery && (
-        <div className="px-4 py-3 space-y-1 border-b border-medgm-gray-2">
-          <p className="text-xs font-semibold text-medgm-gray-5 mb-2 uppercase tracking-wide">Categorias</p>
+        <div className="px-3 py-2 space-y-0.5 border-b border-medgm-gray-2 shrink-0 max-h-48 overflow-y-auto">
+          <p className="text-[10px] font-semibold text-medgm-gray-5 mb-1 uppercase tracking-wide">Categorias</p>
           <CategoryChip
             label="Todos"
             active={!activeCategory}
@@ -98,8 +98,8 @@ export function SidebarNav({
       )}
 
       {/* Lista de scripts (scrollável) */}
-      <div className="flex-1 overflow-y-auto px-4 py-4">
-        <p className="text-xs font-semibold text-medgm-gray-5 mb-3 uppercase tracking-wide">
+      <div className="flex-1 overflow-y-auto px-3 py-2">
+        <p className="text-[10px] font-semibold text-medgm-gray-5 mb-2 uppercase tracking-wide">
           {scripts.length} {scripts.length === 1 ? 'Script' : 'Scripts'}
         </p>
         {scripts.map(({ script, messages }) => (
