@@ -45,22 +45,22 @@ export function FlowTimeline({ steps, currentStep }: FlowTimelineProps) {
           className={cn(
             "relative pl-12 pb-6",
             step.state === 'future' && "opacity-50",
-            step.state === 'current' && "ring-2 ring-medgm-gold rounded-xl p-4 -ml-2"
+            step.state === 'current' && "ring-2 ring-medgm-gold rounded-xl p-4 -ml-2 z-10"
           )}
         >
+          {/* Connector line - apenas até o gap entre steps */}
+          {index < steps.length - 1 && (
+            <div className="absolute left-5 top-10 w-0.5 h-[calc(100%+1.5rem)] bg-medgm-gray-3 -z-10" />
+          )}
+
           {/* Badge número */}
           <motion.div
             whileHover={{ rotate: 360 }}
             transition={{ duration: 0.5 }}
-            className="absolute left-0 top-0 w-10 h-10 rounded-full bg-gradient-premium flex items-center justify-center text-medgm-black font-bold shadow-premium z-10"
+            className="absolute left-0 top-0 w-10 h-10 rounded-full bg-gradient-premium flex items-center justify-center text-medgm-black font-bold shadow-premium z-20"
           >
             {step.number}
           </motion.div>
-
-          {/* Connector line - apenas até o gap entre steps */}
-          {index < steps.length - 1 && (
-            <div className="absolute left-5 top-10 w-0.5 h-[calc(100%+1.5rem)] bg-medgm-gray-3" style={{ zIndex: 0 }} />
-          )}
 
           {/* Step header */}
           <div className="mb-3">
