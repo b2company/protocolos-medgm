@@ -14,7 +14,8 @@ import {
   searchScripts,
   getScriptStats,
 } from '@/lib/scripts-data';
-import { FileText, Users, UserCog, Gift } from 'lucide-react';
+import { FileText, Users, UserCog, Gift, Calendar, ExternalLink } from 'lucide-react';
+import Image from 'next/image';
 
 export default function Home() {
   const [activeTab, setActiveTab] = useState<'secretaria' | 'medico' | 'bonus'>('secretaria');
