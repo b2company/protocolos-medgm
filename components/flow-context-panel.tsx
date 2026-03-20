@@ -1,6 +1,6 @@
 'use client';
 
-import { ChevronRight, Share, Copy } from 'lucide-react';
+import { ChevronRight, Copy } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 interface FlowContextPanelProps {
@@ -51,25 +51,15 @@ export function FlowContextPanel({
       </div>
 
       {/* Actions */}
-      <div className="flex gap-3">
-        <motion.button
-          whileHover={{ scale: 1.02 }}
-          whileTap={{ scale: 0.98 }}
-          className="flex items-center gap-2 px-4 py-2 bg-white border border-medgm-gray-2 rounded-lg hover:bg-medgm-gray-1 hover:shadow-elevation-2 transition-all text-medgm-dark-gray text-sm font-medium"
-        >
-          <Share className="w-4 h-4" />
-          Compartilhar
-        </motion.button>
-        <motion.button
-          whileHover={{ scale: 1.02 }}
-          whileTap={{ scale: 0.98 }}
-          onClick={onCopyAll}
-          className="flex items-center gap-2 px-4 py-2 bg-gradient-premium text-medgm-black rounded-lg hover:opacity-90 shadow-premium transition-all text-sm font-medium"
-        >
-          <Copy className="w-4 h-4" />
-          Copiar Todas
-        </motion.button>
-      </div>
+      <motion.button
+        whileHover={{ scale: 1.02 }}
+        whileTap={{ scale: 0.98 }}
+        onClick={onCopyAll}
+        className="w-full flex items-center justify-center gap-2 px-4 py-2 bg-gradient-premium text-medgm-black rounded-lg hover:opacity-90 shadow-premium transition-all text-sm font-medium"
+      >
+        <Copy className="w-4 h-4" />
+        Copiar Todas as Mensagens
+      </motion.button>
     </motion.div>
   );
 }
