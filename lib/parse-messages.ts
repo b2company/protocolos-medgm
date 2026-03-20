@@ -10,7 +10,16 @@ export interface ParsedMessage {
   targetRole: string;
 }
 
-export function parseScriptMessages(script: any): ParsedMessage[] {
+interface Script {
+  id: string;
+  number: number;
+  title: string;
+  content: string;
+  category: string;
+  targetRole: string;
+}
+
+export function parseScriptMessages(script: Script): ParsedMessage[] {
   const messages: ParsedMessage[] = [];
   const content = script.content;
 
@@ -32,7 +41,7 @@ export function parseScriptMessages(script: any): ParsedMessage[] {
       foundMessages = true;
       matches.forEach((match, index) => {
         const messageNumber = match[1] ? parseInt(match[1]) : index + 1;
-        let messageContent = match[2] || match[1];
+        const messageContent = match[2] || match[1];
 
         // Extrai o título da mensagem (primeira linha ou contexto)
         const lines = messageContent.trim().split('\n');
@@ -59,7 +68,7 @@ export function parseScriptMessages(script: any): ParsedMessage[] {
   // Se não encontrou mensagens separadas, retorna o script inteiro como uma mensagem
   if (!foundMessages) {
     // Remove cabeçalhos e notas de uso interno
-    let cleanContent = content
+    const cleanContent = content
       .replace(/###\s*🗂️[^\n]+\n/g, '')
       .replace(/---+\n/g, '')
       .replace(/📌\s*\*\*Notas para uso interno:\*\*[\s\S]*$/g, '')
@@ -85,7 +94,7 @@ export function parseScriptMessages(script: any): ParsedMessage[] {
 function cleanMessageForWhatsApp(text: string): string {
   if (!text) return '';
 
-  let clean = text
+  const clean = text
     // Remove headers markdown
     .replace(/^#{1,6}\s+/gm, '')
     // Remove bold/italic
@@ -121,6 +130,6 @@ function cleanMessageForWhatsApp(text: string): string {
   return clean;
 }
 
-export function getAllMessages(scripts: any[]): ParsedMessage[] {
+export function getAllMessages(scripts: Script[]): ParsedMessage[] {
   return scripts.flatMap(script => parseScriptMessages(script));
 }

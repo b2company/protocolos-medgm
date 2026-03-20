@@ -4,17 +4,15 @@ import { useState, useMemo, useEffect } from 'react';
 import { SearchBar } from '@/components/search-bar';
 import { CategoryFilter } from '@/components/category-filter';
 import { ScriptFlow } from '@/components/script-flow';
-import { getAllMessages, ParsedMessage } from '@/lib/parse-messages';
+import { getAllMessages } from '@/lib/parse-messages';
 import {
   getAllScripts,
   categoriesSecretaria,
   categoriesMedicos,
   categoriesBonus,
-  getScriptsByCategory,
-  searchScripts,
   getScriptStats,
 } from '@/lib/scripts-data';
-import { FileText, Users, UserCog, Gift, Calendar, ExternalLink, X } from 'lucide-react';
+import { FileText, Users, UserCog, Gift, Calendar, X } from 'lucide-react';
 import Image from 'next/image';
 
 export default function Home() {

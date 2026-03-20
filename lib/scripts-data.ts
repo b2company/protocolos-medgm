@@ -76,10 +76,10 @@ function extractKeywords(title: string, content: string): string[] {
 }
 
 // Processa os scripts do JSON e adiciona keywords
-export const scriptsData: Script[] = scriptsJson.map((script: any) => ({
+export const scriptsData: Script[] = scriptsJson.map((script: Omit<Script, 'keywords'>) => ({
   ...script,
   keywords: extractKeywords(script.title, script.content),
-})) as Script[];
+}));
 
 export function getAllScripts(): Script[] {
   return scriptsData;
