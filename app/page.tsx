@@ -1,12 +1,11 @@
 'use client';
 
-import { useState, useMemo, useEffect } from 'react';
+import { useState, useMemo } from 'react';
 import { DashboardLayout } from '@/components/dashboard-layout';
 import { DashboardHeader } from '@/components/dashboard-header';
 import { SidebarNav } from '@/components/sidebar-nav';
-import { SearchBar } from '@/components/search-bar';
-import { CategoryFilter } from '@/components/category-filter';
-import { ScriptFlow } from '@/components/script-flow';
+import { FlowContextPanel } from '@/components/flow-context-panel';
+import { FlowTimeline } from '@/components/flow-timeline';
 import { getAllMessages } from '@/lib/parse-messages';
 import {
   getAllScripts,
@@ -14,6 +13,9 @@ import {
   categoriesMedicos,
   categoriesBonus,
   getScriptStats,
+  inferTiming,
+  inferConditional,
+  generateTip,
 } from '@/lib/scripts-data';
 import { FileText, Users, UserCog, Gift, Calendar, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -24,23 +26,9 @@ export default function Home() {
   const [searchQuery, setSearchQuery] = useState('');
   const [activeCategory, setActiveCategory] = useState<string | null>(null);
   const [selectedScriptId, setSelectedScriptId] = useState<string | null>(null);
-  const [showModal, setShowModal] = useState(false);
+  const [currentMessageIndex, setCurrentMessageIndex] = useState(0);
 
   const stats = getScriptStats();
-
-  // Carregar script do formulário quando modal abrir
-  useEffect(() => {
-    if (showModal) {
-      const script = document.createElement('script');
-      script.src = 'https://admin.medgm.com.br/js/form_embed.js';
-      script.async = true;
-      document.body.appendChild(script);
-
-      return () => {
-        document.body.removeChild(script);
-      };
-    }
-  }, [showModal]);
 
   const currentCategories =
     activeTab === 'secretaria' ? categoriesSecretaria :
@@ -88,6 +76,29 @@ export default function Home() {
     return groupedScripts.find(s => s.script.id === selectedScriptId) || groupedScripts[0];
   }, [selectedScriptId, groupedScripts]);
 
+  // Timeline steps
+  const timelineSteps = useMemo(() => {
+    if (!selectedScript) return [];
+    const messages = selectedScript.messages;
+    return messages.map((msg, index) => ({
+      number: index + 1,
+      label: msg.messageTitle || `Mensagem ${index + 1}`,
+      timing: inferTiming(msg, index),
+      message: msg,
+      conditional: inferConditional(msg, index),
+      tip: generateTip(msg),
+      state: index < currentMessageIndex ? 'past' as const :
+             index === currentMessageIndex ? 'current' as const :
+             'future' as const
+    }));
+  }, [selectedScript, currentMessageIndex]);
+
+  const handleCopyAll = async () => {
+    if (!selectedScript) return;
+    const allContent = selectedScript.messages.map(m => m.messageContent).join('\n\n---\n\n');
+    await navigator.clipboard.writeText(allContent);
+  };
+
   return (
     <DashboardLayout
       header={
@@ -117,161 +128,26 @@ export default function Home() {
         />
       }
     >
-
-
-      {/* Main Content */}
-      <main className="container mx-auto px-4 py-12">
-        {/* Tabs */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
-          <motion.button
-            whileHover={{ scale: 1.02 }}
-            whileTap={{ scale: 0.98 }}
-            onClick={() => {
-              setActiveTab('secretaria');
-              setActiveCategory(null);
-              setSearchQuery('');
-            }}
-            className={`group flex items-center justify-center gap-3 py-5 px-6 rounded-2xl font-semibold transition-all duration-500 ease-out transform ${
-              activeTab === 'secretaria'
-                ? 'bg-gradient-premium text-medgm-black shadow-premium scale-105'
-                : 'glass hover:shadow-elevation-2 hover:scale-102 text-medgm-dark-gray border border-medgm-gray-2'
-            }`}
-          >
-            <Users className="w-5 h-5" />
-            <div className="flex flex-col items-start">
-              <span>Secretárias</span>
-              <span className="text-xs font-normal opacity-70">{stats.secretaria} scripts</span>
-            </div>
-          </motion.button>
-          <motion.button
-            whileHover={{ scale: 1.02 }}
-            whileTap={{ scale: 0.98 }}
-            onClick={() => {
-              setActiveTab('medico');
-              setActiveCategory(null);
-              setSearchQuery('');
-            }}
-            className={`group flex items-center justify-center gap-3 py-5 px-6 rounded-2xl font-semibold transition-all duration-500 ease-out transform ${
-              activeTab === 'medico'
-                ? 'bg-gradient-premium text-medgm-black shadow-premium scale-105'
-                : 'glass hover:shadow-elevation-2 hover:scale-102 text-medgm-dark-gray border border-medgm-gray-2'
-            }`}
-          >
-            <UserCog className="w-5 h-5" />
-            <div className="flex flex-col items-start">
-              <span>Médicos</span>
-              <span className="text-xs font-normal opacity-70">{stats.medico} scripts</span>
-            </div>
-          </motion.button>
-          <motion.button
-            whileHover={{ scale: 1.02 }}
-            whileTap={{ scale: 0.98 }}
-            onClick={() => {
-              setActiveTab('bonus');
-              setActiveCategory(null);
-              setSearchQuery('');
-            }}
-            className={`group flex items-center justify-center gap-3 py-5 px-6 rounded-2xl font-semibold transition-all duration-500 ease-out transform ${
-              activeTab === 'bonus'
-                ? 'bg-gradient-premium text-medgm-black shadow-premium scale-105'
-                : 'glass hover:shadow-elevation-2 hover:scale-102 text-medgm-dark-gray border border-medgm-gray-2'
-            }`}
-          >
-            <Gift className="w-5 h-5" />
-            <div className="flex flex-col items-start">
-              <span>Bônus</span>
-              <span className="text-xs font-normal opacity-70">{stats.ambos} scripts</span>
-            </div>
-          </motion.button>
-        </div>
-
-        {/* CTA Banner - Agendar Reunião */}
-        <div className="mb-8 relative overflow-hidden rounded-2xl shadow-elevation-4 group">
-          <div className="absolute inset-0 bg-gradient-mesh opacity-50 group-hover:opacity-70 transition-opacity duration-700" />
-          <div className="relative bg-gradient-to-br from-medgm-gold via-amber-500 to-medgm-gold p-6 md:p-8">
-            <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-              <div className="flex items-center gap-4">
-                <motion.div
-                  whileHover={{ rotate: 360 }}
-                  transition={{ duration: 0.6 }}
-                  className="bg-white/20 backdrop-blur-sm p-3 rounded-xl"
-                >
-                  <Calendar className="w-8 h-8 text-medgm-black" />
-                </motion.div>
-                <div className="text-left">
-                  <h3 className="text-xl md:text-2xl font-bold text-medgm-black mb-1">
-                    Precisa de Ajuda na Implementação?
-                  </h3>
-                  <p className="text-medgm-dark-gray text-sm md:text-base">
-                    Agende uma reunião com nosso time para aplicar esses scripts na sua clínica
-                  </p>
-                </div>
-              </div>
-              <motion.button
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                onClick={() => setShowModal(true)}
-                className="flex items-center gap-2 bg-medgm-black text-white px-6 py-3 rounded-xl font-semibold hover:bg-medgm-dark-gray transition-all duration-300 shadow-md hover:shadow-lg whitespace-nowrap"
-              >
-                Agendar Reunião
-                <Calendar className="w-4 h-4" />
-              </motion.button>
-            </div>
-          </div>
-        </div>
-
-        {/* Search */}
-        <div className="mb-8">
-          <SearchBar
-            value={searchQuery}
-            onChange={(value) => {
-              setSearchQuery(value);
-              setActiveCategory(null);
-            }}
-            placeholder={
-              activeTab === 'secretaria' ? 'Buscar scripts para secretárias...' :
-              activeTab === 'medico' ? 'Buscar scripts para médicos...' :
-              'Buscar scripts de bônus...'
-            }
+      {selectedScript ? (
+        <div className="p-6 max-w-4xl mx-auto">
+          <FlowContextPanel
+            scriptTitle={selectedScript.script.title}
+            category={selectedScript.script.category}
+            currentMessage={currentMessageIndex + 1}
+            totalMessages={timelineSteps.length}
+            progress={((currentMessageIndex + 1) / timelineSteps.length) * 100}
+            onCopyAll={handleCopyAll}
+          />
+          <FlowTimeline
+            steps={timelineSteps}
+            currentStep={currentMessageIndex}
           />
         </div>
-
-        {/* Category Filter */}
-        {!searchQuery && (
-          <div className="mb-8">
-            <CategoryFilter
-              categories={currentCategories}
-              activeCategory={activeCategory}
-              onCategoryChange={setActiveCategory}
-            />
-          </div>
-        )}
-
-        {/* Results Count */}
-        <div className="mb-6">
-          <p className="text-medgm-gray-5">
-            <strong>{groupedScripts.length}</strong> script(s) {searchQuery && `encontrado(s) para "${searchQuery}"`}
-          </p>
+      ) : (
+        <div className="flex items-center justify-center h-full text-medgm-gray-4">
+          <p>Nenhum script encontrado</p>
         </div>
-
-        {/* Scripts Flow */}
-        {groupedScripts.length > 0 ? (
-          <div className="space-y-6">
-            {groupedScripts.map(({ script, messages }, index) => (
-              <ScriptFlow
-                key={script.id}
-                scriptNumber={index + 1}
-                scriptTitle={script.title}
-                messages={messages}
-              />
-            ))}
-          </div>
-        ) : (
-          <div className="text-center py-16">
-            <p className="text-medgm-gray-4 text-lg">Nenhum script encontrado.</p>
-          </div>
-        )}
-      </main>
+      )}
     </DashboardLayout>
   );
 }

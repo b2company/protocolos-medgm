@@ -118,3 +118,52 @@ export function getScriptStats() {
     ambos,
   };
 }
+
+// Funções de inferência para timeline
+
+export function inferTiming(message: any, index: number): 'imediato' | 'D+1' | 'D+2' | 'D+3' | 'D+7' {
+  const content = (message.messageContent || '').toLowerCase();
+
+  if (index === 0) return 'imediato';
+  if (content.includes('follow-up') || content.includes('lembrete') || content.includes('reforçar')) return 'D+1';
+  if (content.includes('última') || content.includes('encerramento') || content.includes('despedida')) return 'D+3';
+
+  // Progressão linear
+  const timings: Array<'imediato' | 'D+1' | 'D+2' | 'D+3' | 'D+7'> = ['imediato', 'D+1', 'D+2', 'D+3', 'D+7'];
+  return timings[Math.min(index, timings.length - 1)];
+}
+
+export function inferConditional(message: any, index: number): string | undefined {
+  const content = (message.messageContent || '').toLowerCase();
+
+  // Tentar extrair condicional explícito
+  if (content.includes('se não') || content.includes('caso não')) {
+    const match = content.match(/se não .*?\./i);
+    if (match) return match[0];
+  }
+
+  // Padrões default
+  if (index === 0) return 'se não responder em 24h';
+  if (index === 1) return 'se ainda não responder em 48h';
+
+  return undefined;
+}
+
+export function generateTip(message: any): string | undefined {
+  const content = (message.messageContent || '').toLowerCase();
+
+  if (content.includes('[nome]')) {
+    return 'Personalize com o nome do paciente para aumentar engajamento';
+  }
+  if (content.includes('valor') || content.includes('preço') || content.includes('investimento')) {
+    return 'Sempre contextualize valores com benefícios do tratamento';
+  }
+  if (content.includes('confirmar') || content.includes('confirmação')) {
+    return 'Enviar até 24h antes da consulta para reduzir faltas';
+  }
+  if (content.includes('retorno') || content.includes('acompanhamento')) {
+    return 'Sugerir retorno aumenta percepção de cuidado contínuo';
+  }
+
+  return undefined;
+}
