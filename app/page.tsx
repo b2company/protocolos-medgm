@@ -3,6 +3,7 @@
 import { useState, useMemo, useEffect } from 'react';
 import { DashboardLayout } from '@/components/dashboard-layout';
 import { DashboardHeader } from '@/components/dashboard-header';
+import { SidebarNav } from '@/components/sidebar-nav';
 import { SearchBar } from '@/components/search-bar';
 import { CategoryFilter } from '@/components/category-filter';
 import { ScriptFlow } from '@/components/script-flow';
@@ -22,6 +23,7 @@ export default function Home() {
   const [activeTab, setActiveTab] = useState<'secretaria' | 'medico' | 'bonus'>('secretaria');
   const [searchQuery, setSearchQuery] = useState('');
   const [activeCategory, setActiveCategory] = useState<string | null>(null);
+  const [selectedScriptId, setSelectedScriptId] = useState<string | null>(null);
   const [showModal, setShowModal] = useState(false);
 
   const stats = getScriptStats();
@@ -77,6 +79,15 @@ export default function Home() {
     }));
   }, [activeTab, searchQuery, activeCategory]);
 
+  // Script selecionado (auto-seleciona o primeiro se nenhum estiver selecionado)
+  const selectedScript = useMemo(() => {
+    if (!selectedScriptId && groupedScripts.length > 0) {
+      setSelectedScriptId(groupedScripts[0].script.id);
+      return groupedScripts[0];
+    }
+    return groupedScripts.find(s => s.script.id === selectedScriptId) || groupedScripts[0];
+  }, [selectedScriptId, groupedScripts]);
+
   return (
     <DashboardLayout
       header={
@@ -86,12 +97,24 @@ export default function Home() {
         />
       }
       sidebar={
-        <div className="flex flex-col h-full p-4 text-white">
-          <h2 className="text-lg font-semibold mb-4">Navegação</h2>
-          <div className="flex-1">
-            <p className="text-sm text-medgm-gray-3">Sidebar temporário - Fase 2 em progresso...</p>
-          </div>
-        </div>
+        <SidebarNav
+          activeTab={activeTab}
+          onTabChange={(tab) => {
+            setActiveTab(tab);
+            setActiveCategory(null);
+            setSearchQuery('');
+            setSelectedScriptId(null);
+          }}
+          activeCategory={activeCategory}
+          onCategoryChange={setActiveCategory}
+          categories={currentCategories}
+          scripts={groupedScripts}
+          selectedScriptId={selectedScriptId}
+          onScriptSelect={setSelectedScriptId}
+          searchQuery={searchQuery}
+          onSearchChange={setSearchQuery}
+          stats={stats}
+        />
       }
     >
 

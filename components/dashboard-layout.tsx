@@ -12,14 +12,14 @@ export function DashboardLayout({ children, sidebar, header }: DashboardLayoutPr
   return (
     <div className="flex h-screen overflow-hidden bg-medgm-clean">
       {/* Sidebar 240px fixa */}
-      <aside className="w-60 glass-dark border-r border-medgm-gray-2 flex flex-col shrink-0">
+      <aside className="w-60 bg-white border-r border-medgm-gray-2 flex flex-col shrink-0 shadow-elevation-1">
         {sidebar}
       </aside>
 
       {/* Main area */}
       <div className="flex-1 flex flex-col overflow-hidden">
         {/* Header sticky */}
-        <header className="glass-dark border-b border-medgm-gray-2 shrink-0">
+        <header className="bg-white border-b border-medgm-gray-2 shrink-0 shadow-elevation-1">
           {header}
         </header>
 
