@@ -43,29 +43,23 @@ export function FlowTimeline({ steps, currentStep }: FlowTimelineProps) {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: index * 0.1 }}
           className={cn(
-            "relative pl-12 pb-6",
+            "relative pb-6",
             step.state === 'future' && "opacity-50",
-            step.state === 'current' && "ring-2 ring-medgm-gold rounded-xl p-4 -ml-2 z-10"
+            step.state === 'current' && "ring-2 ring-medgm-gold rounded-xl p-4 z-10"
           )}
         >
-          {/* Connector line - apenas até o gap entre steps */}
-          {index < steps.length - 1 && (
-            <div className="absolute left-5 top-10 w-0.5 h-[calc(100%+1.5rem)] bg-medgm-gray-3 -z-10" />
-          )}
-
-          {/* Badge número */}
+          {/* Badge número - menor e à esquerda */}
           <motion.div
             whileHover={{ rotate: 360 }}
             transition={{ duration: 0.5 }}
-            className="absolute left-0 top-0 w-10 h-10 rounded-full bg-gradient-premium flex items-center justify-center text-medgm-black font-bold shadow-premium"
-            style={{ zIndex: 1 }}
+            className="absolute -left-12 top-0 w-8 h-8 rounded-full bg-gradient-premium flex items-center justify-center text-medgm-black font-bold text-sm shadow-premium"
           >
             {step.number}
           </motion.div>
 
           {/* Step header */}
-          <div className="mb-3 relative" style={{ zIndex: 2 }}>
-            <h3 className="text-lg font-semibold text-medgm-black mb-1 bg-medgm-clean pr-2">{step.label}</h3>
+          <div className="mb-3">
+            <h3 className="text-lg font-semibold text-medgm-black mb-1">{step.label}</h3>
             <div className="flex items-center gap-2 text-sm text-medgm-gray-5">
               <Clock className="w-4 h-4" />
               <span>{formatTiming(step.timing)}</span>
