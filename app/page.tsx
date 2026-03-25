@@ -129,7 +129,7 @@ export default function Home() {
       }
     >
       {selectedScript ? (
-        <div className="p-6 max-w-4xl mx-auto">
+        <div className="p-4 md:p-6 max-w-4xl mx-auto">
           <FlowContextPanel
             scriptTitle={selectedScript.script.title}
             category={selectedScript.script.category}
